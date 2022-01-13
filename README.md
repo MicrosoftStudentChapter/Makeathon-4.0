@@ -1,10 +1,10 @@
 # MAKEATHON 4.0
 
-[![GitHub issues](https://img.shields.io/github/issues/MicrosoftStudentChapter/MAKEATHON?color=%2315AA3E%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/issues)
-[![GitHub forks](https://img.shields.io/github/forks/MicrosoftStudentChapter/MAKEATHON?color=%237A17E4%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/network)
-[![GitHub last commit](https://img.shields.io/github/last-commit/MicrosoftStudentChapter/MAKEATHON?color=%23F5700E%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/commits/main)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/MicrosoftStudentChapter/MAKEATHON?color=%23F50E50%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/MicrosoftStudentChapter/MAKEATHON?color=%23FDB827&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Makeathon-4.0/issues?color=%2315AA3E%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/issues)
+[![GitHub forks](https://img.shields.io/github/forks/MicrosoftStudentChapter/Makeathon-4.0?color=%237A17E4%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/network)
+[![GitHub last commit](https://img.shields.io/github/last-commit/MicrosoftStudentChapter/Makeathon-4.0?color=%23F5700E%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/commits/main)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/MicrosoftStudentChapter/Makeathon-4.0?color=%23F50E50%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/MicrosoftStudentChapter/Makeathon-4.0?color=%23FDB827&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/stargazers)
 [![Discord](https://img.shields.io/discord/720322067261554728?label=Discord&logo=discord)](https://discord.gg/CpAPtDC)
 
 ## Index

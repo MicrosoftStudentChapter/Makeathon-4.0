@@ -1,6 +1,6 @@
 # MAKEATHON 4.0
 
-[![GitHub issues](https://img.shields.io/github/issues/Makeathon-4.0?color=%2315AA3E%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/issues)
+[![GitHub issues](https://img.shields.io/github/issues/MicrosoftStudentChapter/Makeathon-4.0?color=%2315AA3E%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/issues)
 [![GitHub forks](https://img.shields.io/github/forks/MicrosoftStudentChapter/Makeathon-4.0?color=%237A17E4%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/network)
 [![GitHub last commit](https://img.shields.io/github/last-commit/MicrosoftStudentChapter/Makeathon-4.0?color=%23F5700E%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/commits/main)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/MicrosoftStudentChapter/Makeathon-4.0?color=%23F50E50%20%20&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/Makeathon-4.0/pulls)

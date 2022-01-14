@@ -26,7 +26,7 @@ It's a good idea to gauge interest in your intended work by finding the current 
   <br> 
   `git clone`<br>
 - Open this local repository on your personal computer and start implementing.
-- It is mandatory to fork the repository, make changes in your own fork and commit before making a pull request.
+- It is mandatory to fork the repository and you need to commit all your changes in the fork repository before making pull request.
 
 2. #### The Second Step
 

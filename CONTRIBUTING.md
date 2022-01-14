@@ -13,18 +13,20 @@ It's a good idea to gauge interest in your intended work by finding the current 
 
 ## Table of Contents
 
-1. [Setting up the project](#how-to-set-up-the-project)
-2. [How to Submit Changes](#how-to-submit-changes)
-3. [Style Guide](#style-guide)
-4. [Where Can I Ask for Help?](#where-can-i-ask-for-help)
+1. [How to Submit Changes](#how-to-submit-changes)
+2. [Style Guide](#style-guide)
+3. [Where Can I Ask for Help?](#where-can-i-ask-for-help)
 
 ## How to Submit Changes
 
 1. #### The First Step
 
-- First things first, fork the MAKEATHON [repository](https://github.com/MicrosoftStudentChapter/Makeathon-4.0) into your own GitHub account, and create a local clone of it. This will be used to implement new features and fix bugs.
+- First things first, fork the MAKEATHON [repository](https://github.com/MicrosoftStudentChapter/Makeathon-4.0) into your own GitHub account, and create a local clone of it. Follow the steps mentioned below: 
+-Fork the repository and then clone your fork using the following command:
+  <br> 
+  `git clone`<br>
 - Open this local repository on your personal computer and start implementing.
-- UNDER ANY CIRCUMSTANCE DON'T WORK DIRECTLY ON THE MASTER BRANCH, but create a separate branch for each issue you are working on. That way you can easily switch between different work, and you can update each one for latest changes on upstream master individually
+- It is mandatory to fork the repository, make changes in your own fork and commit before making a pull request.
 
 2. #### The Second Step
 
@@ -36,16 +38,15 @@ It's a good idea to gauge interest in your intended work by finding the current 
 - Once all the changes have been made, generate a pull request(PR) and add at least one of the Maintainers as a Reviewer for the same.
 - When the Reviewer fully accepts the features or the issue is fully resolved your branch will be merged with the master branch.
 
-4. #### IMPORTANT GUIDLINES
+4. #### IMPORTANT GUIDELINES
 
 - Prettier for HTML, CSS, JS files.
 - Set Tab-width: 4
 - Indent inner HTML code.
-- Follow PEP guidelines.
 
 5. #### Other Important Points
 
-- Write meaning commit messages, briefly detailing whatever changes you have done or added.
+- Write meaningful commit messages, briefly detailing whatever changes you have done or added.
 - It is important that you link the concerned issue with the pull request (In the description of your PR write "This fixes #).
 
 ## Style Guide
@@ -54,7 +55,7 @@ Format JS, CSS, HTML files using [Prettier](https://prettier.io) before creating
 
 Documentation styleguide involves [Markdown](https://daringfireball.net/projects/markdown/).
 
-Python is styled using [PEP8](https://www.python.org/dev/peps/pep-0008/).
+
 
 ## Where Can I Ask for Help?
 

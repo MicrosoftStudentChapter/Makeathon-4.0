@@ -1,22 +1,22 @@
 ## Welcome Contributors
 
-✨🎉Firstly thank you for taking out your precious time to contribute.
+Firstly thank you for taking out your precious time to contribute in this project.
 We here at MLSC welcome all the contributors.✨🎉
 
-The following is a set of guidelines for contributing to Makeathon 4.0 and its packages. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.🤝
-
-## Table of Contents
-
-1. [How to Submit Changes](#how-to-submit-changes)
-2. [Style Guide](#style-guide)
-3. [Where Can I Ask for Help?](#where-can-i-ask-for-help)
-
+The following is a set of guidelines for contributing to this repository. These are mostly guidelines, which you need to keep in mind before contributing to this repository. Use your best judgement, and feel free to propose changes to this document in a pull request.🤝
 
 ## Advice for new contributors
 
 Start small. The PRs most likely to be merged are the ones that make small, easily reviewed changes with clear and specific intentions.
 
-It's a good idea to gauge interest in your intended work by finding the current issue for it or creating a new one yourself. Once you've spent a little bit of time planning your solution, it's a good idea to go back to the issue and talk about your approach.
+It's a good idea to gauge interest in your intended work by finding the current issue for it or creating a new one for yourself. Once you've spent a little bit of time planning your solution, it's a good idea to go back to the issue and talk about your approach.
+
+## Table of Contents
+
+1. [Setting up the project](#how-to-set-up-the-project)
+2. [How to Submit Changes](#how-to-submit-changes)
+3. [Style Guide](#style-guide)
+4. [Where Can I Ask for Help?](#where-can-i-ask-for-help)
 
 ## How to Submit Changes
 

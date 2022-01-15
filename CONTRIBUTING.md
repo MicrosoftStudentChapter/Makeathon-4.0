@@ -28,7 +28,7 @@ It's a good idea to gauge interest in your intended work by finding the current 
 - It is mandatory to fork the repository and you need to commit all your changes in the fork repository before making pull request.
 - It is also mandatory to create a branch in your forked repository before making pull request. 
  <br>
- For e.g `git checkout -b #SectionName_branch
+ For e.g `git checkout -b #SectionName_branch`
  <br>
 =======
 - Open this local repository on your personal computer and start making changes.

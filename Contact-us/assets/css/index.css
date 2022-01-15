@@ -1,2 +1,273 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27');
 @import url('https://fonts.cdnfonts.com/css/mechanismo-2%27');
+html{
+    width: 1440px;
+    height: 1024px; 
+}
+#body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #000000;
+
+}
+#box{
+    position: absolute;
+width: 1206px;
+height: 676px;
+left: 126px;
+top: 303px;
+
+border: 3.12987px solid #FFFFFF;
+filter: drop-shadow(0px 0px 18.7792px rgba(245, 97, 13, 0.3)) drop-shadow(0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3)) drop-shadow(0px 0px 0.782468px rgba(0, 0, 0, 0.04));
+}
+
+#img{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    opacity: 0.4;
+}
+#heading{
+    position: absolute;
+    width: 585px;
+    height: 118px;
+    left: 450px;
+    top: 15px;
+    
+    
+    font-family: Mechanismo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 96px;
+    
+    color: #C4C4C4;
+}    
+
+#glassbox{
+position: absolute;
+width: 370px;
+height: 50px;
+left: 539px;
+top: 184px;
+margin-top: 25px;
+
+background: rgba(211, 211, 211, 0.25);
+border-radius: 23.5px;
+}
+#heading2{
+    position: absolute;
+    left: 30px;
+    
+    top: -19px;
+    width:500px;
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: 530;
+    font-size: 33px;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 0px 18.7792px rgba(245, 97, 13, 0.3), 0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3), 0px 0px 0.782468px rgba(0, 0, 0, 0.04);
+}
+
+#mail{
+    width: 137px;
+    height: 125px;
+    
+
+}
+#fb{
+    width: 137px;
+    height: 125px;
+
+}
+#twitter{
+    width: 137px;
+    height: 125px;
+}
+#website{
+    width: 137px;
+    height: 125px;
+}
+#insta{
+    width: 137px;
+    height: 125px;
+}
+#linkedin{
+    width: 137px;
+    height: 125px;
+}
+#discord{
+    width: 137px;
+    height: 125px;
+}
+
+
+
+
+#link_mail{
+    position: absolute;
+    width: 263.61px;
+    height: 29.16px;
+    left: 315.39px;
+    top: 382.44px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+}
+
+#link_fb{
+    position: absolute;
+    height: 36.58px;
+    left: 338.08px;
+    top: 534.97px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    width: 274.32px;
+}
+
+#link_twitter{
+    position: absolute;
+    width: 274.32px;
+    height: 39.23px;
+    left: 334.24px;
+    top: 687.25px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+}
+
+#link_website{
+    position: absolute;
+    height: 39.23px;
+    left: 334px;
+    top: 850px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    width: 274.32px;
+}
+#link_insta{
+    position: absolute;
+    width: 254.89px;
+    height: 33.99px;
+    left: 959.43px;
+    top: 387.75px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+}
+
+#link_linkedin{
+    position: absolute;
+    width: 254.89px;
+    height: 33.99px;
+    left: 959.43px;
+    top: 387.75px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+}
+
+#link_discord{
+    position: absolute;
+    width: 374px;
+    height: 34px;
+    left: 964px;
+    top: 693px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;    
+}
+
+#link_github{
+    position: absolute;
+    height: 34px;
+    left: 961px;
+    top: 828px;
+    
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    width: 312px;
+}
+/*.links{
+      
+      
+      a:link {a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }*/
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    row-gap:20px;
+}
+/*.flex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}*/

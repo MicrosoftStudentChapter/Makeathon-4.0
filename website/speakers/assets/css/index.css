@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Mechanismo';
+    src: url('../Mechanismo-Regular.ttf');
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#speakers{
+    background-image: url("../images/Speakers-bg.png");
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    min-width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-size:cover;
+    background-repeat: none;
+    overflow-x: hidden;
+    
+}
+
+#speakers-heading{
+    position: relative;
+    width: 40%;
+    /* height: 50%; */
+    margin-left: 5;
+    margin-top: 1%;
+    font-family: 'Mechanismo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8vw;
+    text-align: center;
+    color: #D0D0D0;
+    padding-left: 5vw;
+    
+}
+
+.base-contain{
+    background-image: linear-gradient(#8A8A8A66,#00000066);
+    border-radius: 3%;
+    padding: 5%;
+    height: 45vh;
+    /* width: 18vw; */
+    width: 69.420%;
+    opacity: 1;
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+.base-contain:hover{
+    height: 65vh;
+}
+
+
+.name{
+    color: yellow;
+}
+
+.social-icons{
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 820px){
+    /* h1{
+        font-size: 300%;
+        margin-bottom: 30%;
+    } */
+    #speakers{
+        
+    }
+}
+
+.hide {
+    display: none;
+  }
+  
+.box:hover + .hide {
+    display: block;
+    color: aliceblue;
+  }
+
+
+/* {
+    color: #FFD700;
+    font-family: 'Montserrat', sans-serif;
+}*/

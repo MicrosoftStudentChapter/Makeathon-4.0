@@ -5,7 +5,7 @@ html{
     height: 1024px; 
 }
 #body{
-    position: relative;
+    position: absolute;
 width: 1440px;
 height: 1024px;
 
@@ -14,13 +14,13 @@ background: #000000;
 }
 #box{
     position: absolute;
-width: 1206px;
-height: 676px;
-left: 126px;
-top: 303px;
+width: 465px;
+height: 465px;
+left: 157px;
+top: 376px;
 
-border: 3.12987px solid #FFFFFF;
-filter: drop-shadow(0px 0px 18.7792px rgba(245, 97, 13, 0.3)) drop-shadow(0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3)) drop-shadow(0px 0px 0.782468px rgba(0, 0, 0, 0.04));
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
 }
 
 #img{
@@ -45,13 +45,34 @@ filter: drop-shadow(0px 0px 18.7792px rgba(245, 97, 13, 0.3)) drop-shadow(0px 1.
     
     color: #C4C4C4;
 }    
+#heading1{
+    position: absolute;
+width: 445px;
+height: 24px;
+left: 716px;
+top: 207px;
 
+font-family: IBM Plex Mono;
+font-style: normal;
+font-weight: 600;
+font-size: 41px;
+line-height: 53px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+
+color: #F2F2F2;
+
+text-shadow: 0px 0px 18.7792px rgba(245, 97, 13, 0.3), 0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3), 0px 0px 0.782468px rgba(0, 0, 0, 0.04);
+}
 #glassbox{
 position: absolute;
 width: 370px;
 height: 50px;
-left: 539px;
-top: 184px;
+left: 716px;
+top: 278px;
+right:345.45px;
+bottom:696px;
 margin-top: 25px;
 
 background: rgba(211, 211, 211, 0.25);
@@ -77,39 +98,83 @@ border-radius: 23.5px;
 }
 
 #mail{
-    width: 137px;
-    height: 125px;
-    
+    position: absolute;
+    height: 92.00049591064453px;
+width: 92px;
+left: 71px;
+top: 87px;
+bottom:286px;
+border-radius: 0px;
+
 
 }
 #fb{
-    width: 137px;
-    height: 125px;
+    position: absolute;
+    Width:69.77px;
+    Height:65.25px;
+    left: 730.86px;
+    top: 470px;
+    bottom:488.75px;
+    right:639.38px;
 
 }
 #twitter{
-    width: 137px;
-    height: 125px;
+    position: absolute;
+    Width :67.6px;
+Height :55.25px;
+    top :777.37px;
+    left :733.22px;
+    right:639.18px;
+    bottom:169.38px;
+    
+
 }
 #website{
-    width: 137px;
-    height: 125px;
+    position: relative;
+    height: 91px;
+width: 91px;
+left: 70.99px;
+top: 272px;
+bottom:101.99px;
+right:302.99px;
+
+
 }
 #insta{
-    width: 137px;
-    height: 125px;
+    position: absolute;
+    Width:67.64px;
+    Height:65.63px;
+    left: 732.94px;
+    bottom: 585.37px;
+    top :373px;
+    right: 639.41px;    
 }
 #linkedin{
-    width: 137px;
-    height: 125px;
+    position: absolute;
+    Width :62.18px;
+Height:56.71px;
+Top :580.29px;
+bottom:387px;
+right:641.61px;
+left:736.21px;
+
+
+
+
 }
 #discord{
-    width: 137px;
-    height: 125px;
+    position: absolute;
+    Width :63.58px;
+    Height :67.93px;
+Top :676.08px;
+Left :733.95px;
+right: 642.47px;
+bottom:279.98px;
+
+    
+
+    
 }
-
-
-
 
 #link_mail{
     position: absolute;
@@ -159,10 +224,12 @@ border-radius: 23.5px;
 
 #link_website{
     position: absolute;
-    height: 39.23px;
-    left: 334px;
-    top: 850px;
-    
+    Width :207px;
+    Height :36px;
+    left: 183px;
+    top: 300px;
+    right:75px;
+    bottom:120px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -170,7 +237,7 @@ border-radius: 23.5px;
     line-height: 30px;
     letter-spacing: 0.05em;
     text-transform: lowercase;
-    width: 274.32px;
+  
 }
 #link_insta{
     position: absolute;
@@ -235,17 +302,15 @@ border-radius: 23.5px;
     text-transform: capitalize;
     width: 312px;
 }
-/*.links{
-      
-      
-      a:link {a:visited {
-        color: pink;
-        background-color: transparent;
+    a:link{
+       font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
         text-decoration: none;
-      }
-        color: green;
-        background-color: transparent;
-        text-decoration: none;
+        color: #F2F2F2;
+
+opacity: 0.5;
       }
       
       a:hover {
@@ -254,20 +319,14 @@ border-radius: 23.5px;
         text-decoration: underline;
       }
 
-      a:active {
-        color: yellow;
-        background-color: transparent;
-        text-decoration: underline;
-      }*/
+      a:visited {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+        color: #F2F2F2;
 
-.flex1{
-    display: flex;
-    flex-direction: column;
-    align-content: space-evenly;
-    row-gap:20px;
-}
-/*.flex2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}*/
+opacity: 0.5;
+
+      }

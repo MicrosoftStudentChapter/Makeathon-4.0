@@ -22,9 +22,9 @@ It's a good idea to gauge interest in your intended work by finding the current 
 1. #### The First Step
 
 - First things first, fork the MAKEATHON [repository](https://github.com/MicrosoftStudentChapter/Makeathon-4.0) into your own GitHub account, and create a local clone of it. Follow the steps mentioned below:<br>
--Fork the repository and then clone your fork using the following command:
+- Fork the repository and then clone your fork using the following command:
   <br> 
-  `git clone`<br><br>
+  `git clone`<br>
 - Open this local repository on your personal computer and start implementing.
 - It is mandatory to fork the repository and you need to commit all your changes in the fork repository before making pull request.
 
@@ -35,11 +35,11 @@ It's a good idea to gauge interest in your intended work by finding the current 
 
 3. #### The Third Step
 
--Create a directory in your fork with the convention:<br>For example:  `About_Us` <br>
--Name your folder as per the section you are working on.<br>
--Now enter the directory in which you are supposed to work.<br> 
-`cd directory name` <br>
--Now make all the necessary changes in your own directory.<br>
+- Create a directory in your fork with the convention:<br>For example:  `About_Us` <br>
+- Name your folder as per the section you are working on.<br>
+- Now enter the directory in which you are supposed to work.<br> 
+`cd directory_name` <br>
+- Now make all the necessary changes in your own directory.<br>
 - Once all the changes have been made, generate a pull request(PR) and add at least one of the Maintainers as a Reviewer for the same.
 - When the Reviewer fully accepts the features or the issue is fully resolved your branch will be merged with the master branch.
 

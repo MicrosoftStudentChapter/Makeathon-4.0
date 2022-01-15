@@ -17,7 +17,7 @@
 
 ## About MLSC
 
-<img src = "C:\Users\akshi\Makeathon-4.0\MLSC_logo.png" align="center">
+<img src = "MLSC_logo.png" align="center">
 <p align="center" style="text-align:justify">
 </p>
 
@@ -25,7 +25,7 @@
 
 ## About MAKEATHON
 
-<img src = "C:\Users\akshi\Makeathon-4.0\Makeathon_logo.png" align="center">
+<img src = "Makeathon_logo.png" align="center">
 
 **MAKEATHON** – the archetypal Hackathon of Thapar Institute of Engineering and Technology, is one of the unparalleled events organized by **Microsoft Learn Student Chapter**. The most awaited Hackathon of the year, our flagship event MAKEATHON 4.0, has indeed proved to be the groundbreaking Hackathon amongst all of North India from the past three years. This **24-hour event** will put forth a forum for technology fanatics to showcase their skills and give them a chance to learn with people sharing the same taste. It will be a theme-based event consisting of pre-event workshops. The purpose of **MAKEATHON 4.0** is to bring forth astute and dynamic students from various colleges for an enchanting technical journey to fabricate a working prototype of a technologically innovative and sustainable project that will focus on solving several grievous issues about our society. The participants will challenge their technical boundaries and create a vision of India as an eminent world leader in wealth, health, and technology through their contributions. It will witness mind-bending tracks, including GraphQL, App development, AI/Machine learning, Robotics, Blockchain, Cryptography, Algorithms, AR/AR, and open hack.
 

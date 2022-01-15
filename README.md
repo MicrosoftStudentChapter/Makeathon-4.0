@@ -17,7 +17,7 @@
 
 ## About MLSC
 
-<img src = "MLSC_logo.png" align="center">
+<img src = "MLSC_logo.png" width="300">
 <p align="center" style="text-align:justify">
 </p>
 

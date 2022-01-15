@@ -9,15 +9,15 @@
 
 ## Index
 
-1. [About MAKEATHON](#about-makeathon)
-2. [About MLSC](#about-mlsc)
+1. [About MLSC](#about-mlsc)
+2. [About MAKEATHON](#about-makeathon)
 3. [Features](#features)
 4. [Tech](#tech)
 5. [LICENSE](#license)
 
 ## About MLSC
 
-<img src = "MLSC_logo.png" width="300">
+<center><img src = "MLSC_logo.png" width="300"></center>
 <p align="center" style="text-align:justify">
 </p>
 

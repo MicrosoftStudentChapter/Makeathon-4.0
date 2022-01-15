@@ -23,8 +23,17 @@ It's a good idea to gauge interest in your intended work by finding the current 
 
 - First things first, fork the MAKEATHON [repository](https://github.com/MicrosoftStudentChapter/Makeathon-4.0) into your own GitHub account, and create a local clone of your own fork. Follow the steps mentioned below:<br>
   `git clone`<br>
+<<<<<<< HEAD
+- Open this local repository on your personal computer and start implementing.
+- It is mandatory to fork the repository and you need to commit all your changes in the fork repository before making pull request.
+- It is also mandatory to create a branch in your forked repository before making pull request. 
+ <br>
+ For e.g `git checkout -b #SectionName_branch`
+ <br>
+=======
 - Open this local repository on your personal computer and start making changes.
 - It is mandatory to fork the repository and you need to commit all your changes in the forked repository before making pull request.
+>>>>>>> 30b9a106cd938dc2e2097ec09cc9122c6080f351
 
 2. #### The Second Step
 

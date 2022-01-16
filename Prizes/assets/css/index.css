@@ -54,7 +54,7 @@ body{
     text-align: center;
     text-transform: capitalize;
 
-    font-size: 110px;
+    font-size: 400%;
     
     color: #E2E0D4;
 }
@@ -74,8 +74,8 @@ body{
 }
 
 .prize img{
-    height: 290px;
-    width: 275px;
+    height: 100%;
+    width: 100%;
 }
 
 .box-ss h3{
@@ -86,6 +86,7 @@ body{
 
 .box-ss p{
     padding-top: 35px; 
+    text-align: justify;
 }
 
 .box-ss{
@@ -126,12 +127,8 @@ body{
     margin-right: -60px;
     border-radius: 60px;
 
-    transform: scale(.6) rotateY(20deg);
+    transform: scale(.6);
     transition: .3s ease-in;
-}
-
-.container-ss .slides > .box-ss ~ .box-ss{
-    transform: scale(.6) rotateY(-20deg);
 }
 
 input{
@@ -183,7 +180,7 @@ input{
 #r3:checked ~ .container-ss .slides > .box-ss:nth-child(3),
 #r4:checked ~ .container-ss .slides > .box-ss:nth-child(4),
 #r5:checked ~ .container-ss .slides > .box-ss:nth-child(5){
-    transform: scale(1), rotateY(-20deg);
+    transform: scale(70%);
 }
 
 #r1:checked ~ .container-ss .controls > label:nth-child(1),

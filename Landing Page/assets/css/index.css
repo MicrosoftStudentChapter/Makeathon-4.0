@@ -26,7 +26,15 @@ body,html {
 }
 .text-white{
     color: #ffffff;
-    font-size: 1.6rem;
+}
+
+.num{
+    font-size: 4rem;
+}
+
+.uni{
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .box-cont{
@@ -41,14 +49,6 @@ body,html {
     z-index: 1;
     top: 0;
     left: 0;
-    /* background: linear-gradient(180dergb(0, 90, 30)878, #46a966, #3c8a55, #336d44, #285234, #1e3725, #141f16, #000000); */
-    /* background-image: linear-gradient(to bottom, #026317 9%, #404300, #412602, #2a130e, #000000); */
-    /* background: rgb(2,99,23);
-    background: linear-gradient(180deg, rgba(2,99,23,1) 23%, rgba(0,0,0,1) 78%); */
-    /* background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(11,64,2,1) 47%, rgba(15,85,3,1) 59%, rgba(15,108,0,1) 100%); */
-    /* background: rgb(2,99,23);
-    background: linear-gradient(180deg, rgba(2,99,23,1) 23%, rgba(0,0,0,1) 55%); */
     background: rgb(2,99,23);
     background: linear-gradient(176deg, rgba(2,99,23,0.3) 23%, rgba(8,56,19,0.3) 33%, rgba(0,0,0,0.3) 55%);
     overflow-x: hidden;
@@ -60,7 +60,7 @@ body,html {
     padding: 8px 8px 8px 40px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #cac9c9;
     display: block;
     transition: 0.3s;
 }
@@ -79,6 +79,7 @@ body,html {
 .landing-logo{
         margin-left: 25%;   
         margin-top: 0%;
+        
         
 
 }
@@ -132,7 +133,12 @@ body,html {
 .minutes .bar {  stroke: rgb(84, 253, 50);  }
 .seconds .bar {  stroke: rgb(84, 253, 50);  }
 .countdownblock { float: left; margin: 20px; }
-.countdownblock p { width: 100%; margin: 7px 0; text-align: center; font-size: 2em; }
+.countdownblock p {
+    width: 100%; 
+    margin: 7px 0; 
+    text-align: center; 
+    font-size: 2em; 
+}
 .totalbar {
     /* width: 95%; */
     margin: 25px auto;
@@ -150,9 +156,8 @@ body,html {
 }
 .countdown {
     /* width: 2  %; */
-    margin: 4% auto;
-    margin-top: 4%;
-    margin-left: 17%;
+    margin-top: 0%;
+    margin-left: 18%;
 }
 .countdown h1 {
     margin: 0 auto;
@@ -162,5 +167,15 @@ body,html {
     text-transform: uppercase;
 }
 
+.number{
+    visibility: visible;
+}
+
 /* -------------------------------------------------- Countdown Timer Animation CSS ---------------------------------------------------------  */
 
+/*  Devfolio Button Class  */
+
+.dev-btn{
+    background-color: #ffffff33;
+    font-family: 'Montserrat', sans-serif;
+}

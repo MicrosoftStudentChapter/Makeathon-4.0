@@ -7,9 +7,15 @@ function timer(){
   origin = new Date(2022,1,16,0,0,0),
   total = target-origin,
   progressBarUpdate= (bar, val, of) => {
-     let pct = (1-val/of)*(Math.PI*180);
+     var r = 70
+     //let pct = (1-val/of)*(Math.PI*180);
+     var offset = 31 - 0.2*r;
+     let pct = (1-((val-offset)/of))*(Math.PI*2*r);
      $(bar+' .bar').style.strokeDashoffset=pct;
-     $(bar+' .number').innerText = Math.trunc(val)
+     //$(bar+' .number').innerText = Math.trunc(val)
+     var y = Math.trunc(val)
+     if(y%10 == y){ y = "0"+y }
+     document.getElementById("random-text-"+bar.slice(1)).textContent = y
   },
   update = (updateTotal)=>{
     let na=new Date(),

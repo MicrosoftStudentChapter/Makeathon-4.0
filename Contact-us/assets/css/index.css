@@ -1,332 +1,714 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27');
-@import url('https://fonts.cdnfonts.com/css/mechanismo-2%27');
-html{
-    width: 1440px;
-    height: 1024px; 
-}
-#body{
-    position: absolute;
-width: 1440px;
-height: 1024px;
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
 
-background: #000000;
+#body {
+  position: relative;
+  overflow-x: hidden;
+  background-image: url("..//images/image.png");
+  background-repeat:no-repeat;
+  background-color: #000000;
+  background-size: 100%;
 
-}
-#box{
-    position: absolute;
-width: 465px;
-height: 465px;
-left: 157px;
-top: 376px;
-
-border: 2px solid #FFFFFF;
-box-sizing: border-box;
+ 
 }
 
-#img{
-    position: absolute;
-    width: 1440px;
-    height: 1024px;
-    opacity: 0.4;
+#box {
+  position: absolute;
+  width: 465px;
+  height: 465px;
+  left: 157px;
+  top: 197px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
 }
-#heading{
-    position: absolute;
+
+
+
+#heading {
+  position: absolute;
     width: 585px;
     height: 118px;
-    left: 450px;
-    top: 15px;
-    
-    
+    left: 437px;
+    top: -64px;
     font-family: Mechanismo;
     font-style: normal;
     font-weight: normal;
     font-size: 80px;
     line-height: 96px;
-    
-    color: #C4C4C4;
-}    
-#heading1{
-    position: absolute;
-width: 445px;
-height: 24px;
-left: 716px;
-top: 207px;
-
-font-family: IBM Plex Mono;
-font-style: normal;
-font-weight: 600;
-font-size: 41px;
-line-height: 53px;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
-
-color: #F2F2F2;
-
-text-shadow: 0px 0px 18.7792px rgba(245, 97, 13, 0.3), 0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3), 0px 0px 0.782468px rgba(0, 0, 0, 0.04);
+    color: rgb(196, 196, 196);
 }
+
+#heading1 {
+  position: absolute;
+    width: 512px;
+    height: 24px;
+    left: 731px;
+    top: 50px;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 53px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgb(242, 242, 242);
+    text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px, rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px, rgb(0 0 0 / 4%) 0px 0px 0.782468px;
+}
+
+#glassbox:hover {
+  background-color: white;
+}
+
+#glassbox {
+  position: absolute;
+  width: 370px;
+  height: 50px;
+  left: 716px;
+  top: 98px;;
+  right: 345.45px;
+  bottom: 696px;
+  margin-top: 25px;
+  background: rgba(211, 211, 211, 0.25);
+  border-radius: 23.5px;
+}
+
+#heading2:hover {
+  color: red;
+}
+
+#heading2 {
+  cursor: pointer;
+  position: absolute;
+  left: 29px;
+  top: -19px;
+  width: 500px;
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: 530;
+  font-size: 33px;
+  line-height: 43px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 0px 18.7792px rgba(245, 97, 13, 0.3),
+    0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3),
+    0px 0px 0.782468px rgba(0, 0, 0, 0.04);
+}
+
+#contacticons {
+  top: 600px;
+  margin-top: 180px;
+  margin-left: 800px;
+  width: 500px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+#mail {
+  height: 92.00049591064453px;
+  width: 92px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 102px;
+  margin-left: 40px;
+}
+
+#fb {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+
+  width: 69.77px;
+  height: 65.25px;
+}
+
+#twitter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  width: 67.6px;
+  height: 55.25px;
+}
+
+#website {
+  margin-top: 67px;
+  margin-left: 40px;
+  height: 91px;
+  width: 91px;
+  display: flex;
+  flex-direction: row;
+}
+
+#insta1 {
+  width: 67.64px;
+  height: 65.63px;
+}
+
+#mail11 {
+  width: 87.64px;
+  height: 80.63px;
+}
+
+#website1 {
+  width: 87.64px;
+  height: 80.63px;
+}
+
+#linkedin1 {
+  width: 67.64px;
+  height: 65.63px;
+}
+
+#discord1 {
+  width: 67.64px;
+  height: 65.63px;
+}
+
+#fb1 {
+  width: 67.64px;
+  height: 65.63px;
+}
+
+#twitter1 {
+  width: 67.64px;
+  height: 65.63px;
+}
+
+#insta {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+#linkedin {
+  margin-top: 30px;
+  width: 62.18px;
+  height: 56.71px;
+  top: 580.29px;
+  bottom: 387px;
+  right: 641.61px;
+  left: 736.21px;
+  display: flex;
+  flex-direction: row;
+}
+
+#discord {
+  margin-top: 30px;
+  width: 63.58px;
+  height: 67.93px;
+  top: 676.08px;
+  left: 733.95px;
+  right: 642.47px;
+  bottom: 279.98px;
+  display: flex;
+  flex-direction: row;
+}
+
+#link_mail {
+  width: 263.61px;
+  height: 52px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-top: 27px;
+  margin-left: 46px;
+}
+
+#link_fb {
+  height: 36.58px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  width: 274.32px;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+
+#link_twitter {
+  position: absolute;
+  width: 274.32px;
+  height: 39.23px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-top: 10px;
+  margin-left: 88px;
+}
+
+#link_website {
+  position: absolute;
+  width: 207px;
+  height: 54px;
+  right: 75px;
+  bottom: 120px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+}
+
+#link_insta {
+  position: absolute;
+  width: 254.89px;
+  height: 33.99px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-left: 80px;
+  margin-top: 14px;
+}
+
+#link_linkedin {
+  position: absolute;
+  width: 529px;
+  height: 33.99px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-top: 13px;
+  margin-left: 82px;
+}
+
+#link_discord {
+  position: absolute;
+  width: 425px;
+  height: 34px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-top: 23px;
+  margin-left: 87px;
+}
+
+#link_github {
+  position: absolute;
+  height: 34px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  width: 312px;
+}
+
+a.links1:link {
+  color: #c4c4c4;
+}
+
+a.links1 {
+  color: #c4c4c4;
+}
+
+a.links:link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 0.5;
+}
+
+a.links:visited {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 0.5;
+}
+
+a.links:hover {
+  color: red;
+}
+
+a.linksb:link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 0.5;
+}
+
+a.linksb:visited {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 0.5;
+}
+
+a.linksb:hover {
+  color: red;
+}
+
+.line {
+  position: absolute;
+  width: 500px;
+  height: 1.9px;
+  left: -71px;
+  top: 36px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.line1 {
+  position: absolute;
+  width: 512px;
+  height: 1.9px;
+  left: 1000px;
+  top: 36px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#discord1 {
+  position: absolute;
+  height: 110px;
+  width: 180px;
+  margin-left: -57px;
+  margin-top: -12px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+}
+
+#a {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: -12px;
+  margin-left: -15px;
+}
+
+#b {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: -40px;
+  margin-left: 5px;
+}
+
+#c {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: -1px;
+}
+
+#d {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: -48px;
+  margin-left: -101px;
+}
+
+#e {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+#f {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: -3px;
+  margin-left: -16px;
+}
+
+#g {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: -42px;
+  margin-left: 0px;
+}
+
+#h {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: 28px;
+  margin-left: -2px;
+}
+
+#i {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: -130px;
+}
+
+#j {
+  width: 118px;
+  height: 72.34px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: -62px;
+}
+
+#k {
+  width: 164px;
+  height: 28.340000000000003px;
+  margin-top: 43px;
+  margin-right: 277px;
+  margin-left: 42px;
+}
+
+#logo {
+  margin-top: 2px;
+  margin-left: -2px;
+  height: 80px;
+  width: 200px;
+}
+
+
+@media(max-width: 425px){
+  body {
+    overflow-x: hidden;
+   
+  }
+#container{
+  background: url("../images/12.png");
+  background-color: black;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+ 
+  #box {
+    width: 215px;
+    height: 215px;
+    left: 93px;
+    top: 190px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+  }
+
+  #heading {
+    position: absolute;
+    width: 585px;
+    height: 118px;
+    left: 50px;
+    top: -24px;
+    font-family: Mechanismo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5px;
+    font-size: 38px;
+    color: #c4c4c4;
+  }
+
+  #heading1 {
+    position: absolute;
+    width: 512px;
+    height: 24px;
+    left: 167px;
+    top: 59px;
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 53px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    text-shadow: 0px 0px 18.7792px rgb(245 97 13 / 30%),
+      0px 1.56494px 4.69481px rgb(244 147 67 / 30%),
+      0px 0px 0.782468px rgb(0 0 0 / 4%);
+  }
+
+  #mail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 118px;
+    margin-left: 23px;
+  }
+
+  #insta1{
+    width: 45.64px;
+    height: 45.63px;
+    margin-top: -20px;
+  }
+
+  #fb1{
+    width:45.64px;
+    height: 45.63px;
+    flex-direction: row;
+    margin-top: -88px;
+    margin-left: 73px;
+    display: flex;
+  }
+
+  #linkedin1{
+    width: 45px;
+    height: 45px;
+    flex-direction: row;
+    margin-top: -182px;
+    margin-left: 148px;
+    display: flex;
+  }
+
+  #discord1{
+    width: 113px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: -285px;
+    margin-left: 197px;
+  }
+
+  #twitter1{
+    width: 45px;
+    height: 45px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -367px;
+    margin-left: 296px;
+  }
+
+  #mail11 {
+    width: 50.64px;
+  height: 49.63px;
+  }
+  
+  #link_mail {
+    width: 263.61 px;
+    height: 52 px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    margin-top: 9px;
+    margin-left: 11px;
+  }
+
+  #link_website{
+    position: absolute;
+    width: 207px;
+    height: 54px;
+    right: -81px;
+    bottom: 113px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+  }
+
 #glassbox{
-position: absolute;
-width: 370px;
-height: 50px;
-left: 716px;
-top: 278px;
-right:345.45px;
-bottom:696px;
-margin-top: 25px;
-
-background: rgba(211, 211, 211, 0.25);
-border-radius: 23.5px;
+  position: absolute;
+  width: 140px;
+  height: 24px;
+  inset: 80px 331.45px 696px 155px;
+  margin-top: 25px;
+  background: rgba(211, 211, 211, 0.25);
+  border-radius: 23.5px;
 }
-#heading2{
+
+  
+  #heading2{
+    cursor: pointer;
     position: absolute;
-    left: 30px;
-    
-    top: -19px;
-    width:500px;
+    left: 13px;
+    top: -17px;
+    width: 500px;
     font-family: IBM Plex Mono;
     font-style: normal;
     font-weight: 530;
-    font-size: 33px;
-    line-height: 43px;
+    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    
-    color: #FFFFFF;
-    
-    text-shadow: 0px 0px 18.7792px rgba(245, 97, 13, 0.3), 0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3), 0px 0px 0.782468px rgba(0, 0, 0, 0.04);
+    color: #ffffff;
+    text-shadow: 0px 0px 18.7792px rgb(245 97 13 / 30%), 0px 1.56494px 4.69481px rgb(244 147 67 / 30%), 0px 0px 0.782468px rgb(0 0 0 / 4%);
+  }
+
+.line{
+    display: none;
 }
 
-#mail{
-    position: absolute;
-    height: 92.00049591064453px;
-width: 92px;
-left: 71px;
-top: 87px;
-bottom:286px;
-border-radius: 0px;
-
-
-}
-#fb{
-    position: absolute;
-    Width:69.77px;
-    Height:65.25px;
-    left: 730.86px;
-    top: 470px;
-    bottom:488.75px;
-    right:639.38px;
-
-}
-#twitter{
-    position: absolute;
-    Width :67.6px;
-Height :55.25px;
-    top :777.37px;
-    left :733.22px;
-    right:639.18px;
-    bottom:169.38px;
-    
-
-}
-#website{
-    position: relative;
-    height: 91px;
-width: 91px;
-left: 70.99px;
-top: 272px;
-bottom:101.99px;
-right:302.99px;
-
-
-}
-#insta{
-    position: absolute;
-    Width:67.64px;
-    Height:65.63px;
-    left: 732.94px;
-    bottom: 585.37px;
-    top :373px;
-    right: 639.41px;    
-}
-#linkedin{
-    position: absolute;
-    Width :62.18px;
-Height:56.71px;
-Top :580.29px;
-bottom:387px;
-right:641.61px;
-left:736.21px;
-
-
-
-
-}
-#discord{
-    position: absolute;
-    Width :63.58px;
-    Height :67.93px;
-Top :676.08px;
-Left :733.95px;
-right: 642.47px;
-bottom:279.98px;
-
-    
-
-    
+.links{
+  display:none;
 }
 
-#link_mail{
-    position: absolute;
-    width: 263.61px;
-    height: 29.16px;
-    left: 315.39px;
-    top: 382.44px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: lowercase;
+#contacticons {
+  top: 600px;
+  margin-top: 100%;
+  margin-left: 4%;
+  width: 500px;
+  padding: 2%;
 }
 
-#link_fb{
-    position: absolute;
-    height: 36.58px;
-    left: 338.08px;
-    top: 534.97px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: lowercase;
-    width: 274.32px;
+#website {
+  margin-top: -176px;
+  margin-left: 22px;
+  height: 91px;
+  width: 91px;
+  display: flex;
+  flex-direction: row;
 }
 
-#link_twitter{
-    position: absolute;
-    width: 274.32px;
-    height: 39.23px;
-    left: 334.24px;
-    top: 687.25px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: lowercase;
+#website1 {
+  width: 50.64px;
+  height: 49.63px;
 }
 
-#link_website{
-    position: absolute;
-    Width :207px;
-    Height :36px;
-    left: 183px;
-    top: 300px;
-    right:75px;
-    bottom:120px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: lowercase;
-  
-}
-#link_insta{
-    position: absolute;
-    width: 254.89px;
-    height: 33.99px;
-    left: 959.43px;
-    top: 387.75px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: lowercase;
+.foot{
+  display: none;
 }
 
-#link_linkedin{
-    position: absolute;
-    width: 254.89px;
-    height: 33.99px;
-    left: 959.43px;
-    top: 387.75px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: lowercase;
+#logo{
+  display:none;
 }
-
-#link_discord{
-    position: absolute;
-    width: 374px;
-    height: 34px;
-    left: 964px;
-    top: 693px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: lowercase;    
 }
-
-#link_github{
-    position: absolute;
-    height: 34px;
-    left: 961px;
-    top: 828px;
-    
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 32px;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-    width: 312px;
-}
-    a:link{
-       font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        text-decoration: none;
-        color: #F2F2F2;
-
-opacity: 0.5;
-      }
-      
-      a:hover {
-        color: red;
-        background-color: transparent;
-        text-decoration: underline;
-      }
-
-      a:visited {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        text-decoration: none;
-        color: #F2F2F2;
-
-opacity: 0.5;
-
-      }

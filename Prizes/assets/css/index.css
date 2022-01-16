@@ -9,7 +9,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 body{
@@ -80,10 +80,19 @@ body{
 
 .box-ss h3{
     color: gold;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.box-ss p{
+    padding-top: 35px; 
 }
 
 .box-ss{
+    background-image: linear-gradient(110.62deg, rgba(255, 255, 255, 0.35) 6.39%, rgba(255, 255, 255, 0.1) 53.34%);
     font-family: Montserrat;
+
+    padding: 50px;
 
     font-style: normal;
     font-weight: normal;
@@ -114,8 +123,8 @@ body{
 .container-ss .slides > .box-ss{
     width: 6%;
     height: 80%;
-    margin-right: 40px;
-    border-radius: 10px;
+    margin-right: -60px;
+    border-radius: 60px;
 
     transform: scale(.6) rotateY(20deg);
     transition: .3s ease-in;
@@ -131,8 +140,8 @@ input{
 
 .controls{
     position: absolute;
-    bottom: 0%;
-    left: 50%;
+    bottom: 5%;
+    left: 52%;
     
     transform: translate(-50%, -50%);
     display: flex;
@@ -145,7 +154,7 @@ input{
     border: 2px solid gray;
     border-radius: 50%;
 
-    margin: 10px;
+    margin: 20px;
     cursor: pointer;
 }
 
@@ -154,16 +163,19 @@ input{
 }
 
 #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1){
-    margin-left: 7%;
+    margin-left: 6.5%;
+}
+#r2:checked ~ .container-ss .slides > .box-ss:nth-child(1){
+    margin-left: -0.08%;
 }
 #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1){
-    margin-left: -7%;
+    margin-left: -6.75%;
 }
 #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1){
-    margin-left: -13.5%;
+    margin-left: -13.25%;
 }
 #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1){
-    margin-left: -20.5%;
+    margin-left: -20%;
 }
 
 #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1),
@@ -174,10 +186,10 @@ input{
     transform: scale(1), rotateY(-20deg);
 }
 
-#r1:checked ~ .controls > label:nth-child(1),
-#r2:checked ~ .controls > label:nth-child(2),
-#r3:checked ~ .controls > label:nth-child(3),
-#r4:checked ~ .controls > label:nth-child(4),
-#r5:checked ~ .controls > label:nth-child(5){
+#r1:checked ~ .container-ss .controls > label:nth-child(1),
+#r2:checked ~ .container-ss .controls > label:nth-child(2),
+#r3:checked ~ .container-ss .controls > label:nth-child(3),
+#r4:checked ~ .container-ss .controls > label:nth-child(4),
+#r5:checked ~ .container-ss .controls > label:nth-child(5){
     background: gray;
 }

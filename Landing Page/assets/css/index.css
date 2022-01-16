@@ -1,181 +1,192 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27');
-@import url('https://fonts.cdnfonts.com/css/mechanismo-2');
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2");
 
 /* ---------------- Classes ------------------------- */
 
 /* -------------- */
 
-body,html {
-    margin: 0%;
-    padding:0%;
-    background-image: url('../images/bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: fixed;   
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
 }
 
-
-
-#landing-page{
-    width: 100vw;
-    height: 100vh;
+#landing-page {
+  width: 100vw;
+  height: 100vh;
 }
 
-.nav-font{
-    font-family: 'Montserrat', sans-serif;
+.nav-font {
+  font-family: "Montserrat", sans-serif;
 }
-.text-white{
-    color: #ffffff;
-}
-
-.num{
-    font-size: 4rem;
+.text-white {
+  color: #ffffff;
 }
 
-.uni{
-    font-size: 1.2rem;
-    font-weight: 300;
+.num {
+  font-size: 4rem;
 }
 
-.box-cont{
-    background-color: #ffffff23;
-    border-radius: 5%;
+.uni {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.box-cont {
+  background-color: #ffffff23;
+  border-radius: 5%;
 }
 
 .sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background: rgb(2,99,23);
-    background: linear-gradient(176deg, rgba(2,99,23,0.3) 23%, rgba(8,56,19,0.3) 33%, rgba(0,0,0,0.3) 55%);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgb(2, 99, 23);
+  background: linear-gradient(
+    176deg,
+    rgba(2, 99, 23, 0.3) 23%,
+    rgba(8, 56, 19, 0.3) 33%,
+    rgba(0, 0, 0, 0.3) 55%
+  );
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
 .sidebar a {
-    padding: 8px 8px 8px 40px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #cac9c9;
-    display: block;
-    transition: 0.3s;
+  padding: 8px 8px 8px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #cac9c9;
+  display: block;
+  transition: 0.3s;
 }
 
 .sidebar a:hover {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-.landing-logo{
-        margin-left: 25%;   
-        margin-top: 0%;
-        
-        
-
+.landing-logo {
+  margin-left: 25%;
+  margin-top: 0%;
 }
 .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: rgb(10, 10, 10);
-    color: rgb(0, 255, 34);
-    padding: 10px 15px;
-    border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(10, 10, 10);
+  color: rgb(0, 255, 34);
+  padding: 10px 15px;
+  border: none;
 }
 
 .openbtn:hover {
-    background-color: #444;
+  background-color: #444;
 }
 
 #main {
-    transition: margin-left .5s;
-    padding: 16px;
+  transition: margin-left 0.5s;
+  padding: 16px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
 }
-
-
-
 
 /* ---------------  CSS for timer ----------------- */
 
-
-
 .pie {
-    width: 200px;
-    height: 200px;
-    transform: rotate(-90deg);
+  width: 200px;
+  height: 200px;
+  transform: rotate(-90deg);
 }
 .pie .bar {
-    stroke-dashoffset: 0;
-    stroke-width: 0.6em;
-    transition: stroke-dashoffset 0.5s linear;
+  stroke-dashoffset: 0;
+  stroke-width: 0.6em;
+  transition: stroke-dashoffset 0.5s linear;
 }
 .pie .bg {
-    stroke-width: 0.6em;
-    stroke: #3a3a3a;
+  stroke-width: 0.6em;
+  stroke: #3a3a3a;
 }
-.days .bar {  stroke: rgb(84, 253, 50); }
-.hours .bar {  stroke:rgb(84, 253, 50) ;  }
-.minutes .bar {  stroke: rgb(84, 253, 50);  }
-.seconds .bar {  stroke: rgb(84, 253, 50);  }
-.countdownblock { float: left; margin: 20px; }
+.days .bar {
+  stroke: rgb(84, 253, 50);
+}
+.hours .bar {
+  stroke: rgb(84, 253, 50);
+}
+.minutes .bar {
+  stroke: rgb(84, 253, 50);
+}
+.seconds .bar {
+  stroke: rgb(84, 253, 50);
+}
+.countdownblock {
+  float: left;
+  margin: 20px;
+}
 .countdownblock p {
-    width: 100%; 
-    margin: 7px 0; 
-    text-align: center; 
-    font-size: 2em; 
+  width: 100%;
+  margin: 7px 0;
+  text-align: center;
+  font-size: 2em;
 }
 .totalbar {
-    /* width: 95%; */
-    margin: 25px auto;
-    /* height: 20px; */
-    /* background-color: #333; */
-    /* padding: 2px; */
-    /* border-radius: 7px; */
+  /* width: 95%; */
+  margin: 25px auto;
+  /* height: 20px; */
+  /* background-color: #333; */
+  /* padding: 2px; */
+  /* border-radius: 7px; */
 }
 .totalbar .fill {
-    height: 100%;
-    width: 0%;
-    background-color: #ddd;
-    border-radius: 4px;
-    transition: width 2s ease-in-out;
+  height: 100%;
+  width: 0%;
+  background-color: #ddd;
+  border-radius: 4px;
+  transition: width 2s ease-in-out;
 }
 .countdown {
-    /* width: 2  %; */
-    margin-top: 0%;
-    margin-left: 18%;
+  /* width: 2  %; */
+  margin-top: 0%;
+  margin-left: 18%;
 }
 .countdown h1 {
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-    font-size: 4em;
-    text-transform: uppercase;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  font-size: 4em;
+  text-transform: uppercase;
 }
 
-.number{
-    visibility: visible;
+.number {
+  visibility: visible;
 }
 
 /* -------------------------------------------------- Countdown Timer Animation CSS ---------------------------------------------------------  */
 
 /*  Devfolio Button Class  */
 
-.dev-btn{
-    background-color: #ffffff33;
-    font-family: 'Montserrat', sans-serif;
+.dev-btn {
+  background-color: #ffffff33;
+  font-family: "Montserrat", sans-serif;
 }

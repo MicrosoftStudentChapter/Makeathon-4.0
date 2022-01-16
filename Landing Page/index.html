@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <title>Landing Page</title>
 </head>
 <body>
-    
+ 
+    <section id="landing-page">
+        
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#" class="nav-font">About Us</a>
+            <a href="#" class="nav-font">About Make4thon</a>
+            <a href="#" class="nav-font">Sponsers</a>
+            <a href="#" class="nav-font">Prizes</a>
+            <a href="#" class="nav-font">Schedule</a>
+            <a href="#" class="nav-font">Tracks</a>
+            <a href="#" class="nav-font">Speakers</a>
+            <a href="#" class="nav-font">Judges</a>
+            <a href="#" class="nav-font">Contact Us</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>  
+        </div>
+
+        <div class="landing-logo">
+            <img src="./assets/images/Green_logo693.png" alt="" width="65%" height="auto">
+        </div>
+        
+        <div class="countdown">
+            <div class="totalbar" style="visibility:hidden;width:0px;height:0px;">
+                <div class="fill"></div>
+            </div>
+            <div class="countdownblock days">
+                <svg class="pie days" viewPort="0 0 100 100">
+                    <circle class="bg" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                    <circle class="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                </svg>
+                <p class="box-cont"><span class="number nav-font text-white"></span> <span class="unit nav-font text-white">days</span></p>
+            </div>    
+            <div class="countdownblock hours">
+                <svg class="pie hours" viewPort="0 0 100 100">
+                    <circle class="bg" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                    <circle class="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                </svg>
+                <p class="box-cont"><span class="number nav-font text-white"></span> <span class="unit nav-font text-white">hours</span></p>
+            </div>    
+            <div class="countdownblock minutes">
+                <svg class="pie minutes" viewPort="0 0 100 100">
+                    <circle class="bg" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                    <circle class="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                </svg>
+                <p class="box-cont"><span class="number nav-font text-white"></span> <span class="unit nav-font text-white">minutes</span></p>
+            </div>    
+            <div class="countdownblock seconds">
+                <svg class="pie seconds" viewPort="0 0 100 100">
+                    <circle class="bg" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                    <circle class="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+                </svg>
+                <p class="box-cont"><span class="number nav-font text-white"></span> <span class="unit nav-font text-white">seconds</span></p>
+            </div>
+        </div>
+
+        <div id="extra-buttons"></div>
+        <!-- <script src="./assets/js/main3.js"></script> -->
+        <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/navbar.js"></script>
+    </section>
 </body>
 </html>

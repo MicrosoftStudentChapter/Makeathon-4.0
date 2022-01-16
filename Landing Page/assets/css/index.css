@@ -1,2 +1,166 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27');
-@import url('https://fonts.cdnfonts.com/css/mechanismo-2%27');
+@import url('https://fonts.cdnfonts.com/css/mechanismo-2');
+
+/* ---------------- Classes ------------------------- */
+
+/* -------------- */
+
+body,html {
+    margin: 0%;
+    padding:0%;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;   
+}
+
+
+
+#landing-page{
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-font{
+    font-family: 'Montserrat', sans-serif;
+}
+.text-white{
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+.box-cont{
+    background-color: #ffffff23;
+    border-radius: 5%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(180dergb(0, 90, 30)878, #46a966, #3c8a55, #336d44, #285234, #1e3725, #141f16, #000000); */
+    /* background-image: linear-gradient(to bottom, #026317 9%, #404300, #412602, #2a130e, #000000); */
+    /* background: rgb(2,99,23);
+    background: linear-gradient(180deg, rgba(2,99,23,1) 23%, rgba(0,0,0,1) 78%); */
+    /* background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(11,64,2,1) 47%, rgba(15,85,3,1) 59%, rgba(15,108,0,1) 100%); */
+    /* background: rgb(2,99,23);
+    background: linear-gradient(180deg, rgba(2,99,23,1) 23%, rgba(0,0,0,1) 55%); */
+    background: rgb(2,99,23);
+    background: linear-gradient(176deg, rgba(2,99,23,0.3) 23%, rgba(8,56,19,0.3) 33%, rgba(0,0,0,0.3) 55%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.landing-logo{
+        margin-left: 25%;   
+        margin-top: 0%;
+        
+
+}
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(10, 10, 10);
+    color: rgb(0, 255, 34);
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+
+
+
+/* ---------------  CSS for timer ----------------- */
+
+
+
+.pie {
+    width: 200px;
+    height: 200px;
+    transform: rotate(-90deg);
+}
+.pie .bar {
+    stroke-dashoffset: 0;
+    stroke-width: 0.6em;
+    transition: stroke-dashoffset 0.5s linear;
+}
+.pie .bg {
+    stroke-width: 0.6em;
+    stroke: #3a3a3a;
+}
+.days .bar {  stroke: rgb(84, 253, 50); }
+.hours .bar {  stroke:rgb(84, 253, 50) ;  }
+.minutes .bar {  stroke: rgb(84, 253, 50);  }
+.seconds .bar {  stroke: rgb(84, 253, 50);  }
+.countdownblock { float: left; margin: 20px; }
+.countdownblock p { width: 100%; margin: 7px 0; text-align: center; font-size: 2em; }
+.totalbar {
+    /* width: 95%; */
+    margin: 25px auto;
+    /* height: 20px; */
+    /* background-color: #333; */
+    /* padding: 2px; */
+    /* border-radius: 7px; */
+}
+.totalbar .fill {
+    height: 100%;
+    width: 0%;
+    background-color: #ddd;
+    border-radius: 4px;
+    transition: width 2s ease-in-out;
+}
+.countdown {
+    /* width: 2  %; */
+    margin: 4% auto;
+    margin-top: 4%;
+    margin-left: 17%;
+}
+.countdown h1 {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+/* -------------------------------------------------- Countdown Timer Animation CSS ---------------------------------------------------------  */
+

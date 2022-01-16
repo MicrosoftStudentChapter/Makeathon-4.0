@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27');
+@import url('https://fonts.cdnfonts.com/css/mechanismo-2%27');
+
+
+body{
+background-image:url("/images/sponsors1.png");
+
+background-size: cover;
+}
+#heading{
+font-family: Mechanismo;
+color: #d0d0d0;;
+font-size: 70px;
+text-align: center;
+
+}
+
+#title_sponsors{
+    font-family: Mechanismo;
+    color:#C9A002;
+    font-size: 38px;
+    text-align: left;
+    padding-left: 17px;
+    border-right: 1px solid #c9a002;
+    border-width: 65rem;
+    line-height: 0.2rem;
+}
+.hl{
+border-left: 6px solid #c9a002;
+height: 500px;
+}
+img{
+opacity:0.3
+}
+p{
+    background: color #d0d0d0;
+}
+.container{
+    background: linear-gradient(191.99deg, rgba(208, 208, 208, 0.34) 9.19%, rgba(255, 255, 255, 0) 91.68%);
+mix-blend-mode: normal;
+box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+border-radius: 26px;
+padding: 5px;
+}
+.col-4>img{
+    opacity: 1;
+}

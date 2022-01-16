@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
 @import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
 #body {
-  position: relative;
+  position: absolute;
   overflow-x: hidden;
   background-image: url("..//images/image.png");
   background-repeat:no-repeat;
   background-color: #000000;
   background-size: 100%;
-
- 
-}
+  background-position: center top;
+  background-attachment: fixed;
+ }
 
 #box {
   position: absolute;
@@ -33,7 +34,7 @@
     font-family: Mechanismo;
     font-style: normal;
     font-weight: normal;
-    font-size: 80px;
+    font-size: 500%;
     line-height: 96px;
     color: rgb(196, 196, 196);
 }
@@ -47,7 +48,7 @@
     font-family: "IBM Plex Mono";
     font-style: normal;
     font-weight: 600;
-    font-size: 41px;
+    font-size: 35px;
     line-height: 53px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -55,16 +56,14 @@
     text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px, rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px, rgb(0 0 0 / 4%) 0px 0px 0.782468px;
 }
 
-#glassbox:hover {
-  background-color: white;
-}
+
 
 #glassbox {
   position: absolute;
   width: 370px;
   height: 50px;
   left: 716px;
-  top: 98px;;
+  top: 98px;
   right: 345.45px;
   bottom: 696px;
   margin-top: 25px;
@@ -72,12 +71,10 @@
   border-radius: 23.5px;
 }
 
-#heading2:hover {
-  color: red;
-}
+
 
 #heading2 {
-  cursor: pointer;
+  
   position: absolute;
   left: 29px;
   top: -19px;
@@ -413,7 +410,7 @@ a.linksb:hover {
 #a {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: -12px;
   margin-left: -15px;
 }
@@ -421,7 +418,7 @@ a.linksb:hover {
 #b {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: -40px;
   margin-left: 5px;
 }
@@ -429,7 +426,7 @@ a.linksb:hover {
 #c {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: 0px;
   margin-left: -1px;
 }
@@ -437,7 +434,7 @@ a.linksb:hover {
 #d {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: -48px;
   margin-left: -101px;
 }
@@ -445,7 +442,7 @@ a.linksb:hover {
 #e {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: 5px;
   margin-left: 0px;
 }
@@ -453,7 +450,7 @@ a.linksb:hover {
 #f {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: -3px;
   margin-left: -16px;
 }
@@ -461,7 +458,7 @@ a.linksb:hover {
 #g {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: -42px;
   margin-left: 0px;
 }
@@ -469,7 +466,7 @@ a.linksb:hover {
 #h {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: 28px;
   margin-left: -2px;
 }
@@ -477,7 +474,7 @@ a.linksb:hover {
 #i {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: 5px;
   margin-left: -130px;
 }
@@ -485,7 +482,7 @@ a.linksb:hover {
 #j {
   width: 118px;
   height: 72.34px;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-right: 5px;
   margin-left: -62px;
 }
@@ -493,55 +490,63 @@ a.linksb:hover {
 #k {
   width: 164px;
   height: 28.340000000000003px;
-  margin-top: 43px;
+  margin-top: 11.5%;
   margin-right: 277px;
   margin-left: 42px;
 }
 
 #logo {
-  margin-top: 2px;
+  margin-top: 8%;
   margin-left: -2px;
   height: 80px;
   width: 200px;
 }
 
 
-@media(max-width: 425px){
-  body {
-    overflow-x: hidden;
-   
-  }
-#container{
+@media (max-width: 425px){
+  #body{
+  position:absolute;
+  overflow-x: hidden;
   background: url("../images/12.png");
   background-color: black;
-  background-size: 100% 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
-}
+  background-position: top top;
+  background-attachment: fixed;
+  }
  
   #box {
+    margin-left: -13%;
+    margin-right: 5%;
+    margin-top: -10%;
     width: 215px;
     height: 215px;
-    left: 93px;
-    top: 190px;
     border: 2px solid #ffffff;
     box-sizing: border-box;
+    position: fixed;
   }
 
   #heading {
-    position: absolute;
-    width: 585px;
-    height: 118px;
-    left: 50px;
-    top: -24px;
+   
+   margin-left: auto;
+   margin-right: auto; 
+    position: relative;
+
+    /*width: 69.31vh;*/
+    max-width: 100%;
+    font-size: 5px;
+    height: 13.98vh;
+    left: 8vh;
+    top: -4.58vh; 
     font-family: Mechanismo;
     font-style: normal;
     font-weight: normal;
-    font-size: 5px;
     font-size: 38px;
-    color: #c4c4c4;
+    color: #c4c4c4; 
   }
 
   #heading1 {
+    display:none;
     position: absolute;
     width: 512px;
     height: 24px;
@@ -568,17 +573,21 @@ a.linksb:hover {
   }
 
   #insta1{
+    display: flex;
+    flex-direction: row;
     width: 45.64px;
     height: 45.63px;
-    margin-top: -20px;
+    margin-top: 1px;
+    margin-left: 7px;
+    justify-content: center;
   }
 
   #fb1{
     width:45.64px;
     height: 45.63px;
     flex-direction: row;
-    margin-top: -88px;
-    margin-left: 73px;
+    margin-top: -77px;
+    margin-left: 67px;
     display: flex;
   }
 
@@ -586,20 +595,18 @@ a.linksb:hover {
     width: 45px;
     height: 45px;
     flex-direction: row;
-    margin-top: -182px;
-    margin-left: 148px;
+    margin-top: -170px;
+    margin-left: 130px;
     display: flex;
   }
 
   #discord1{
     width: 113px;
     height: 80px;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: row;
-    margin-top: -285px;
-    margin-left: 197px;
+    margin-top: -271px;
+    margin-left: 160px;
   }
 
   #twitter1{
@@ -608,12 +615,12 @@ a.linksb:hover {
     padding-left: 10px;
     display: flex;
     flex-direction: row;
-    margin-top: -367px;
-    margin-left: 296px;
+    margin-top: -352px;
+    margin-left: 248px;
   }
 
   #mail11 {
-    width: 50.64px;
+    width: 50.64px ;
   height: 49.63px;
   }
   
@@ -647,14 +654,8 @@ a.linksb:hover {
   }
 
 #glassbox{
-  position: absolute;
-  width: 140px;
-  height: 24px;
-  inset: 80px 331.45px 696px 155px;
-  margin-top: 25px;
-  background: rgba(211, 211, 211, 0.25);
-  border-radius: 23.5px;
-}
+  display:none;
+ }
 
   
   #heading2{
@@ -677,17 +678,18 @@ a.linksb:hover {
 .line{
     display: none;
 }
+.line1{
+  display:none;
+}
 
 .links{
   display:none;
 }
 
 #contacticons {
-  top: 600px;
-  margin-top: 100%;
-  margin-left: 4%;
-  width: 500px;
-  padding: 2%;
+  margin-top:43%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #website {
@@ -711,4 +713,166 @@ a.linksb:hover {
 #logo{
   display:none;
 }
+}
+
+@media(max-width:350px){
+  
+#body{
+  background: url("../images/12.png");
+  background-color: black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top top;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+#box {
+  width: 215px;
+  height: 215px;
+  margin-left: -14%;
+  margin-right: -5%;
+  margin-top: -10%;
+  /* left: 7.8vh;
+  top: 15vh; 
+  margin-bottom: 5vh; */
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+
+#contacticons {
+  margin-top: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 59.24vh;
+  flex-shrink: 0.6;
+}
+}
+@media(min-width:1520px) {
+  #body{
+    background: url("../images/imagelarge.png");
+    background-color: black;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: absolute;
+  }
+  #heading {
+      width: 585px;
+      /* text-align: center; */
+      height: 118px;
+      font-family: Mechanismo;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 500%;
+      line-height: 96px;
+      color: rgb(196, 196, 196);
+      position: absolute;
+      margin-left: 25%;
+      margin-right: 25%;
+      top: 0.8%;
+transform: translate(-50%, -50%);
+  }
+  .line {
+    position: absolute;
+    width: 50%;
+    height: 1.9px;
+    left: -71px;
+    top: 36px;
+    transform: scaleX(1.2);
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
+  }
+  
+  .line1 {
+    position: absolute;
+    width: 50%;
+    height: 1.9px;
+    left: 1000px;
+    top: 36px;
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
+  }
+  #box {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    height: 60%;
+    width: 38%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    position: absolute;
+  }
+  #heading2 {
+  
+    position: absolute;
+    left: 7%;
+    top: -19px;
+    width: 500px;
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: 530;
+    font-size: 33px;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 0px 18.7792px rgba(245, 97, 13, 0.3),
+      0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3),
+      0px 0px 0.782468px rgba(0, 0, 0, 0.04);
+  }
+  #glassbox {
+    position: absolute;
+    width: 370px;
+    height: 50px;
+    left: 60%;
+    top: 15%;
+    right: 345.45px;
+    bottom: 696px;
+    margin-top: 25px;
+    background: rgba(211, 211, 211, 0.25);
+    border-radius: 23.5px;
+  }
+  #heading1 {
+    position: absolute;
+      width: 512px;
+      height: 24px;
+      left: 61.5%;
+      top: 9%;
+      font-family: "IBM Plex Mono";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 53px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: rgb(242, 242, 242);
+      text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px, rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px, rgb(0 0 0 / 4%) 0px 0px 0.782468px;
+  }
+  #contacticons {
+    top: 600px;
+    margin-top: 15%;
+    margin-left: 60%;
+    width: 500px;
+  }
+  #link_website{
+    position: absolute;
+    width: 207px;
+    height: 54px;
+    right: 154px;
+    bottom: 157px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+  }
+  #mail{
+    margin-top:25%;
+  }
 }

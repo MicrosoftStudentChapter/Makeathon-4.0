@@ -29,7 +29,7 @@ html, body {
     background-position: center center;
     background-attachment: fixed;
     background-color: #464646;
-    padding-bottom: 4vh;
+    padding-bottom: 15vh;
 }
 
 #speakers-heading{
@@ -40,13 +40,54 @@ html, body {
     font-family: 'Mechanismo', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 10vw;
+    font-size: 600%;
     text-align: center;
     color: #D0D0D0;
     padding-left: 5vw;
 }
 
-/* For hidden text */
+/* For Speakers' Containers */
+
+.speaker-name{
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140%;
+}
+
+.designation{
+    color: khaki;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+}
+
+.description{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85%;
+}
+
+.base-contain{
+    background: linear-gradient(#8A8A8A66,#00000066);
+    border-radius: 3%;
+    padding: 3vh;
+    height: 42vh;
+    width: 69.420%;
+    opacity: 1;
+    transition-property: "height";
+    transition-duration: 0.5s;
+}
+
+.base-contain:hover{
+    height: 63vh;
+}
+
+.social-icons{
+    width: 12.5%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* For hidden text and icons*/
 
 #hidden{
     display: none;
@@ -56,50 +97,11 @@ html, body {
     display: inline-block;
 }
 
-/* For Speakers' Containers */
-
-.designation{
-    color: khaki;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.description{
-    color: aliceblue;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.base-contain{
-    background: linear-gradient(#8A8A8A66,#00000066);
-    border-radius: 3%;
-    padding: 5%;
-    height: 50vh;
-    width: 69.420%;
-    opacity: 1;
-    transition-property: "height";
-    transition-duration: 1s;
-}
-
-.base-contain:hover{
-    height: 63vh;
-} 
-
-.speaker-name{
-    color: yellow;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.social-icons{
-    width: 12.5%;
-    height: auto;
-    object-fit: cover;
-}
-
-
 /* Media Queries */
 
-@media screen and (max-width :1024px){
+@media screen and (max-width :1366px){
     .base-contain{
-        width:25vw;
+        width:27.5vw;
     }
     #speakers{
         padding-right: 10vw;
@@ -108,60 +110,99 @@ html, body {
 
 @media screen and (max-width:991px){
     #speakers{
-        background-clip: inherit;
         padding-left: 8vw;
     }
-    
+    .base-contain{
+        width:25vw;
+    }
+    .base-contain:hover{
+        height: 70vh;
+    }
 }
 
 @media screen and (max-width: 900px){
-    .speaker-name{
-        font-size:25px;
-    }
-
-    .rounded-circle{
-        width:auto;
-        height:30%;
-    }
-}
-
-@media screen and (max-width: 819px){
-    .base-contain{
-        min-width: 25vw;
-    }
-}
-
-@media screen and (max-width: 767px){
-    .rounded-circle{
-        width:auto;
-        height:40%;
-    }
-    .speaker-name{
-        font-size:25px;
-
-    }
-    .description{
-        font-size:25px;
-    }
-    .social-icons{
-        width:5vh;
-        height:auto;
-        padding-top:20px;
+    #speakers{
+        padding-left: 2vw;
+        padding-right: 4vw;
     }
     .base-contain{
-        min-width: 70vw;
+        width:27.5vw;
     }
     .base-contain:hover{
-        height: 80vh;
-    }
-    #speakers{
-        padding-left: 10vw;
+        height: 69vh;
     }
 }
 
-@media screen and (max-width :475px){
+@media screen and (max-width: 809px){
+    .speaker-name{
+        font-size:115%;
+    }
+    .designation{
+        font-size: 90%;
+    }
+    .description{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 688px){
+    #speakers{
+        padding-left: 2vw;
+        padding-right: 4vw;
+    }
+    .base-contain{
+        min-width: 29vw;
+    }
+    .base-contain:hover{
+        height: 73vh;
+    }
+    .designation{
+        font-size: 84%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .speaker-name{
+        font-size:180%;
+    }
+    .designation{
+        font-size: 120%;
+    }
+    .description{
+        font-size: 92%;
+    }
+    .base-contain{
+        min-width: 80vw;
+        margin-bottom: 5vh;
+    }
+    .base-contain:hover{
+        height: 69vh;
+    }
+    #speakers{
+        padding-left: 7vw;
+    }
     #speakers-heading{
         margin-top: 50px;
-        font-size: 300%;
+        font-size: 15vw;
     }
+}
+@media screen and (max-width: 345px){
+    .speaker-name{
+        font-size: 150%;
+    }
+    .designation{
+        font-size: 120%;
+    }
+    .description{
+        font-size: 90%;
+    }
+    .base-contain{
+        height: 45vh;
+    }
+    .base-contain:hover{
+        height: 75vh;
+    }
+}
+@media screen and (max-height: ){
+
 }

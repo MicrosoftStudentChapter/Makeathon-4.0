@@ -15,7 +15,7 @@ html, body {
 }
 
 #speakers{
-    background-image: url("../images/Speakers-bg.png");
+    background-image: url("../images/Speakers-bg2.png");
     max-height: 100vh;
     max-width: 100vw;
     height: 100vh;
@@ -74,11 +74,11 @@ html, body {
     width: 69.420%;
     opacity: 1;
     transition-property: "height";
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 
 .base-contain:hover{
-    height: 63vh;
+    height: 55vh;
 }
 
 .social-icons{
@@ -203,6 +203,14 @@ html, body {
         height: 75vh;
     }
 }
-@media screen and (max-height: ){
-
-}
+/* @media screen and (height:915px) and(width:412px){
+    .speaker-name{
+        font-size: 200%;
+    }
+    .designation{
+        font-size: 150%;
+    }
+    .description{
+        font-size: 120%;
+    }
+} */

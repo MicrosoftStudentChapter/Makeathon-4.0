@@ -74,11 +74,12 @@ html, body {
     width: 69.420%;
     opacity: 1;
     transition-property: "height";
-    transition-duration: 1s;
+    transition-duration: 1.25s;
 }
 
 .base-contain:hover{
     height: 55vh;
+    background:#00000066;
 }
 
 .social-icons{
@@ -147,11 +148,11 @@ html, body {
 
 @media screen and (max-width: 688px){
     #speakers{
-        padding-left: 2vw;
-        padding-right: 4vw;
+        padding-left: 3vw;
+        padding-right: 5vw;
     }
     .base-contain{
-        min-width: 29vw;
+        min-width: 30.5vw;
     }
     .base-contain:hover{
         height: 73vh;

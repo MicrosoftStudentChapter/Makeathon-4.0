@@ -92,6 +92,10 @@ body{
 .box-ss{
     background-image: linear-gradient(110.62deg, rgba(255, 255, 255, 0.35) 6.39%, rgba(255, 255, 255, 0.1) 53.34%);
     font-family: Montserrat;
+    mix-blend-mode: normal;
+    backdrop-filter: blur(40px);
+    background-color: rgba(19, 75, 19, 0.356);
+
 
     padding: 50px;
 

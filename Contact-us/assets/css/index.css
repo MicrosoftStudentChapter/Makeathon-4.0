@@ -6,12 +6,12 @@
   position: absolute;
   overflow-x: hidden;
   background-image: url("..//images/image.png");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-color: #000000;
   background-size: 100%;
   background-position: center top;
   background-attachment: fixed;
- }
+}
 
 #box {
   position: absolute;
@@ -22,41 +22,38 @@
   border: 2px solid #ffffff;
   box-sizing: border-box;
 }
-
-
-
 #heading {
   position: absolute;
-    width: 585px;
-    height: 118px;
-    left: 437px;
-    top: -64px;
-    font-family: Mechanismo;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 500%;
-    line-height: 96px;
-    color: rgb(196, 196, 196);
+  width: 585px;
+  height: 118px;
+  left: 437px;
+  top: -64px;
+  font-family: Mechanismo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 500%;
+  line-height: 96px;
+  color: rgb(196, 196, 196);
 }
 
 #heading1 {
   position: absolute;
-    width: 512px;
-    height: 24px;
-    left: 731px;
-    top: 50px;
-    font-family: "IBM Plex Mono";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 53px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: rgb(242, 242, 242);
-    text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px, rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px, rgb(0 0 0 / 4%) 0px 0px 0.782468px;
+  width: 512px;
+  height: 24px;
+  left: 731px;
+  top: 50px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 53px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgb(242, 242, 242);
+  text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px,
+    rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px,
+    rgb(0 0 0 / 4%) 0px 0px 0.782468px;
 }
-
-
 
 #glassbox {
   position: absolute;
@@ -71,10 +68,7 @@
   border-radius: 23.5px;
 }
 
-
-
 #heading2 {
-  
   position: absolute;
   left: 29px;
   top: -19px;
@@ -502,19 +496,22 @@ a.linksb:hover {
   width: 200px;
 }
 
-
-@media (max-width: 425px){
-  #body{
-  position:absolute;
-  overflow-x: hidden;
-  background: url("../images/12.png");
-  background-color: black;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top top;
-  background-attachment: fixed;
+@media (max-width: 425px) {
+  #body {
+    position: absolute;
+    overflow-x: hidden;
+    background: url("../images/12.png");
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-attachment: fixed;
   }
- 
+  #container{
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
   #box {
     margin-left: -13%;
     margin-right: 5%;
@@ -527,9 +524,8 @@ a.linksb:hover {
   }
 
   #heading {
-   
-   margin-left: auto;
-   margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 
     /*width: 69.31vh;*/
@@ -537,16 +533,16 @@ a.linksb:hover {
     font-size: 5px;
     height: 13.98vh;
     left: 8vh;
-    top: -4.58vh; 
+    top: -4.58vh;
     font-family: Mechanismo;
     font-style: normal;
     font-weight: normal;
     font-size: 38px;
-    color: #c4c4c4; 
+    color: #c4c4c4;
   }
 
   #heading1 {
-    display:none;
+    display: none;
     position: absolute;
     width: 512px;
     height: 24px;
@@ -572,7 +568,7 @@ a.linksb:hover {
     margin-left: 23px;
   }
 
-  #insta1{
+  #insta1 {
     display: flex;
     flex-direction: row;
     width: 45.64px;
@@ -582,8 +578,8 @@ a.linksb:hover {
     justify-content: center;
   }
 
-  #fb1{
-    width:45.64px;
+  #fb1 {
+    width: 45.64px;
     height: 45.63px;
     flex-direction: row;
     margin-top: -77px;
@@ -591,7 +587,7 @@ a.linksb:hover {
     display: flex;
   }
 
-  #linkedin1{
+  #linkedin1 {
     width: 45px;
     height: 45px;
     flex-direction: row;
@@ -600,7 +596,7 @@ a.linksb:hover {
     display: flex;
   }
 
-  #discord1{
+  #discord1 {
     width: 113px;
     height: 80px;
     display: flex;
@@ -609,7 +605,7 @@ a.linksb:hover {
     margin-left: 160px;
   }
 
-  #twitter1{
+  #twitter1 {
     width: 45px;
     height: 45px;
     padding-left: 10px;
@@ -620,10 +616,10 @@ a.linksb:hover {
   }
 
   #mail11 {
-    width: 50.64px ;
-  height: 49.63px;
+    width: 50.64px;
+    height: 49.63px;
   }
-  
+
   #link_mail {
     width: 263.61 px;
     height: 52 px;
@@ -638,7 +634,7 @@ a.linksb:hover {
     margin-left: 11px;
   }
 
-  #link_website{
+  #link_website {
     position: absolute;
     width: 207px;
     height: 54px;
@@ -653,12 +649,11 @@ a.linksb:hover {
     text-transform: lowercase;
   }
 
-#glassbox{
-  display:none;
- }
+  #glassbox {
+    display: none;
+  }
 
-  
-  #heading2{
+  #heading2 {
     cursor: pointer;
     position: absolute;
     left: 13px;
@@ -672,85 +667,86 @@ a.linksb:hover {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #ffffff;
-    text-shadow: 0px 0px 18.7792px rgb(245 97 13 / 30%), 0px 1.56494px 4.69481px rgb(244 147 67 / 30%), 0px 0px 0.782468px rgb(0 0 0 / 4%);
+    text-shadow: 0px 0px 18.7792px rgb(245 97 13 / 30%),
+      0px 1.56494px 4.69481px rgb(244 147 67 / 30%),
+      0px 0px 0.782468px rgb(0 0 0 / 4%);
   }
 
-.line{
+  .line {
     display: none;
-}
-.line1{
-  display:none;
+  }
+  .line1 {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+
+  #contacticons {
+    margin-top: 43%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #website {
+    margin-top: -176px;
+    margin-left: 22px;
+    height: 91px;
+    width: 91px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #website1 {
+    width: 50.64px;
+    height: 49.63px;
+  }
+
+  .foot {
+    display: none;
+  }
+
+  #logo {
+    display: none;
+  }
 }
 
-.links{
-  display:none;
-}
+@media (max-width: 350px) {
+  #body {
+    background: url("../images/12.png");
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: absolute;
+  }
 
-#contacticons {
-  margin-top:43%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-#website {
-  margin-top: -176px;
-  margin-left: 22px;
-  height: 91px;
-  width: 91px;
-  display: flex;
-  flex-direction: row;
-}
-
-#website1 {
-  width: 50.64px;
-  height: 49.63px;
-}
-
-.foot{
-  display: none;
-}
-
-#logo{
-  display:none;
-}
-}
-
-@media(max-width:350px){
-  
-#body{
-  background: url("../images/12.png");
-  background-color: black;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top top;
-  background-attachment: fixed;
-  overflow-x: hidden;
-  position: absolute;
-}
-
-#box {
-  width: 215px;
-  height: 215px;
-  margin-left: -14%;
-  margin-right: -5%;
-  margin-top: -10%;
-  /* left: 7.8vh;
+  #box {
+    width: 215px;
+    height: 215px;
+    margin-left: -14%;
+    margin-right: -5%;
+    margin-top: -10%;
+    /* left: 7.8vh;
   top: 15vh; 
   margin-bottom: 5vh; */
-  border: 2px solid #ffffff;
-  box-sizing: border-box;
-}
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+  }
 
-#contacticons {
-  margin-top: 50%;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 59.24vh;
-  flex-shrink: 0.6;
+  #contacticons {
+    margin-top: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 59.24vh;
+    flex-shrink: 0.6;
+  }
 }
-}
-@media(min-width:1520px) {
-  #body{
+@media (min-width: 1520px) {
+  #body {
     background: url("../images/imagelarge.png");
     background-color: black;
     background-size: 100vw 100vh;
@@ -761,20 +757,20 @@ a.linksb:hover {
     position: absolute;
   }
   #heading {
-      width: 585px;
-      /* text-align: center; */
-      height: 118px;
-      font-family: Mechanismo;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 500%;
-      line-height: 96px;
-      color: rgb(196, 196, 196);
-      position: absolute;
-      margin-left: 25%;
-      margin-right: 25%;
-      top: 0.8%;
-transform: translate(-50%, -50%);
+    width: 585px;
+    /* text-align: center; */
+    height: 118px;
+    font-family: Mechanismo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 500%;
+    line-height: 96px;
+    color: rgb(196, 196, 196);
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 0.8%;
+    transform: translate(-50%, -50%);
   }
   .line {
     position: absolute;
@@ -786,7 +782,7 @@ transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.8);
     display: none;
   }
-  
+
   .line1 {
     position: absolute;
     width: 50%;
@@ -807,7 +803,6 @@ transform: translate(-50%, -50%);
     position: absolute;
   }
   #heading2 {
-  
     position: absolute;
     left: 7%;
     top: -19px;
@@ -838,19 +833,21 @@ transform: translate(-50%, -50%);
   }
   #heading1 {
     position: absolute;
-      width: 512px;
-      height: 24px;
-      left: 61.5%;
-      top: 9%;
-      font-family: "IBM Plex Mono";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 35px;
-      line-height: 53px;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: rgb(242, 242, 242);
-      text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px, rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px, rgb(0 0 0 / 4%) 0px 0px 0.782468px;
+    width: 512px;
+    height: 24px;
+    left: 61.5%;
+    top: 9%;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgb(242, 242, 242);
+    text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px,
+      rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px,
+      rgb(0 0 0 / 4%) 0px 0px 0.782468px;
   }
   #contacticons {
     top: 600px;
@@ -858,7 +855,7 @@ transform: translate(-50%, -50%);
     margin-left: 60%;
     width: 500px;
   }
-  #link_website{
+  #link_website {
     position: absolute;
     width: 207px;
     height: 54px;
@@ -872,7 +869,7 @@ transform: translate(-50%, -50%);
     letter-spacing: 0.05em;
     text-transform: lowercase;
   }
-  #mail{
-    margin-top:25%;
+  #mail {
+    margin-top: 25%;
   }
 }

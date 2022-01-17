@@ -168,16 +168,16 @@ input {
 }
 
 #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: 6.5%;
+    margin-left: 6.3%;
 }
 #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -0.08%;
+    margin-left: -0.3%;
 }
 #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -6.75%;
+    margin-left: -6.9%;
 }
 #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -13.25%;
+    margin-left: -13.5%;
 }
 #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
     margin-left: -20%;

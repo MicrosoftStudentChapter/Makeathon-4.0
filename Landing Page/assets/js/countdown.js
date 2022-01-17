@@ -23,16 +23,20 @@ var ringer = {
     //   max: 100
     // }
   },
-  r_count: 5,
-  r_spacing: 10, // px
-  r_size: 100, // px
-  r_thickness: 4, // px
-  update_interval: 11, // ms
+  r_count: 5,  // 5
+  r_spacing: 10, //10 px
+  r_size: 100, //100 px
+  r_thickness: 4, // 4px
+  update_interval: 11, //11 ms
 
   init: function () {
+    var width = screen.width;
+    console.log(width)
     $r = ringer;
-    $r.cvs = document.createElement("canvas");
-
+    var cvs = document.createElement("canvas");
+    $r.cvs = cvs
+    // var body = document.getElementsByTagName("body")
+    // body.appendChild(cvs)
     $r.size = {
       w:
         ($r.r_size + $r.r_thickness) * $r.r_count +
@@ -43,7 +47,8 @@ var ringer = {
     $r.cvs.setAttribute("width", $r.size.w);
     $r.cvs.setAttribute("height", $r.size.h);
     $r.ctx = $r.cvs.getContext("2d");
-    $(document.body).append($r.cvs);
+    //$(document.body).append($r.cvs);
+    document.getElementById("ctd").appendChild($r.cvs)
     $r.cvs = $($r.cvs);
     $r.ctx.textAlign = "center";
     $r.actual_size = $r.r_size + $r.r_thickness;
@@ -62,6 +67,14 @@ var ringer = {
     setTimeout($r.go, $r.update_interval);
   },
   unit: function (idx, label, ring) {
+    var width = screen.width;
+    var s = 100;
+    if(width <= 1024){
+      s = 50;
+      $r.ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+    $r.r_size = s;
+    console.log($r.r_size);
     var x,
       y,
       value,

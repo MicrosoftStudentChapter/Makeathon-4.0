@@ -3,6 +3,11 @@ var isOpen = false;
 
 function openNav() {
     
+    const width = document.width;
+    if(width < 1024){
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("main").style.marginLeft = "100%";
+    }
     document.getElementById("mySidebar").style.width = "20%";
     document.getElementById("main").style.marginLeft = "20%";
 }

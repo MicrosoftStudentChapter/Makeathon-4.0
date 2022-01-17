@@ -274,6 +274,14 @@ input{
         margin: 0 1% 0 1%;
     }
 
+    .container-ss{
+        margin-top: -5%;
+    }
+
+    .box-ss{
+        font-size: 5.75vw;
+    }
+
     .container-ss .slides > .box-ss{
         width: 15%;
     }
@@ -292,6 +300,48 @@ input{
     }
     #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1){
         margin-left: -64.90%;
+    }   
+}
+
+@media screen and (max-width: 550px){
+    #heading h1{
+        font-size: 375%;
+    }
+
+    .prizes-container{
+        width: 100%;
+    }
+
+    .prize{
+        margin: 0 1% 0 1%;
+    }
+
+    .container-ss{
+        margin-top: -5%;
+    }
+
+    .box-ss{
+        font-size: 5.75vw;
+    }
+
+    .container-ss .slides > .box-ss{
+        width: 15%;
+    }
+
+    #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1){
+        margin-left: 0.25%;
+    }
+    #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1){
+        margin-left: -16.25%;
+    }
+    #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1){
+        margin-left: -32.90%;
+    }
+    #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1){
+        margin-left: -49.50%;
+    }
+    #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1){
+        margin-left: -65.90%;
     }   
 }
 

@@ -7,7 +7,7 @@
   overflow-x: hidden;
   background-image: url("..//images/image.png");
   background-repeat: no-repeat;
-  background-color: #000000;
+  background-color: hsl(0, 0%, 0%);
   background-size: 100%;
   background-position: center top;
   background-attachment: fixed;
@@ -508,14 +508,14 @@ a.linksb:hover {
     background-attachment: fixed;
   }
   #container{
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: -26%;
+    margin-left: 34%;
   }
 
   #box {
-    margin-left: -13%;
+    margin-left: 16%;
     margin-right: 5%;
-    margin-top: -10%;
+    margin-top: 4%;
     width: 215px;
     height: 215px;
     border: 2px solid #ffffff;
@@ -527,8 +527,6 @@ a.linksb:hover {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-
-    /*width: 69.31vh;*/
     max-width: 100%;
     font-size: 5px;
     height: 13.98vh;
@@ -543,22 +541,7 @@ a.linksb:hover {
 
   #heading1 {
     display: none;
-    position: absolute;
-    width: 512px;
-    height: 24px;
-    left: 167px;
-    top: 59px;
-    font-family: IBM Plex Mono;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 53px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #f2f2f2;
-    text-shadow: 0px 0px 18.7792px rgb(245 97 13 / 30%),
-      0px 1.56494px 4.69481px rgb(244 147 67 / 30%),
-      0px 0px 0.782468px rgb(0 0 0 / 4%);
+    
   }
 
   #mail {
@@ -684,9 +667,10 @@ a.linksb:hover {
   }
 
   #contacticons {
-    margin-top: 43%;
-    margin-left: 5%;
+    margin-top: 85%;
+    margin-left: 8%;
     margin-right: 5%;
+    
   }
 
   #website {
@@ -727,19 +711,16 @@ a.linksb:hover {
   #box {
     width: 215px;
     height: 215px;
-    margin-left: -14%;
+    margin-left: 16%;
     margin-right: -5%;
-    margin-top: -10%;
-    /* left: 7.8vh;
-  top: 15vh; 
-  margin-bottom: 5vh; */
+    margin-top: 5%;
     border: 2px solid #ffffff;
     box-sizing: border-box;
   }
 
   #contacticons {
-    margin-top: 50%;
-    margin-left: 5%;
+    margin-top: 85%;
+    margin-left: 8%;
     margin-right: 5%;
     width: 59.24vh;
     flex-shrink: 0.6;
@@ -758,7 +739,6 @@ a.linksb:hover {
   }
   #heading {
     width: 585px;
-    /* text-align: center; */
     height: 118px;
     font-family: Mechanismo;
     font-style: normal;
@@ -772,24 +752,11 @@ a.linksb:hover {
     top: 0.8%;
     transform: translate(-50%, -50%);
   }
-  .line {
-    position: absolute;
-    width: 50%;
-    height: 1.9px;
-    left: -71px;
-    top: 36px;
-    transform: scaleX(1.2);
-    background: rgba(255, 255, 255, 0.8);
+  .line {  
     display: none;
   }
 
   .line1 {
-    position: absolute;
-    width: 50%;
-    height: 1.9px;
-    left: 1000px;
-    top: 36px;
-    background: rgba(255, 255, 255, 0.8);
     display: none;
   }
   #box {
@@ -871,5 +838,100 @@ a.linksb:hover {
   }
   #mail {
     margin-top: 25%;
+  }
+}
+@media (min-width:426px) and (max-width:852px){
+  #a {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: -12px;
+    margin-left: -15px;
+  }
+  #b {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: -40px;
+    margin-left: 5px;
+  }
+  
+  #c {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: 0px;
+    margin-left: -1px;
+  }
+  
+  #d {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: -48px;
+    margin-left: -101px;
+  }
+  
+  #e {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: 5px;
+    margin-left: 0px;
+  }
+  
+  #f {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: -3px;
+    margin-left: -16px;
+  }
+  
+  #g {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: -42px;
+    margin-left: 0px;
+  }
+  
+  #h {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: 28px;
+    margin-left: -2px;
+  }
+  
+  #i {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: 5px;
+    margin-left: -130px;
+  }
+  
+  #j {
+    width: 118px;
+    height: 72.34px;
+    margin-top: 13%;
+    margin-right: 5px;
+    margin-left: -62px;
+  }
+  
+  #k {
+    width: 164px;
+    height: 28.340000000000003px;
+    margin-top: 14.5%;
+    margin-right: 277px;
+    margin-left: 42px;
+  }
+  
+  #logo {
+    margin-top: 11%;
+    margin-left: -2px;
+    height: 80px;
+    width: 200px;
   }
 }

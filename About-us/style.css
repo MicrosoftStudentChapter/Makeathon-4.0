@@ -1,0 +1,188 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
+@font-face {
+  font-family: 'Montserrat';
+  src: url(https://fonts.google.com/specimen/Montserrat);
+}
+*{
+margin: 0;
+padding: 0;
+}
+#hr1 {
+position: absolute;
+width: 200.02px;
+height: 4px;
+left: 0px;
+top: 86px;
+background: #ffffff;
+border: 1px solid #FFFFFFA6;
+border-radius: 0px;
+}
+#hr2 {
+  position: absolute;
+  width: 200.02px;
+  height: 4px;
+  left: 0px;
+  top: 130px;
+  background: #ffffff;
+  border: 1px solid #FFFFFFA6;
+  border-radius: 0px;
+  }
+#hr3 {
+position: absolute;
+width: 200.02px;
+height: 4px;
+left: 0px;
+top: 174px;
+background: #ffffff;
+border: 1px solid #FFFFFFA6;
+border-radius: 0px;
+}
+.main_title {
+  font-family: "Mechanismo";
+  color: #d0d0d0;
+}
+#logo {
+  position: fixed;
+  top: 0;
+  left: 90%;
+}
+
+body {
+  width: 100%;
+  height: 75%;
+  background: url("about_us_bg.png");
+  background-size: 100% 75%;
+  padding-top: 50px;
+  background-color: black;
+  background-repeat: no-repeat;
+
+}
+box1{
+position: absolute;
+left: 79.65%;
+right: 4.96%;
+top: 3.82%;
+bottom: 75.87%;
+
+background: url(MLSC_logo.png);
+transform: rotate(-0.55deg);
+}
+section{
+padding:0 100px;
+height: 100vh;
+display: flex;
+align-items: left;
+}
+p{
+padding-left: 20px;
+padding-top: 40px;
+padding-right: 20px;
+padding-bottom: 20px;
+}
+.box{
+position: absolute;
+width: 935px;
+height: 500px;
+left: 67px;
+top: 288px;
+background: linear-gradient(134.37deg, rgba(255, 255, 255, 0.15) 25.27%, rgba(255, 255, 255, 0.15) 101.47%);
+box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(20px);
+border-radius: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 27.5px;
+text-align: center;
+color: #FFFFFF;
+}
+h1{
+  font-family: Mechanismo;
+font-size: 115px;
+font-style: normal;
+font-weight: 400;
+line-height: 138px;
+letter-spacing: 0em;
+}
+.img1{
+position: absolute;
+left: 79.65%;
+right: 4.96%;
+top: 3.82%;
+bottom: 75.87%;
+transform: rotate(-0.55deg);
+}
+.flip-box {
+  background-color: transparent;
+  width: 225px;
+  height: 225px;
+  
+}
+
+.flip-box-inner {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  top: 306px;
+  left: calc(50% - 225px/2 + 541.5px);
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  color: black;
+}
+
+.flip-box-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flip-box-inner-1 {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  left: calc(50% - 225px/2 + 429.5px);
+  top: 489px;
+}
+
+.flip-box:hover .flip-box-inner-1 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-inner-2 {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  left: calc(50% - 225px/2 + 541.5px);
+  top: 676px;
+}
+
+.flip-box:hover .flip-box-inner-2 {
+  transform: rotateY(180deg);
+}

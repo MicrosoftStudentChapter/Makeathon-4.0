@@ -303,7 +303,7 @@ input{
     }   
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 560px){
     #heading h1{
         font-size: 375%;
     }

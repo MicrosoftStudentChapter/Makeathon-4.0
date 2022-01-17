@@ -126,35 +126,45 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-/* canvas {
+canvas {
   width: 50%;
   height: 50%; 
   display: block;
   position: relative;
-  background: transparent; */
+  background: transparent;
   /* margin-left: 12rem; */
   /* margin-bottom: 50%; */ 
-  /* margin-left: 35%;
-}*/
+  margin-left: 50%;
+}
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
   canvas {
     display: block;
     position: relative;
     background: transparent;
-    margin-top: -50%;
-    margin-left: 35%;
+    margin-left: 23%;
   }
-} */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  canvas {
+    display: block;
+    position: relative;
+    background: transparent;
+    margin-top: 10%;
+    margin-left: 23%;
+  }
+}
+
 
 
 .Countdown {
   color: rgb(0, 255, 21);
   overflow: hidden;
   text-align: center;
-  /* display: table-cell; */
+  display: table-cell;
   /* text-align: center; */
-  /* margin-left: 42%; */
+  margin-left: 50%;
 }
 
 
@@ -195,8 +205,7 @@ html {
 }
 
 /* MediaQueries */
-
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 600px) {
   .sidebar a{ 
     font-size: 80%;
     padding: 20px 20px 2px 14px;
@@ -204,12 +213,36 @@ html {
   .sidebar{
     width:0;
     }
-    .btnsize {
-      margin-top: 70%;
-      margin-left: 43%;
+  .btnsize {
+    margin-top: 10%;
+    margin-left: 43%;
   }
   .landing-logo {
     margin-top: 20%;
+  }
+  .Countdown{
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+}
+@media screen and (min-width: 600px) and(max-width: 768px) {
+  .sidebar a{ 
+    font-size: 80%;
+    padding: 20px 20px 2px 14px;
+  }
+  .sidebar{
+    width:0;
+    }
+  .btnsize {
+    margin-top: 10%;
+    margin-left: 43%;
+  }
+  .landing-logo {
+    margin-top: 20%;
+  }
+  .Countdown{
+    margin-top: 10%;
+    margin-left: 18%;
   }
 }
 
@@ -222,8 +255,14 @@ html {
     width:0;
   }
   .btnsize {
-    margin-top: 50%;
+    margin-top: 30%;
     margin-left: 43%;
+  }
+  .Countdown{
+    margin-top: 10%;
+    margin-left: 0%;
+    display: table-cell;
+  }
 }
 
 @media screen and (min-width: 1392px) {
@@ -238,7 +277,6 @@ html {
     transform: translateY(-5em);
   }
 }
-}
 
 
 
@@ -248,8 +286,8 @@ html {
   display: flex;
 }
 .col {
-  flex: 1;
-  justify-content: center;
+  margin-left: auto;
+  width: 50%;
 }
 
 @media (max-width: 400px) {

@@ -67,14 +67,6 @@ var ringer = {
     setTimeout($r.go, $r.update_interval);
   },
   unit: function (idx, label, ring) {
-    var width = screen.width;
-    var s = 100;
-    if(width <= 1024){
-      s = 50;
-      $r.ctx.clearRect(0, 0, canvas.width, canvas.height);
-    }
-    $r.r_size = s;
-    console.log($r.r_size);
     var x,
       y,
       value,
@@ -82,6 +74,17 @@ var ringer = {
     value = parseFloat($r.time / ring_secs);
     $r.time -= Math.round(parseInt(value)) * ring_secs;
     value = Math.abs(value);
+    const width = screen.width;
+    // if(width <= 1024){
+    //   $r.ctx.clearRect(
+    //     $r.actual_size * -0.5,
+    //     $r.actual_size * -0.5,
+    //     $r.actual_size,
+    //     $r.actual_size
+    //   );
+    //   $r.r_size = 50;
+    //   $r.r_thickness = 2;
+    // }
 
     x = $r.r_size * 0.5 + $r.r_thickness * 0.5;
     x += +(idx * ($r.r_size + $r.r_spacing + $r.r_thickness));
@@ -91,7 +94,7 @@ var ringer = {
     // calculate arc end angle
     var degrees = 360 - (value / ring.max) * 360.0;
     var endAngle = degrees * (Math.PI / 180);
-
+    // $r.actual_size = $r.r_size + $r.r_thickness;
     $r.ctx.save();
 
     $r.ctx.translate(x, y);
@@ -100,8 +103,7 @@ var ringer = {
       $r.actual_size * -0.5,
       $r.actual_size,
       $r.actual_size
-    );
-
+    );    
     // first circle
     $r.ctx.strokeStyle = "rgba(128,128,128,0.2)";
     $r.ctx.beginPath();

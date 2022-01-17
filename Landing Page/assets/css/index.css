@@ -58,6 +58,7 @@ html {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  overflow: hidden;
 }
 
 .sidebar a {
@@ -67,6 +68,7 @@ html {
   color: #cac9c9;
   display: block;
   transition: 0.3s;
+  overflow: hidden;
 }
 
 .sidebar a:hover {
@@ -81,8 +83,9 @@ html {
   margin-left: 50px;
 }
 .landing-logo {
-  margin-left: 25%;
+  margin-left: 22%;
   margin-top: 0%;
+  flex-wrap: nowrap;
 }
 .openbtn {
   font-size: 20px;
@@ -102,7 +105,44 @@ html {
   padding: 16px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+.dev-btn {
+  background-color: #ffffff33;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+canvas {
+  /* width: 900px;
+  height: 200px; */
+  display: block;
+  position: relative;
+  background: transparent;
+  margin-top: -20%;
+  margin-left: 35%;
+}
+.Countdown{
+  color: rgb(0, 255, 21);
+  overflow: hidden;
+  display: table-cell;
+  text-align: center;
+ 
+}
+
+.btnsize{
+  background-color: #f1f1f181;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 14px;
+  width: 10%;
+  height: 10%;
+  margin-left: 45%;
+  margin-top: 12%;
+}
+.btnsize:hover{
+  background-color: #313131;
+}
 @media screen and (max-height: 450px) {
   .sidebar {
     padding-top: 15px;
@@ -112,81 +152,16 @@ html {
   }
 }
 
-/* ---------------  CSS for timer ----------------- */
+/* MediaQueries */
 
-.pie {
-  width: 200px;
-  height: 200px;
-  transform: rotate(-90deg);
-}
-.pie .bar {
-  stroke-dashoffset: 0;
-  stroke-width: 0.6em;
-  transition: stroke-dashoffset 0.5s linear;
-}
-.pie .bg {
-  stroke-width: 0.6em;
-  stroke: #3a3a3a;
-}
-.days .bar {
-  stroke: rgb(84, 253, 50);
-}
-.hours .bar {
-  stroke: rgb(84, 253, 50);
-}
-.minutes .bar {
-  stroke: rgb(84, 253, 50);
-}
-.seconds .bar {
-  stroke: rgb(84, 253, 50);
-}
-.countdownblock {
-  float: left;
-  margin: 20px;
-}
-.countdownblock p {
-  width: 100%;
-  margin: 7px 0;
-  text-align: center;
-  font-size: 2em;
-}
-.totalbar {
-  /* width: 95%; */
-  margin: 25px auto;
-  /* height: 20px; */
-  /* background-color: #333; */
-  /* padding: 2px; */
-  /* border-radius: 7px; */
-}
-.totalbar .fill {
-  height: 100%;
-  width: 0%;
-  background-color: #ddd;
-  border-radius: 4px;
-  transition: width 2s ease-in-out;
-}
-.countdown {
-  /* width: 2  %; */
-  margin-top: 0%;
-  margin-left: 18%;
-}
-.countdown h1 {
-  margin: 0 auto;
-  width: 50%;
-  text-align: center;
-  font-size: 4em;
-  text-transform: uppercase;
+
+@media screen and (max-width: 760px){
+ 
 }
 
-.number {
-  visibility: visible;
-}
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
-/* -------------------------------------------------- Countdown Timer Animation CSS ---------------------------------------------------------  */
+} 
+@media screen and (min-width:1392px){
 
-/*  Devfolio Button Class  */
-
-.dev-btn {
-  background-color: #ffffff33;
-  font-family: "Montserrat", sans-serif;
-}
+}  

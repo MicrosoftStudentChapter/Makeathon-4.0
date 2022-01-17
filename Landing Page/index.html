@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/index.css" />
     <!-- CSS only -->
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
-    />
+    /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <title>Landing Page</title>
   </head>
   <body>
@@ -35,217 +36,22 @@
       </div>
 
       <div class="landing-logo">
-        <img
-          src="./assets/images/Green_logo693.png"
-          alt=""
-          width="65%"
-          height="auto"
-        />
+        <img src="../Makeathon_logo.png" alt="" width="80%" height="auto" />
       </div>
-
-      <div class="countdown">
-        <div
-          class="totalbar"
-          style="visibility: hidden; width: 0px; height: 0px"
-        >
-          <div class="fill"></div>
-        </div>
-        <div class="countdownblock days">
-          <svg class="pie days" viewPort="0 0 100 100">
-            <circle
-              class="bg"
-              r="70"
-              cx="100"
-              cy="100"
-              fill="transparent"
-              stroke-dasharray="565.48"
-              stroke-dashoffset="0"
-              stroke-linecap="round"
-            ></circle>
-            <circle
-              class="bar"
-              r="70"
-              cx="100"
-              cy="100"
-              fill="transparent"
-              stroke-dasharray="565.48"
-              stroke-dashoffset="0"
-              stroke-linecap="round"
-            ></circle>
-            <g>
-              <text
-                id="random-text-days"
-                x="60%"
-                y="34%"
-                style="writing-mode: tb"
-                class="nav-font text-white num"
-                fill="white"
-              ></text>
-            </g>
-            <g>
-              <text
-                x="33%"
-                y="38%"
-                style="writing-mode: tb"
-                class="nav-font text-white uni"
-                fill="white"
-              >
-                Days
-              </text>
-            </g>
-          </svg>
-          <!-- <p class="box-cont"><span class="number nav-font text-white"></span> <span class="unit nav-font text-white">days</span></p> -->
-        </div>
-        <div class="countdownblock hours">
-          <svg class="pie hours" viewPort="0 0 100 100">
-            <circle
-              class="bg"
-              r="70"
-              cx="100"
-              cy="100"
-              fill="transparent"
-              stroke-dasharray="565.48"
-              stroke-dashoffset="0"
-              stroke-linecap="round"
-            ></circle>
-            <circle
-              class="bar"
-              r="70"
-              cx="100"
-              cy="100"
-              fill="transparent"
-              stroke-dasharray="565.48"
-              stroke-dashoffset="0"
-              stroke-linecap="round"
-            ></circle>
-            <g>
-              <text
-                id="random-text-hours"
-                x="60%"
-                y="31%"
-                style="writing-mode: tb"
-                class="nav-font text-white num"
-                fill="white"
-              ></text>
-            </g>
-            <g>
-              <text
-                x="33%"
-                y="36%"
-                style="writing-mode: tb"
-                class="nav-font text-white uni"
-                fill="white"
-              >
-                Hours
-              </text>
-            </g>
-          </svg>
-          <!-- <p class="box-cont"><span class="number nav-font text-white"></span> <span class="unit nav-font text-white">hours</span></p> -->
-        </div>
-        <div class="countdownblock minutes">
-          <svg class="pie minutes" viewPort="0 0 100 100">
-            <circle
-              class="bg"
-              r="70"
-              cx="100"
-              cy="100"
-              fill="transparent"
-              stroke-dasharray="565.48"
-              stroke-dashoffset="0"
-              stroke-linecap="round"
-            ></circle>
-            <circle
-              class="bar"
-              r="70"
-              cx="100"
-              cy="100"
-              fill="transparent"
-              stroke-dasharray="565.48"
-              stroke-dashoffset="0"
-              stroke-linecap="round"
-            ></circle>
-            <g>
-              <text
-                id="random-text-minutes"
-                x="60%"
-                y="35%"
-                style="writing-mode: tb"
-                class="nav-font text-white num"
-                fill="white"
-              ></text>
-            </g>
-            <g>
-              <text
-                x="33%"
-                y="41%"
-                style="writing-mode: tb"
-                class="nav-font text-white uni"
-                fill="white"
-              >
-                Min
-              </text>
-            </g>
-          </svg>
-          <!-- <p class="box-cont"><span class="number nav-font text-white"></span> <span class="unit nav-font text-white">minutes</span></p> -->
-        </div>
-        <div class="countdownblock seconds">
-          <svg class="pie seconds" viewPort="0 0 100 100">
-            <circle
-              class="bg"
-              r="70"
-              cx="100"
-              cy="100"
-              fill="transparent"
-              stroke-dasharray="565.48"
-              stroke-dashoffset="0"
-              stroke-linecap="round"
-            ></circle>
-            <circle
-              class="bar"
-              r="70"
-              cx="100"
-              cy="100"
-              fill="transparent"
-              stroke-dasharray="565.48"
-              stroke-dashoffset="0"
-              stroke-linecap="round"
-            ></circle>
-            <g>
-              <text
-                id="random-text-seconds"
-                x="59%"
-                y="32%"
-                style="writing-mode: tb"
-                class="nav-font text-white num"
-                fill="white"
-                letter-spacing="0.5"
-              ></text>
-            </g>
-            <g>
-              <text
-                x="33%"
-                y="42%"
-                style="writing-mode: tb"
-                class="nav-font text-white uni"
-                fill="white"
-              >
-                Sec
-              </text>
-            </g>
-          </svg>
-          <!-- <p class="box-cont"><span class="number nav-font text-white"></span><span class="unit nav-font text-white">seconds</span></p> -->
-        </div>
+      <!-- Countdown -->
+      <div class="Countdown">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="./assets/js/countdown.js"></script>
       </div>
-      <div id="extra-btns"></div>
-      <!-- <script src="./assets/js/main3.js"></script> -->
+      <!-- Buttons -->
+      <div id="extra-btns">
+        <a herf="#" class="button">
+          <img src="./assets/images/devfolio.png" alt="" class="btnsize"/>
+        </a>
+      </div>
       <script src="./assets/js/main.js"></script>
       <script src="./assets/js/navbar.js"></script>
       <!-- JavaScript Bundle with Popper -->
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"
-      ></script>
     </section>
   </body>
 </html>

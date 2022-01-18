@@ -11,8 +11,6 @@ html {
   padding: 0%;
   background: url("../images/bg.png") no-repeat fixed;
   background-size: cover;
-  /* background-repeat: no-repeat;
-  background-position: fixed; */
   overflow-x: hidden;
 }
 
@@ -52,9 +50,9 @@ html {
   background: rgb(2, 99, 23);
   background: linear-gradient(
     176deg,
-    rgba(2, 99, 23, 0.3) 23%,
-    rgba(8, 56, 19, 0.3) 33%,
-    rgba(0, 0, 0, 0.3) 55%
+    rgba(2, 99, 23, 0.4) 23%,
+    rgba(8, 56, 19, 1) 33%,
+    rgba(0, 0, 0, 1) 55%
   );
   overflow-x: hidden;
   transition: 0.5s;
@@ -77,7 +75,6 @@ html {
 }
 
 .sidebar p {
-  /* padding: 8px 8px 8px 40px; */
   text-decoration: none;
   font-size: 175%;
   color: #aaa9a9;
@@ -99,15 +96,12 @@ html {
   margin-left: 50px;
 }
 .landing-logo {
-  /* margin-left: 22%; */
-  /* margin-top: 0%; */
-  width: 60%;
+  width: 75%;
   margin-top:0%;
-  /* flex-wrap: nowrap; */
+  transform: translateY(-20%);
 }
 .openbtn {
   font-size: 20px;
-  /* cursor: pointer; */
   background-color: rgb(10, 10, 10);
   color: rgb(0, 255, 34);
   padding: 10px 15px;
@@ -134,9 +128,6 @@ canvas {
   display: block;
   position: relative;
   background: transparent;
-  /* margin-left: 12rem; */
-  /* margin-bottom: 50%; */ 
-  /* margin-left: 50%; */
 }
 
 
@@ -146,8 +137,6 @@ canvas {
   overflow: hidden;
   text-align: center;
   display: table-cell;
-  /* text-align: center; */
-  /* margin-left: 50%; */
 }
 
 
@@ -160,8 +149,8 @@ canvas {
   border-radius: 14px;
   width: 10%;
   height: 10%;
-  /* margin-left: 45%; */
-  margin-top: 5%;
+  margin-top: 2%;
+  /* margin-bottom: 8%; */
 }
 
 .nav-font-small{
@@ -171,44 +160,75 @@ canvas {
 .btnsize:hover {
   background-color: #313131;
 }
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
-    width: 0;
-  }
-  .sidebar a {
-    font-size: 18px;  
-  }
-  .nav-font-small{
-    font-size: 10px;
-  }
-  .sidebar p{
-    font-size: 10px;
+.flex-grid {
+  display: flex;
+}
+.col {
+  width: 50%;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
   }
 }
 
 /* MediaQueries */
-@media screen and (max-width: 600px) {
-  .sidebar a{ 
-    font-size: 80%;
-    padding: 20px 20px 2px 14px;
+@media screen and (max-width:400px){
+  .landing-logo{
+    width:90%;
   }
   .sidebar{
-    width:0;
-    }
+    width: 0px;
+    background: rgb(2, 99, 23);
+    background: linear-gradient(
+      176deg,
+      rgba(2, 99, 23,1) 23%,
+      rgba(8, 56, 19,1) 33%,
+      rgba(0, 0, 0, 1) 55%
+    );
+  }
   .btnsize {
     margin-top: 5%;
-    /* margin-left: 43%; */
-  }
-  .landing-logo {
-    margin-top: 20%;
+    
   }
   .Countdown{
     margin-top: 10%;
     margin-left: 0%;
   }
+  .btnsize{
+    width:25%;
+  }
 }
-@media screen and (min-width: 600px) and(max-width: 768px) {
+@media screen and (min-width:400px) and (max-width: 600px) {
+  .sidebar a{ 
+    font-size: 100%;
+    padding: 20px 20px 2px 14px;
+  }
+  .sidebar{
+    width: 0px;
+    background: rgb(2, 99, 23);
+    background: linear-gradient(
+      176deg,
+      rgba(2, 99, 23,0.9) 23%,
+      rgba(8, 56, 19,0.9) 33%,
+      rgba(0, 0, 0, 0.9) 55%
+    );
+  }
+  .btnsize {
+    margin-top: 5%;
+    
+  }
+  .Countdown{
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+  .btnsize{
+    width:25%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
   .sidebar a{ 
     font-size: 80%;
     padding: 20px 20px 2px 14px;
@@ -216,9 +236,9 @@ canvas {
   .sidebar{
     width:0;
     }
-  .btnsize {
+  .btnsize{
     margin-top: 5%;
-    /* margin-left: 43%; */
+    width:25%;
   }
   .landing-logo {
     margin-top: 20%;
@@ -238,13 +258,14 @@ canvas {
     width:0;
   }
   .btnsize {
-    margin-top: 5%;
-    /* margin-left: 43%; */
+    margin-top: 10%;
+    width:17%;  
   }
   .Countdown{
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 0%;
     display: table-cell;
+
   }
   canvas{
     width: 100%;
@@ -252,40 +273,32 @@ canvas {
     display: block;
     position: relative;
     background: transparent;
-    /* margin-left: 12rem; */
-    /* margin-bottom: 50%; */
     margin-left: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1392px) {
+  .btnsize{
+    width: 13%;
   }
 }
 
 @media screen and (min-width: 1392px) {
   .sidebar a{
-    font-size: 120%;
+    font-size: 140%;
+    padding: 8px 8px 18px 40px;
+
 
   }
   .sidebar{
     width:0;
   }
-  .landing-logo{
-    transform: translateY(-5em);
+  .btnsize{
+    width:13%;
   }
 }
 
 
 
-/*  Flex box grid classes layout  */
 
-.flex-grid {
-  display: flex;
-}
-.col {
-  /* margin-left: auto; */
-  width: 50%;
-}
-
-@media (max-width: 400px) {
-  .flex-grid {
-    display: block;
-  }
-}
 

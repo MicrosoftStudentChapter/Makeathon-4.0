@@ -178,7 +178,7 @@ html, body {
     .base-contain:hover{
         height: 73vh;
     }
-    .
+    
     .designation{
         font-size: 84%;
     }
@@ -209,9 +209,24 @@ html, body {
     }
     #judges-heading{
         margin-top: 50px;
-        font-size: 450%;
-        margin-left: 7vw;
+        font-size: 400%;
+        margin-left: 5vw;
     }
+}
+
+@media screen and (max-width: 400px){
+    #juddges-heading{
+        margin-left:0vw;
+        
+    }
+    #judges{
+        padding-left: 0vw;
+
+    }
+    .base-contain{
+        width:90vw;
+    }
+
 }
 
 @media screen and (max-width: 345px){
@@ -232,6 +247,9 @@ html, body {
     }
     #judges-heading{
         font-size:350%;
-        margin-left:-4vw;
+        margin-left:3vw;
+    }
+    #judges{
+        padding-left: 1vw;
     }
 }

@@ -1,27 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
 
-.flex-grid {
+.flex-container {
     display: flex;
-    margin-left:30%;
-    margin-right: 30%;
+    flex-wrap: wrap;
 }
-.col {
+.flex-item {
     flex: 1;
+    margin: 30px;
+    margin-top: 11px;
 }
-@media (max-width: 400px) {
-.flex-grid {
-    display: block;
+.flex-item-lead{
+    margin-left: 0;
 }
-} 
-/* .flex-grid-thirds {
-display: flex;
-justify-content: space-between;
+
+  
+  /* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+@media (max-width: 650px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .flex-item {
+        flex: 1;
+        margin:20px;
+        margin-left: 10px;
+    }
+    .flex-item-lead{
+        margin-left: 0;
+    }
+    .countdown {
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        user-select: none;
+    }
+    
+    .countdown .cont {
+        padding: 20px;
+        border: 3px rgb(27, 175, 8) solid;
+        border-radius: 50%;
+        background-color: #63d471;
+        background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+        background-size: 400% 400%;
+        width: 80%;
+        opacity: 0.8;
+        margin: 5px;
+    }
 }
-.flex-grid-thirds .col {
-width: 32%;
-} */
 
 .countdown {
-    font-family: "Century Gothic";
+    font-family: "Montserrat", sans-serif;
     color: #ffffff;
     font-size: 50px;
     display: flex;
@@ -29,6 +62,7 @@ width: 32%;
     align-items: center;
     text-align: center;
     user-select: none;
+    /* margin-top: 10%; */
 }
 
 .countdown .cont {
@@ -38,24 +72,14 @@ width: 32%;
     background-color: #63d471;
     background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
     background-size: 400% 400%;
+    width: 80%;
     /* background: rgb(2,99,23);
     background: linear-gradient(176deg, rgba(2,99,23,1) 23%, rgba(8,56,19,1) 33%, rgba(0,0,0,3) 55%);  */
     opacity: 0.8;
     margin: 5px;
+    /* margin-top: 1px; */
 }
 
-.countdown .cont .sec{
-    animation: Gradient 1s ease infinite;
-}
-.countdown .cont .min{
-    animation: Gradient 60s ease infinite;
-}
-.countdown .cont .hrs{
-    animation: Gradient 3600s ease infinite;
-}
-.countdown .cont .day{
-    animation: Gradient 86400s ease infinite;
-}
 
 
 .countdown span {
@@ -63,7 +87,8 @@ width: 32%;
     font-size: 25px;
 }
 
-@media (max-width: 650px) {
+
+/* @media (max-width: 650px) {
 
 .countdown {
     font-size: 30px;
@@ -75,18 +100,23 @@ width: 32%;
 }
 
 .countdown div {
-    display: block;
     width: 25%;
     padding: 10px;
 }
-}
+} */
 
 @keyframes Gradient {
     0% {
       background-position: 0% 50%;
     }
-    50% {
+    25% {
       background-position: 100% 50%;
+    }
+    50% {
+        background-position: 50% 0%;
+    }
+    75% {
+        background-position: 50% 100%;
     }
     100% {
       background-position: 0% 50%;

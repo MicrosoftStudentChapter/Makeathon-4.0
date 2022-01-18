@@ -4,12 +4,13 @@ var isOpen = false;
 function openNav() {
     
     const width = document.width;
-    if(width < 1024){
+    if(width <= 1024){
         document.getElementById("mySidebar").style.width = "100%";
         document.getElementById("main").style.marginLeft = "100%";
+    }else{
+        document.getElementById("mySidebar").style.width = "20%";
+        document.getElementById("main").style.marginLeft = "20%";
     }
-    document.getElementById("mySidebar").style.width = "20%";
-    document.getElementById("main").style.marginLeft = "20%";
 }
 
 function closeNav() {

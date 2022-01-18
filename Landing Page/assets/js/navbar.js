@@ -3,7 +3,7 @@ var isOpen = false;
 
 function openNav() {
     
-    const width = document.width;
+    const width = screen.width;
     if(width <= 1024){
         document.getElementById("mySidebar").style.width = "100%";
         document.getElementById("main").style.marginLeft = "100%";

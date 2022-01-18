@@ -1,6 +1,544 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27');
-@import url('https://fonts.cdnfonts.com/css/mechanismo-2%27');
 
+@font-face {
+	font-family: 'Mechanismo-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Mechanismo-Regular'),
+		url('https://fonts.cdnfonts.com/s/51075/MechanismoRegular-p7ywa.woff')
+			format('woff');
+}
 
+.img2 {
+	display: none;
+}
+body {
+	background-color: #071a04;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bg {
+	max-width: 100%;
+	height: auto;
+}
 
+.heading {
+	color: white;
+	position: absolute;
+	right: 10%;
+	font-family: 'Mechanismo';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Mechanismo'), url('Mechanismo-Regular.ttf');
+}
 
+.about {
+	position: absolute;
+	width: 419px;
+	height: 124px;
+	right: 600px;
+	top: -90px;
+	text-align: center;
+
+	font-family: Mechanismo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 103px;
+	line-height: 124px;
+
+	letter-spacing: 0.05em;
+
+	color: #d0d0d0;
+}
+.make {
+	position: absolute;
+	width: 752px;
+	height: 124px;
+	right: 10px;
+	top: 20px;
+
+	font-family: Mechanismo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 103px;
+	line-height: 124px;
+
+	letter-spacing: 0.05em;
+
+	color: #d0d0d0;
+}
+
+.content {
+	color: white;
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	left: 700px;
+	top: 270px;
+	padding: 20px;
+	background: linear-gradient(
+		134.37deg,
+		rgba(255, 255, 255, 0.3) 25.27%,
+		rgba(255, 255, 255, 0.15) 101.47%
+	);
+	box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(20px);
+
+	border-radius: 26px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 40px;
+
+	display: flex;
+	align-items: center;
+	src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUQjIg1_i6t8kCHKm459WxRxC7m0dR9pBOi.woff2)
+		format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+		U+FE2E-FE2F;
+}
+
+.img1 {
+	position: absolute;
+	width: 360px;
+	height: 491.4px;
+	left: 121px;
+	top: 234px;
+}
+
+@media screen and (max-width: 1335px) {
+	.img2 {
+		display: none;
+	}
+
+	.img1 {
+		position: absolute;
+		width: 320px;
+		height: 437px;
+		left: 121px;
+		top: 234px;
+	}
+
+	.about {
+		width: 419px;
+		height: 124px;
+		right: 600px;
+		top: -70px;
+		font-size: 80px;
+	}
+	.make {
+		width: 752px;
+		height: 124px;
+		right: 10px;
+		top: 20px;
+		font-size: 80px;
+	}
+
+	.content {
+		width: 600px;
+
+		left: 500px;
+		top: 270px;
+
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 1198px) {
+	.img2 {
+		display: none;
+	}
+
+	.content {
+		width: 500px;
+
+		left: 500px;
+		top: 270px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1176px) {
+	.img1 {
+		position: absolute;
+		width: 320px;
+		height: 437px;
+		left: 121px;
+		top: 270px;
+	}
+
+	.about {
+		position: absolute;
+		width: 419px;
+		height: 124px;
+		right: 500px;
+		top: -70px;
+
+		font-size: 80px;
+	}
+	.make {
+		width: 752px;
+		height: 124px;
+		right: -50px;
+		top: 20px;
+		font-size: 80px;
+	}
+
+	.content {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 1134px) {
+	.about {
+		position: absolute;
+		width: 419px;
+		height: 124px;
+		right: 500px;
+		top: -70px;
+
+		font-size: 80px;
+	}
+	.make {
+		width: 752px;
+		height: 124px;
+		right: 20px;
+		top: 20px;
+		font-size: 80px;
+	}
+}
+
+@media screen and (max-width: 1048px) {
+	.content {
+		width: 450px;
+		height: 400px;
+		left: 470px;
+
+		top: 270px;
+
+		font-size: 19px;
+	}
+
+	.about {
+		width: 419px;
+		height: 124px;
+		right: 450px;
+		top: -70px;
+
+		font-size: 75px;
+	}
+	.make {
+		width: 752px;
+		height: 124px;
+		right: -70px;
+		font-size: 75px;
+	}
+}
+
+@media screen and (max-width: 968px) {
+	.img1 {
+		position: absolute;
+		width: 300px;
+		height: 410px;
+		left: 121px;
+		top: 280px;
+	}
+
+	.about {
+		position: absolute;
+		width: 419px;
+		height: 124px;
+		right: 250px;
+		top: -70px;
+
+		font-family: Mechanismo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 75px;
+		line-height: 124px;
+
+		letter-spacing: 0.05em;
+
+		color: #d0d0d0;
+	}
+	.make {
+		position: absolute;
+		width: 752px;
+		height: 124px;
+		right: -340px;
+		top: 20px;
+
+		font-family: Mechanismo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 75px;
+		line-height: 124px;
+
+		letter-spacing: 0.05em;
+
+		color: #d0d0d0;
+	}
+
+	.content {
+		color: white;
+		position: absolute;
+		width: 500px;
+		height: 400px;
+		left: 550px;
+
+		top: 270px;
+		padding: 20px;
+		background: linear-gradient(
+			134.37deg,
+			rgba(255, 255, 255, 0.3) 25.27%,
+			rgba(255, 255, 255, 0.15) 101.47%
+		);
+		box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+		backdrop-filter: blur(20px);
+
+		border-radius: 26px;
+	}
+
+	.content {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 22px;
+		line-height: 40px;
+
+		display: flex;
+		align-items: center;
+		src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUQjIg1_i6t8kCHKm459WxRxC7m0dR9pBOi.woff2)
+			format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+			U+FE2E-FE2F;
+	}
+}
+
+@media screen and (max-width: 845px) {
+	.content {
+		color: white;
+		position: absolute;
+		width: 500px;
+		height: 400px;
+		left: 440px;
+		font-size: 22px;
+		top: 270px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.img1 {
+		position: absolute;
+		width: 280px;
+		height: 382px;
+		left: 100px;
+		top: 300px;
+	}
+
+	.about {
+		position: absolute;
+		width: 419px;
+		height: 124px;
+		right: 120px;
+		top: -70px;
+
+		font-family: Mechanismo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 75px;
+		line-height: 124px;
+
+		letter-spacing: 0.05em;
+
+		color: #d0d0d0;
+	}
+	.make {
+		position: absolute;
+		width: 752px;
+		height: 124px;
+		right: -500px;
+		top: 20px;
+
+		font-family: Mechanismo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 75px;
+		line-height: 124px;
+
+		letter-spacing: 0.05em;
+
+		color: #d0d0d0;
+	}
+
+	.content {
+		color: white;
+		position: absolute;
+		width: 500px;
+		height: 400px;
+		left: 450px;
+
+		top: 270px;
+		padding: 20px;
+		background: linear-gradient(
+			134.37deg,
+			rgba(255, 255, 255, 0.3) 25.27%,
+			rgba(255, 255, 255, 0.15) 101.47%
+		);
+		box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+		backdrop-filter: blur(20px);
+
+		border-radius: 26px;
+	}
+
+	.content {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 22px;
+
+		display: flex;
+		align-items: center;
+		src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUQjIg1_i6t8kCHKm459WxRxC7m0dR9pBOi.woff2)
+			format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+			U+FE2E-FE2F;
+	}
+}
+
+@media screen and (max-width: 558px) {
+	.about {
+		position: absolute;
+		width: 419px;
+		height: 124px;
+		right: -60px;
+		top: -70px;
+
+		font-family: Mechanismo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 75px;
+		line-height: 124px;
+
+		letter-spacing: 0.05em;
+
+		color: #d0d0d0;
+	}
+	.make {
+		position: absolute;
+		width: 752px;
+		height: 124px;
+		right: -700px;
+		top: 20px;
+
+		font-family: Mechanismo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 75px;
+		line-height: 124px;
+
+		letter-spacing: 0.05em;
+
+		color: #d0d0d0;
+	}
+
+	.content {
+		top: 300px;
+		left: 500px;
+	}
+
+	.img1 {
+		left: 140px;
+		top: 340px;
+	}
+}
+@media screen and (max-width: 451px) {
+	.content {
+		top: 300px;
+		left: 450px;
+	}
+
+	.img1 {
+		left: 100px;
+		top: 340px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.about {
+		right: -350px;
+	}
+	.make {
+		right: -620px;
+	}
+
+	img {
+		display: none;
+	}
+
+	.content {
+		left: 200px;
+		width: 600px;
+		height: 500px;
+		font-size: 30px;
+		text-align: left;
+	}
+
+	.img2 {
+		display: inline;
+
+		position: absolute;
+		top: 950px;
+		width: 546px;
+		height: 157px;
+		left: 250px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.content {
+		left: 150px;
+		width: 600px;
+		height: 500px;
+		font-size: 30px;
+	}
+
+	.img2 {
+		display: inline;
+
+		position: absolute;
+		top: 950px;
+		width: 546px;
+		height: 157px;
+		left: 200px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.about {
+		right: -400px;
+	}
+	.make {
+		right: -660px;
+	}
+
+	.content {
+		left: 150px;
+		width: 600px;
+		height: 500px;
+		font-size: 30px;
+	}
+
+	.img2 {
+		display: inline;
+
+		position: absolute;
+		top: 1000px;
+		width: 546px;
+		height: 157px;
+		left: 200px;
+	}
+}

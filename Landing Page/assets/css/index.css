@@ -21,6 +21,7 @@ html {
 
 .nav-font {
   font-family: "Montserrat", sans-serif;
+  user-select: none;
 }
 .text-white {
   color: #ffffff;

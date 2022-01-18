@@ -101,11 +101,13 @@ html {
 .landing-logo {
   /* margin-left: 22%; */
   /* margin-top: 0%; */
-  flex-wrap: nowrap;
+  width: 60%;
+  margin-top:0%;
+  /* flex-wrap: nowrap; */
 }
 .openbtn {
   font-size: 20px;
-  cursor: pointer;
+  /* cursor: pointer; */
   background-color: rgb(10, 10, 10);
   color: rgb(0, 255, 34);
   padding: 10px 15px;

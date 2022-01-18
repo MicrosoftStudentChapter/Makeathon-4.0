@@ -1,0 +1,94 @@
+
+.flex-grid {
+    display: flex;
+    margin-left:30%;
+    margin-right: 30%;
+}
+.col {
+    flex: 1;
+}
+@media (max-width: 400px) {
+.flex-grid {
+    display: block;
+}
+} 
+/* .flex-grid-thirds {
+display: flex;
+justify-content: space-between;
+}
+.flex-grid-thirds .col {
+width: 32%;
+} */
+
+.countdown {
+    font-family: "Century Gothic";
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+}
+
+.countdown .cont {
+    padding: 20px;
+    border: 3px rgb(27, 175, 8) solid;
+    border-radius: 50%;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    background-size: 400% 400%;
+    /* background: rgb(2,99,23);
+    background: linear-gradient(176deg, rgba(2,99,23,1) 23%, rgba(8,56,19,1) 33%, rgba(0,0,0,3) 55%);  */
+    opacity: 0.8;
+    margin: 5px;
+}
+
+.countdown .cont .sec{
+    animation: Gradient 1s ease infinite;
+}
+.countdown .cont .min{
+    animation: Gradient 60s ease infinite;
+}
+.countdown .cont .hrs{
+    animation: Gradient 3600s ease infinite;
+}
+.countdown .cont .day{
+    animation: Gradient 86400s ease infinite;
+}
+
+
+.countdown span {
+    display: block;
+    font-size: 25px;
+}
+
+@media (max-width: 650px) {
+
+.countdown {
+    font-size: 30px;
+    flex-direction: column;
+}
+
+.flex-grid{
+    display: flex;
+}
+
+.countdown div {
+    display: block;
+    width: 25%;
+    padding: 10px;
+}
+}
+
+@keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}

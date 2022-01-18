@@ -9,10 +9,10 @@ body,
 html {
   margin: 0%;
   padding: 0%;
-  background-image: url("../images/bg.png");
+  background: url("../images/bg.png") no-repeat fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: fixed;
+  /* background-repeat: no-repeat;
+  background-position: fixed; */
   overflow-x: hidden;
 }
 
@@ -99,8 +99,8 @@ html {
   margin-left: 50px;
 }
 .landing-logo {
-  margin-left: 22%;
-  margin-top: 0%;
+  /* margin-left: 22%; */
+  /* margin-top: 0%; */
   flex-wrap: nowrap;
 }
 .openbtn {
@@ -134,26 +134,7 @@ canvas {
   background: transparent;
   /* margin-left: 12rem; */
   /* margin-bottom: 50%; */ 
-  margin-left: 50%;
-}
-
-@media screen and (max-width: 769px){
-  canvas {
-    display: block;
-    position: relative;
-    background: transparent;
-    margin-left: 23%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px){
-  canvas {
-    display: block;
-    position: relative;
-    background: transparent;
-    margin-top: 10%;
-    margin-left: 23%;
-  }
+  /* margin-left: 50%; */
 }
 
 
@@ -164,7 +145,7 @@ canvas {
   text-align: center;
   display: table-cell;
   /* text-align: center; */
-  margin-left: 50%;
+  /* margin-left: 50%; */
 }
 
 
@@ -177,7 +158,7 @@ canvas {
   border-radius: 14px;
   width: 10%;
   height: 10%;
-  margin-left: 45%;
+  /* margin-left: 45%; */
   margin-top: 5%;
 }
 
@@ -214,8 +195,8 @@ canvas {
     width:0;
     }
   .btnsize {
-    margin-top: 10%;
-    margin-left: 43%;
+    margin-top: 5%;
+    /* margin-left: 43%; */
   }
   .landing-logo {
     margin-top: 20%;
@@ -234,8 +215,8 @@ canvas {
     width:0;
     }
   .btnsize {
-    margin-top: 10%;
-    margin-left: 43%;
+    margin-top: 5%;
+    /* margin-left: 43%; */
   }
   .landing-logo {
     margin-top: 20%;
@@ -255,13 +236,23 @@ canvas {
     width:0;
   }
   .btnsize {
-    margin-top: 30%;
-    margin-left: 43%;
+    margin-top: 5%;
+    /* margin-left: 43%; */
   }
   .Countdown{
     margin-top: 10%;
     margin-left: 0%;
     display: table-cell;
+  }
+  canvas{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    background: transparent;
+    /* margin-left: 12rem; */
+    /* margin-bottom: 50%; */
+    margin-left: 50%;
   }
 }
 
@@ -286,7 +277,7 @@ canvas {
   display: flex;
 }
 .col {
-  margin-left: auto;
+  /* margin-left: auto; */
   width: 50%;
 }
 

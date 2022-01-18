@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/index2.css">
     <!-- CSS only -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -29,24 +30,27 @@
       <div id="main">
         <button class="openbtn" onclick="openNav()">☰</button>
       </div>
-
-      <div class="landing-logo">
-        <img src="../Makeathon_logo.png" alt="" width="80%" height="auto" />
-      </div>
       <!-- Countdown -->
-      <div>
+      <center>
         <!-- <div class="col"></div> -->
-        <div class="Countdown col" id="ctd"></div>
+        <!-- <div class="Countdown col" id="ctd"></div> -->
+        <div class="landing-logo">
+          <img src="../Makeathon_logo.png" alt="" width="60%" height="auto" />
+        </div>
+        <div class="countdown flex-grid"></div>
+        <div id="extra-btns">
+          <a href="#" target="_blank">
+            <img src="./assets/images/devfolio.png" alt="" class="btnsize"/>
+          </a>
+        </div>
         <!-- <div class="col"></div>         -->
-      </div>
-      <div id="extra-btns">
-        <a href="#" target="_blank">
-          <img src="./assets/images/devfolio.png" alt="" class="btnsize"/>
-        </a>
-      </div>
+      </center>
+      
       <!-- <script src="./assets/js/main.js"></script> -->
-      <script src="./assets/js/countdown.js"></script>
+      <!-- <script src="./assets/js/countdown.js"></script> -->
+      <script src="assets/js/myctdown.js"></script>
       <script src="./assets/js/navbar.js"></script>
+      <!-- <script src="assets/js/colchange.js"></script> -->
       <!-- JavaScript Bundle with Popper -->
     </section>
   </body>

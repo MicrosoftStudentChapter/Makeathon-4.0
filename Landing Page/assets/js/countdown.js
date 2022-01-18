@@ -6,35 +6,40 @@ var ringer = {
       s: 86400000, // mseconds in a day,
       max: 40,
     },
-    HOURS: {
-      s: 3600000, // mseconds per hour,
-      max: 24,
-    },
-    MINUTES: {
-      s: 60000, // mseconds per minute
-      max: 60,
-    },
-    SECONDS: {
-      s: 1000,
-      max: 60,
-    },
+    // HOURS: {
+    //   s: 3600000, // mseconds per hour,
+    //   max: 24,
+    // },
+    // MINUTES: {
+    //   s: 60000, // mseconds per minute
+    //   max: 60,
+    // },
+    // SECONDS: {
+    //   s: 1000,
+    //   max: 60,
+    // },
     // 'MICROSEC': {
     //   s: 10,
     //   max: 100
     // }
   },
-  r_count: 5,  // 5
-  r_spacing: 10, //10 px
+  r_count: 1,  // Number of circles being drawn
+  r_spacing:10, //10 px
   r_size: 100, //100 px
   r_thickness: 4, // 4px
   update_interval: 11, //11 ms
 
   init: function () {
-    var width = screen.width;
-    console.log(width)
     $r = ringer;
     var cvs = document.createElement("canvas");
     $r.cvs = cvs
+
+    var mQ = window.matchMedia("max-width: 1025px")
+    if(mQ.matches){
+      $r.r_size = 5
+      $r.r_thickness = 2
+    }
+
     // var body = document.getElementsByTagName("body")
     // body.appendChild(cvs)
     $r.size = {
@@ -74,16 +79,13 @@ var ringer = {
     value = parseFloat($r.time / ring_secs);
     $r.time -= Math.round(parseInt(value)) * ring_secs;
     value = Math.abs(value);
-    const width = screen.width;
-    // if(width <= 1024){
-    //   $r.ctx.clearRect(
-    //     $r.actual_size * -0.5,
-    //     $r.actual_size * -0.5,
-    //     $r.actual_size,
-    //     $r.actual_size
-    //   );
+    
+    // var mQ = window.matchMedia("(max-width: 1024px)")
+    // if(mQ.matches){
     //   $r.r_size = 50;
     //   $r.r_thickness = 2;
+
+    //   console.log("Hello from 1024")
     // }
 
     x = $r.r_size * 0.5 + $r.r_thickness * 0.5;
@@ -91,19 +93,23 @@ var ringer = {
     y = $r.r_size * 0.5;
     y += $r.r_thickness * 0.5;
 
+    console.log("x: " + x + "\ny: " + y)
+
     // calculate arc end angle
     var degrees = 360 - (value / ring.max) * 360.0;
     var endAngle = degrees * (Math.PI / 180);
-    // $r.actual_size = $r.r_size + $r.r_thickness;
+    $r.actual_size = $r.r_size + $r.r_thickness;
     $r.ctx.save();
 
     $r.ctx.translate(x, y);
     $r.ctx.clearRect(
+      // 0,0,$r.size.w,$r.size.h 
       $r.actual_size * -0.5,
       $r.actual_size * -0.5,
       $r.actual_size,
       $r.actual_size
     );    
+    
     // first circle
     $r.ctx.strokeStyle = "rgba(128,128,128,0.2)";
     $r.ctx.beginPath();
@@ -121,14 +127,15 @@ var ringer = {
     // label
     $r.ctx.fillStyle = "#ffffff";
 
-    $r.ctx.font = "12px Helvetica";
-    $r.ctx.fillText(label, 0, 23);
-    $r.ctx.fillText(label, 0, 23);
+    $r.ctx.font = "bold 12px Helvetica";
+    //$r.ctx.fillText(label, 0, 23);
+    $r.ctx.fillText(label, 0, 23); // unit 
 
-    $r.ctx.font = "bold 40px Helvetica";
-    $r.ctx.fillText(Math.floor(value), 0, 10);
+    $r.ctx.font = "bold 40px Helvetica";  // Numer font stuff goes here
+    $r.ctx.fillText(Math.floor(value), 0, 10);  // Time number
 
     $r.ctx.restore();
+    //$r.init();
   },
 };
 

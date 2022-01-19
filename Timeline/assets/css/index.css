@@ -209,7 +209,7 @@ p {
   }
   .button {
     height: 60px;
-    width: 50vh;
+    width: 35vh;
     font-size: 30px;
   }
   .timeline-1::after {

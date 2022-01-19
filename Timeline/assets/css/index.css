@@ -68,7 +68,8 @@ button:hover {
   background-color: #585656;
 }
 button.click {
-  box-shadow: 10px 0px 20px 8px #d0d0d0;
+  background-color: #535151;
+  box-shadow: 8px 0px 20px 5px #d0d0d0;
 }
 
 .timeline-1 {

@@ -200,6 +200,10 @@ canvas {
   .btnsize{
     width:25%;
   }
+  .sidebar a{ 
+    font-size: 100%;
+    padding: 20px 20px 2px 14px;
+  }
 }
 @media screen and (min-width:400px) and (max-width: 600px) {
   .sidebar a{ 

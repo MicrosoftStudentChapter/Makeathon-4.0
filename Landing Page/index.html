@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/index2.css" />
+    <!-- CSS only -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <section id="landing-page">
+      <!-- nav bar  -->
+      <div id="mySidebar" class="sidebar">
+        <p class="closebtn nav-font-small" onclick="closeNav()">x</p>
+        <a href="#" class="nav-font">About Us</a>
+        <a href="#" class="nav-font">About Make4thon</a>
+        <a href="#" class="nav-font">Sponsers</a>
+        <a href="#" class="nav-font">Prizes</a>
+        <a href="#" class="nav-font">Schedule</a>
+        <a href="#" class="nav-font">Tracks</a>
+        <a href="#" class="nav-font">Speakers</a>
+        <a href="#" class="nav-font">Judges</a>
+        <a href="#" class="nav-font">Contact Us</a>
+      </div>
+
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <br />
+      </div>
+      <!-- Countdown -->
+      <center>
+        <img
+          src="../Makeathon_logo.png"
+          alt=""
+          width="60%"
+          height="auto"
+          class="landing-logo"
+        />
+        <div class="countdown"></div>
+        <!-- devfolio button -->
+        <div id="extra-btns">
+          <a href="#" target="_blank">
+            <img src="./assets/images/devfolio.png" alt="" class="btnsize" />
+          </a>
+        </div>
+      </center>
+      <script src="assets/js/myctdown.js"></script>
+      <script src="assets/js/colchange.js"></script>
+      <script src="./assets/js/navbar.js"></script>
+    </section>
+  </body>
 </html>

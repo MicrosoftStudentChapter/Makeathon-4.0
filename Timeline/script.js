@@ -18,15 +18,15 @@ function timelineChange() {
       break;
     case "button-2":
       button2.classList.add("click");
-      box1.style.display = "flex";
-      box2.style.display = "none";
+      box1.style.display = "none";
+      box2.style.display = "flex";
       box3.style.display = "none";
       break;
     case "button-3":
       button3.addClass("click");
-      box1.style.display = "flex";
+      box1.style.display = "none";
       box2.style.display = "none";
-      box3.style.display = "none";
+      box3.style.display = "flex";
       break;
     case "none":
       box1.style.display = "flex";

@@ -2,36 +2,40 @@ const button = document.querySelector("button");
 const button1 = document.querySelector(".button-1");
 const button2 = document.querySelector(".button-2");
 const button3 = document.querySelector(".button-3");
-const box1 = document.querySelector(".box-1");
-const box2 = document.querySelector(".box-2");
-const box3 = document.querySelector(".box-3");
+const timeline1 = document.querySelector(".timeline-1");
+const timeline2 = document.querySelector(".timeline-2");
+const timeline3 = document.querySelector(".timeline-3");
 const outer = document.querySelector(".outer");
 
-function timelineChange() {
-  console.log(button.class);
-  switch (button.class) {
-    case "button-1":
-      setAttribute("button-1", "button.click");
-      box1.style.display = "flex";
-      box2.style.display = "none";
-      box3.style.display = "none";
+function timelineChange(e) {
+  console.log(e);
+  switch (e) {
+    case "button-1": {
+      button1.classList.add("click");
+      timeline1.style.display = "block";
+      timeline2.style.display = "none";
+      timeline3.style.display = "none";
       break;
-    case "button-2":
+    }
+    case "button-2": {
       button2.classList.add("click");
-      box1.style.display = "none";
-      box2.style.display = "flex";
-      box3.style.display = "none";
+      timeline1.style.display = "none";
+      timeline2.style.display = "block";
+      timeline3.style.display = "none";
       break;
-    case "button-3":
-      button3.addClass("click");
-      box1.style.display = "none";
-      box2.style.display = "none";
-      box3.style.display = "flex";
+    }
+    case "button-3": {
+      button3.classList.add("click");
+      timeline1.style.display = "none";
+      timeline2.style.display = "none";
+      timeline3.style.display = "block";
       break;
-    case "none":
-      box1.style.display = "flex";
-      box2.style.display = "none";
-      box3.style.display = "none";
+    }
+    case "none": {
+      timeline1.style.display = "block";
+      timeline2.style.display = "none";
+      timeline3.style.display = "none";
       break;
+    }
   }
 }

@@ -286,6 +286,10 @@ canvas {
   .btnsize{
     width: 13%;
   }
+  .sidebar a {
+    padding: 20px 4px 4px 10px;
+    font-size: 130%;
+  }
 }
 
 @media screen and (min-width: 1392px) {

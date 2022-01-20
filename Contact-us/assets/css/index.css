@@ -325,7 +325,7 @@ a.links:visited {
 }
 
 a.links:hover {
-  color: red;
+  color: rgb(240, 236, 17);
 }
 
 a.linksb:link {

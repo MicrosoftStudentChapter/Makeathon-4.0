@@ -2,6 +2,9 @@
 @import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
+html{
+  
+}
 #body {
   position: relative;
   overflow-x: hidden;
@@ -18,7 +21,7 @@
   width: 30vw;
   height: 30vw;
   left: 15%;
-  top: 23%;
+  top: 29%;
   border: 2px solid #ffffff;
   box-sizing: border-box;
 }
@@ -40,6 +43,7 @@
   left: 50.764vw;
   top: 3.472vw;
   margin-top: 2vh;
+  margin-bottom: 2vh;
   font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: 600;
@@ -61,7 +65,7 @@
   top: 6.806vw;
   right: 23.99vw;
   bottom: 48.333vw;
-  margin-top: 1.736vw;
+  margin-top: 5.736vw;
   background: rgba(211, 211, 211, 0.25);
   border-radius: 1.632vw;
 }
@@ -74,7 +78,7 @@
   font-family: IBM Plex Mono;
   font-style: normal;
   font-weight: 530;
-  font-size: 2.292vw;
+  font-size: 2.2vw;
   line-height: 2.986vw;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -86,8 +90,8 @@
 
 #contacticons {
   top: 41.667vw;
-  margin-top: 12.5vw;
-  margin-left: 55.556vw;
+  margin-top: 17.5vw;
+  margin-left: 48.556vw;
   width: 34.722vw;
 }
 
@@ -321,7 +325,7 @@ a.links:visited {
 }
 
 a.links:hover {
-  color: red;
+  color: rgb(240, 236, 17);
 }
 
 a.linksb:link {
@@ -359,9 +363,9 @@ a.linksb:hover {
 
 .line1 {
   position: absolute;
-  width: 35.556vw;
+  width: 38.556vw;
   height: 0.132vw;
-  left: 64.444vw;
+  left: 61.444vw;
   top: 2.5vw;
   background: rgba(255, 255, 255, 0.8);
 }
@@ -376,6 +380,10 @@ a.linksb:hover {
 #footer {
   display: flex;
   flex-direction: row;
+  position : fixed;
+  bottom: 15px;
+  padding: 20px;
+  justify-content: space-between;
 }
 
 #a {
@@ -460,10 +468,10 @@ a.linksb:hover {
 
 #k {
   width: 11.389vw;
-  height: 1.968vw;
-  margin-top: 11.5%;
-  margin-right: 19.236vw;
-  margin-left: 2.917vw;
+    height: 1.968vw;
+    margin-top: 11.5%;
+    margin-right: 10.236vw;
+    margin-left: 2.917vw;
 }
 
 #logo {
@@ -471,14 +479,17 @@ a.linksb:hover {
   margin-left: -0.139vw;
   height: 5.556vw;
   width: 13.889vw;
+  margin-right: -0.139vw;
 }
 
 @media (max-width: 424px) {
-  
   #heading {
-    margin-left: 16vw;
+    margin-left: 22vw;
+    white-space:nowrap;
     font-size: 9.246vw;
     margin-top: -5vh;
+    display: block;
+    height: 1.5em;
   }
   #body {
     position: absolute;
@@ -499,6 +510,8 @@ a.linksb:hover {
   }
   #container {
     margin-top: 9.3vw;
+    margin-bottom : 0px;
+    
   }
   #heading1 {
     margin-top: 9vh;
@@ -523,7 +536,7 @@ a.linksb:hover {
   #box {
     width: 46vw;
     height: 46vw;
-    left: 26%;
+    left: 50%;
     top: 25%;
   }
   #contacticons {
@@ -542,16 +555,16 @@ a.linksb:hover {
     margin-left: 80%;
     margin-right: 0%;
   }
-  #logo{
-    margin-left:-3.139vw!important;
-    margin-top: 15vw!important;
+  #logo {
+    margin-left: -3.139vw !important;
+    margin-top: 15vw !important;
   }
- .foot{
-   margin-top: 16vw!important;
- }
- #k{
-   margin-top: 17.5vw!important;
- }
+  .foot {
+    margin-top: 16vw !important;
+  }
+  #k {
+    margin-top: 17.5vw !important;
+  }
   #mail11 {
     width: 10.186vw;
     height: 9.599vw;
@@ -599,115 +612,137 @@ a.linksb:hover {
     height: 16.558vw !important;
   }
 }
-@media(max-width:820px) and (min-width: 671px){
-  #container{
-    margin-top:15vh;
+@media (max-width: 820px) and (min-width: 671px) {
+  #container {
+    margin-top: 15vh;
   }
-  #heading{
-    margin-top:-10vh;
+  #heading {
+    margin-top: -10vh;
   }
-  .line{
-    margin-top: -6vh;
+  .line {
+    margin-top: -8vh;
   }
-  .line1{
-    margin-top: -6vh;
-    left: 64.444vw;
+  .line1 {
+    margin-top: -8vh;
+    left: 61.444vw;
   }
+}
+@media (min-width: 425px) and (max-width: 475px) {
+  #heading {
+    margin-top: -12vw !important;
+  }
+  #container {
+    margin-top: 10vw !important;
+  }
+  .foot {
+    margin-top: 38vw !important;
+  }
+  #k {
+    margin-top: 39.5vw !important;
+  }
+  #logo {
+    margin-top: 36vw !important;
+  }
+  .line1 {
+    margin-top: -7vw !important;
+  }
+  .line {
+    margin-top: -7vw !important;
+  }
+  #box{
+    top : 21%;
+  }
+}
+
+@media (min-width: 585px) and (max-width: 600px) {
+  #heading {
+    margin-top: -14vw !important;
+  }
+  #container {
+    margin-top: 15vw !important;
+  }
+  .foot {
+    margin-top: 24vw !important;
+  }
+  #k {
+    margin-top: 25.5vw !important;
+  }
+  #logo {
+    margin-top: 23vw !important;
+  }
+  .line {
+    margin-top: -11vw !important;
+  }
+  .line1 {
+    margin-top: -11vw !important;
+  }
+  #box{
+    top : 21%;
+  }
+}
+
+@media (max-width: 584px) and (min-width: 475px) {
+  #heading {
+    margin-top: -12vw !important ;
+  }
+  #container {
+    margin-top: 15vw !important;
+  }
+  .foot {
+    margin-top: 36vw !important;
+  }
+  #k {
+    margin-top: 37.5vw !important;
+  }
+  #logo {
+    margin-top: 34vw !important;
+  }
+  .line {
+    margin-top: -8vw !important;
+  }
+  .line1 {
+    margin-top: -8vw !important;
+  }
+  #box{
+    top : 21%;
+  }
+}
+
+@media (max-width: 670px) and (min-width: 600px) {
+  #heading {
+    margin-top: -12vw !important;
+  }
+  #container {
+    margin-top: 15vw !important;
+  }
+  .foot {
+    margin-top: 25vw !important;
+  }
+  #k {
+    margin-top: 26.7vw !important;
+  }
+  #logo {
+    margin-top: 22.7vw !important;
+  }
+  .line {
+    margin-top: -8vw !important;
+  }
+  .line1 {
+    margin-top: -8vw !important;
+  }
+  #box{
+    top : 21%;
+  }
+}
+@media (min-width : 1000px){
+  #footer{
+    position: static;
+  }
+}
+@media (min-width : 890px){
   
-}
-@media (min-width:425px) and (max-width:475px){
-  #heading{
-    margin-top: -12vw!important;
-  }
-  #container{
-    margin-top: 10vw!important;
-  }
-  .foot{
-    margin-top: 38vw!important;
-  }
-  #k{
-    margin-top: 39.5vw!important;
-  }
-  #logo{
-    margin-top: 36vw!important;
-  }
-  .line1{
-    margin-top: -7vw!important;
-  }
-  .line{
-    margin-top: -7vw!important;
-  }
-}
+  #heading1{
+    margin-top: 8vh;
 
-@media (min-width:585px) and (max-width:600px){
-  #heading{
-    margin-top:-14vw!important;
   }
-    #container{
-    margin-top: 15vw!important;
-    }
-    .foot{
-      margin-top: 24vw!important;
-    }
-    #k{
-      margin-top: 25.5vw!important;
-    }
-    #logo{
-      margin-top: 23vw!important;
-    }
-    .line{
-      margin-top: -11vw!important;
-    }
-    .line1{
-      margin-top: -11vw!important;
-    }
-}
-
-
-@media (max-width:584px) and (min-width:475px){
-  #heading{
-    margin-top:-12vw!important ;
-  }
-  #container{
-    margin-top: 15vw!important;
-  }
-  .foot{
-    margin-top: 36vw!important;
-  }
-  #k{
-    margin-top: 37.5vw!important;
-  }
-  #logo{
-    margin-top: 34vw!important;
-  }
-  .line{
-    margin-top: -8vw!important;
-  }
-  .line1{
-    margin-top: -8vw!important;
-  }
- }
-
-@media (max-width:670px) and (min-width:600px){
-    #heading{
-      margin-top: -12vw!important;
-    }
-    #container{
-    margin-top: 15vw!important;
-    }
-    .foot{
-      margin-top: 25vw!important;
-    }
-    #k{
-      margin-top: 26.7vw!important;
-    }
-    #logo{
-      margin-top: 22.7vw!important;
-    }
-    .line{
-      margin-top: -8vw!important;
-    }
-    .line1{
-      margin-top: -8vw!important;
-    }
 }

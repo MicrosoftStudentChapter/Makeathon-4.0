@@ -12,6 +12,8 @@ function timelineChange(e) {
   switch (e) {
     case "button-1": {
       button1.classList.add("click");
+      button2.classList.remove("click");
+      button3.classList.remove("click");
       timeline1.style.display = "block";
       timeline2.style.display = "none";
       timeline3.style.display = "none";
@@ -19,6 +21,8 @@ function timelineChange(e) {
     }
     case "button-2": {
       button2.classList.add("click");
+      button1.classList.remove("click");
+      button3.classList.remove("click");
       timeline1.style.display = "none";
       timeline2.style.display = "block";
       timeline3.style.display = "none";
@@ -26,12 +30,17 @@ function timelineChange(e) {
     }
     case "button-3": {
       button3.classList.add("click");
+      button2.classList.remove("click");
+      button1.classList.remove("click");
       timeline1.style.display = "none";
       timeline2.style.display = "none";
       timeline3.style.display = "block";
       break;
     }
     case "none": {
+      button1.classList.add("click");
+      button2.classList.remove("click");
+      button3.classList.remove("click");
       timeline1.style.display = "block";
       timeline2.style.display = "none";
       timeline3.style.display = "none";

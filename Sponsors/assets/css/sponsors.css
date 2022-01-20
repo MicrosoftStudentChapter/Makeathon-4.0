@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27');
+@import url('https://fonts.cdnfonts.com/css/mechanismo-2%27');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("../images/bg.png");
+    /* background: url("https://media.discordapp.net/attachments/929767474197581834/933663349697302558/Background.png?width=401&height=571"); */
+    background-color: rgb(7, 32, 7);
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+
+.line {
+    margin-left: 12px;
+    margin-top: 70px;
+    margin-right: 115px;
+    width: 42%;
+    height: 0px;
+}
+
+.line hr {
+    background-color: #C9A002;
+    border: 2px #C9A002 solid;
+}
+
+.heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 79px;
+    color: #C9A002;
+    margin-left: 92px;
+    margin-top: 86px;
+}
+
+.sponsors-image-box img {
+    height: 50px;
+    
+    /* max-width: 450px; */
+}   
+
+.sponsorsbox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.container {
+    background: linear-gradient(191.99deg, rgba(208, 208, 208, 0.34) 9.19%, rgba(255, 255, 255, 0) 91.68%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 26px;
+    margin: 50px 100px;
+    padding: 70px 100px;
+}

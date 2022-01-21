@@ -38,8 +38,7 @@
 - Html
 - CSS
 - JavaScript
-- jQuery
-- Bootstrap
+
 
 
 ## LICENSE

@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2");
+
+body {
+  width: 100vw;
+  background: url("../Images/about_us_bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+.heading{
+  display:flex;
+  width:100%;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-evenly;
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+.about_title {
+  color: #d0d0d0;
+  font-family: 'Mechanismo',sans-serif;
+  font-size: 5rem;
+  font-weight: 100;
+  text-align: center;
+  padding-left: 1.5rem;
+  margin:0;
+  width: 70%;
+}
+
+.mlsc_logo{
+  width: 13.5rem;
+  text-align: center;
+}
+
+.about_text{
+  margin: 1rem;
+  padding:1rem;
+  text-align: justify;
+  font-family: 'Montserrat',sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.25rem;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.betterbox{
+  width: 55%;
+  height: fit-content;
+  background: linear-gradient(134.37deg, rgba(255, 255, 255, 0.3) 25.27%, rgba(255, 255, 255, 0.15) 101.47%);
+  box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 26px;
+  margin-top: 1rem;
+}
+
+.d{
+  display: block;
+  width:40%;
+  background-color: transparent;
+}
+.e{
+  display: none;
+  flex-direction: row;
+  margin-top:10px;
+  justify-content:space-around;
+}
+.hexagon{
+  width:25%;
+  transition:all 0.5s;
+  position: relative;
+  margin-top: 1.5rem;
+}
+.hexagon img{
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.hexagon img:hover{
+  transform: rotateY(180deg);
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 2px;
+  height: 2px;
+  display:block;
+}
+
+.flip-box-inner {
+  position: absolute;
+  width: 195px;
+  height: 225px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  top: 306px;
+  left: calc(50% - 225px/2 + 541.5px);
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 195px;
+  height: 225px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  color: black;
+}
+
+.flip-box-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Monteserrat', sans-serif;
+  font-weight: 400;
+  transform: translate(-50%, -50%);
+}
+
+.flip-box-inner-1 {
+  position: absolute;
+  width: 195px;
+  height: 225px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  left: calc(50% - 225px/2 + 429.5px);
+  top: 489px;
+}
+
+.flip-box:hover .flip-box-inner-1 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-inner-2 {
+  position: absolute;
+  width: 195px;
+  height: 225px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  left: calc(50% - 225px/2 + 541.5px);
+  top: 676px;
+}
+
+.flip-box:hover .flip-box-inner-2 {
+  transform: rotateY(180deg);
+}
+
+h2{
+  font-family: 'Montserrat',sans-serif !important;
+}
+
+
+
+/* Media Query */
+
+
+
+@media only screen and (max-width:576px){
+  .about_title{
+    font-size: 2rem;
+    width:60%;
+  }
+  .mlsc_logo{
+    width: 5rem;
+  }
+  .main{
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .betterbox{
+    width: 85%;
+  }
+  .d{
+    width: 85%;
+    height:50%;
+  }
+  .about_text{
+    font-size: 1rem;
+  }
+  .d,.flip-box{
+    display: none;
+  }
+  .e{
+    display: flex;
+  }
+}
+
+@media only screen and (max-width:1350px){
+  .main{
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .d,.flip-box{
+    display: none;
+  }
+  .e{
+    display: flex;
+  }
+  .betterbox{
+    width:85%;
+  }
+  .hexagon{
+    width:30%;
+  }
+}

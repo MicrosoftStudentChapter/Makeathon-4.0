@@ -3,7 +3,7 @@
 
 body {
   width: 100vw;
-  background: url("about_us_bg.png");
+  background: url("../Images/about_us_bg.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -92,18 +92,6 @@ body {
 
 .hexagon img:hover{
   transform: rotateY(180deg);
-}
-
-.card-txt{
-  display:none;
-  position: absolute;
-  text-align: center;
-  top: 10%;
-  left: 10%;
-  z-index: 1;
-  font-family: 'Montserrat';
-  color: greenyellow;
-  font-size: 1.5rem;
 }
 
 .flip-box {

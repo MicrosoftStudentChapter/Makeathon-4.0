@@ -3,7 +3,7 @@
 
 #about-us {
   width: 100vw;
-  background: url("../Images/about_us_bg.png") no-repeat fixed;
+  background: url("../Images/about_us_bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
   z-index: -1;

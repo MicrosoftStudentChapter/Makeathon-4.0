@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27');
+
+@font-face {
+	font-family: 'Mechanismo-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Mechanismo-Regular'),
+		url('https://fonts.cdnfonts.com/s/51075/MechanismoRegular-p7ywa.woff')
+			format('woff');
+}
+#about-makeathon {
+	width: 100vw;
+	height: 100vh;
+	background: url("../Images/loki_2p.png") no-repeat;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+	overflow-x: hidden;
+}
+.heading1{
+
+	margin: 0;
+	margin-top: 1.5rem;
+	color: #d0d0d0;
+	font-family: 'Mechanismo',sans-serif;
+	font-size: 5rem;
+	font-weight: 100;
+  }
+  

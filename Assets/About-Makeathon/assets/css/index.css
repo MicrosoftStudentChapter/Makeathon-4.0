@@ -9,6 +9,7 @@
 			format('woff');
 }
 #about-makeathon {
+	padding-top: 5%;
 	width: 100vw;
 	height: 100vh;
 	background: url("../Images/loki_2p.png") no-repeat;
@@ -20,10 +21,115 @@
 .heading1{
 
 	margin: 0;
-	margin-top: 1.5rem;
+	margin-top: 3rem;
 	color: #d0d0d0;
 	font-family: 'Mechanismo',sans-serif;
 	font-size: 5rem;
 	font-weight: 100;
+	padding-bottom: 5%;
   }
-  
+.large-screens{
+	display: flex;
+	flex-direction: row;
+}
+.img1{
+	height: 70vh;
+	width: 30vw;
+	margin-left: 10%;
+}
+.img2{
+	display: none;
+}
+.betterbox{
+	width: 80%;
+	height: fit-content;
+	background: linear-gradient(134.37deg, rgba(255, 255, 255, 0.3) 25.27%, rgba(255, 255, 255, 0.15) 101.47%);
+	box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(20px);
+	border-radius: 26px;
+	margin-top: 1rem;
+	margin-left: 5%;
+	margin-right: 2%;
+  }
+  .about_makeathon_text{
+		margin: 1rem;
+		padding:1rem;
+		text-align: justify;
+		font-family: 'Montserrat',sans-serif !important;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 1.75rem;
+		text-align: justify;
+		color: #FFFFFF;
+	  
+  }
+  @media only screen and (max-width: 490px){
+    .heading1{
+		font-size: 300%;
+	}
+  }
+  @media only screen and (max-width: 2500px){
+    .about_makeathon_text{
+		font-size: 3rem;
+	}
+  }
+  @media only screen and (max-width: 2200px){
+    .about_makeathon_text{
+		font-size: 2.75rem;
+	}
+  }
+  @media only screen and (max-width: 2046px){
+    .about_makeathon_text{
+		font-size: 2.5rem;
+	}
+  }
+  @media only screen and (max-width: 1586px){
+    .about_makeathon_text{
+		font-size: 2.3rem;
+	}
+	.img1{
+		height: 70vh;
+		width: 35vw;
+	}
+  }
+  @media only screen and (max-width: 1490px){
+    .about_makeathon_text{
+		font-size: 2.1rem;
+	}
+  }
+  @media only screen and (max-width: 1290px){
+    .about_makeathon_text{
+		font-size: 1.7rem;
+	}
+	.img1{
+		height: 55vh;
+		width: 35vw;
+	}
+  }
+  @media only screen and (max-width: 1050px){
+    .about_makeathon_text{
+		font-size: 1.5rem;
+	}
+	.img1{
+		height: 55vh;
+		width: 35vw;
+	}
+  }
+  @media only screen and (max-width: 970px){
+	  .large-screens{
+		  display: flex;
+		  flex-direction: column;
+	  }
+	  .img1{
+		  display: none;
+	  }
+	  .img2{
+		  display: inline;
+		  width: 70vw;
+		  margin-top: 5%;
+	  }
+	  .betterbox{
+		  margin-left: 10% !important;
+		  margin-right: 15% !important;
+	  }
+  }

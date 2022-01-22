@@ -132,4 +132,25 @@
 		  margin-left: 10% !important;
 		  margin-right: 15% !important;
 	  }
+	  .about_makeathon_text{
+		font-size: 1.3rem;
+	}
   }
+  @media only screen and (max-width: 550px){
+
+	.about_makeathon_text{
+	  font-size: 1.1rem;
+  }
+}
+  @media only screen and (max-width: 430px){
+
+	.about_makeathon_text{
+	  font-size: 0.9rem;
+  }
+}
+  @media only screen and (max-width: 330px){
+
+	.about_makeathon_text{
+	  font-size: 0.7rem;
+  }
+}

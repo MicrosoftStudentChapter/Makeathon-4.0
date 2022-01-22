@@ -3,7 +3,7 @@
 
 #about-us {
   width: 100vw;
-  background: url("../Images/about_us_bg.png") no-repeat fixed;
+  background: url("../Images/about_us_bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
   z-index: -1;
@@ -43,7 +43,7 @@
   font-family: 'Montserrat',sans-serif !important;
   font-style: normal;
   font-weight: 600;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   text-align: justify;
   color: #FFFFFF;
 }
@@ -55,7 +55,7 @@
 }
 
 .betterbox{
-  width: 70%;
+  width: 80%;
   height: fit-content;
   background: linear-gradient(134.37deg, rgba(255, 255, 255, 0.3) 25.27%, rgba(255, 255, 255, 0.15) 101.47%);
   box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);

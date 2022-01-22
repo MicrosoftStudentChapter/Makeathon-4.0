@@ -4,16 +4,6 @@
     src: url('../Mechanismo-Regular.ttf');
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 #speakers{
 	padding-top: 5%;
 	width: 100vw;

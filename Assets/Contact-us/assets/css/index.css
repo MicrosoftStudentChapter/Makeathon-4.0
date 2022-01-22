@@ -1,0 +1,748 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+html{
+  
+}
+#body {
+  position: relative;
+  overflow-x: hidden;
+  background-image: url("..//images/image.png");
+  background-repeat: no-repeat;
+  background-color: hsl(0, 0%, 0%);
+  background-size: 100vw 100vh;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+#box {
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  left: 15%;
+  top: 29%;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+#heading {
+  position: absolute;
+  margin-left: 30vw;
+  margin-top: -2vw;
+  text-align: center;
+  font-family: Mechanismo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5vw;
+
+  color: rgb(196, 196, 196);
+}
+
+#heading1 {
+  position: absolute;
+  left: 50.764vw;
+  top: 3.472vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.431vw;
+  /* line-height: 53px; */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgb(242, 242, 242);
+  text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px,
+    rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px,
+    rgb(0 0 0 / 4%) 0px 0px 0.782468px;
+}
+
+#glassbox {
+  position: absolute;
+  width: 25.694vw;
+  height: 3.472vw;
+  left: 49.722vw;
+  top: 6.806vw;
+  right: 23.99vw;
+  bottom: 48.333vw;
+  margin-top: 5.736vw;
+  background: rgba(211, 211, 211, 0.25);
+  border-radius: 1.632vw;
+}
+
+#heading2 {
+  position: absolute;
+  left: 2.014vw;
+  top: -1.391vw;
+  width: 34, 722vw;
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: 530;
+  font-size: 2.2vw;
+  line-height: 2.986vw;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 0px 18.7792px rgba(245, 97, 13, 0.3),
+    0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3),
+    0px 0px 0.782468px rgba(0, 0, 0, 0.04);
+}
+
+#contacticons {
+  top: 41.667vw;
+  margin-top: 17.5vw;
+  margin-left: 48.556vw;
+  width: 34.722vw;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+#mail {
+  height: 6.389vw;
+  width: 6.398vw;
+  display: flex;
+  flex-direction: row;
+  margin-top: 7.083vw;
+  margin-left: 2.778vw;
+}
+
+#fb {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.083vw;
+
+  width: 4.845vw;
+  height: 4.531vw;
+}
+
+#twitter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.083vw;
+  width: 4.694vw;
+  height: 3.837vw;
+}
+
+#website {
+  margin-top: 4.653vw;
+  margin-left: 2.778vw;
+  height: 6.319vw;
+  width: 6.319vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#insta1 {
+  width: 4.697vw;
+  height: 4.558vw;
+}
+
+#mail11 {
+  width: 6.086vw;
+  height: 5.599vw;
+}
+
+#website1 {
+  width: 6.086vw;
+  height: 5.599vw;
+}
+
+#linkedin1 {
+  width: 4.697vw;
+  height: 4.558vw;
+}
+
+#discord1 {
+  width: 12.697vw !important;
+  height: 7.558vw !important;
+}
+
+#fb1 {
+  width: 4.697vw;
+  height: 4.558vw;
+}
+
+#twitter1 {
+  width: 4.697vw;
+  height: 4.558vw;
+}
+
+#insta {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.083vw;
+}
+
+#linkedin {
+  margin-top: 2.083vw;
+  width: 4.318vw;
+  height: 3.983vw;
+  top: 40.298vw;
+  bottom: 26.875vw;
+  right: 44.556vw;
+  left: 51.126vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#discord {
+  margin-top: 2.083vw;
+  width: 4.415vw;
+  height: 4.717vw;
+  top: 46.95vw;
+  left: 50.969vw;
+  right: 44.616vw;
+  bottom: 19.443vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#link_mail {
+  width: 18.306vw;
+  height: 3.611vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.736vw;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-top: 1.875vw;
+  margin-left: 3.194vw;
+}
+
+#link_fb {
+  height: 2.54vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.736vw;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  width: 19.05vw;
+  margin-left: 1.181vw;
+  margin-top: 1.25vw;
+}
+
+#link_twitter {
+  position: absolute;
+  width: 19.05vw;
+  height: 2.724vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.736vw;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-top: 0.694vw;
+  margin-left: 6.111vw;
+}
+
+#link_website {
+  position: absolute;
+  width: 14.375vw;
+  height: 3.75vw;
+  right: 3.208vw;
+  bottom: 6.333vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.736vw;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+}
+
+#link_insta {
+  position: absolute;
+  width: 17.701vw;
+  height: 2.36vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.736vw;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-left: 5.556vw;
+  margin-top: 0.972vw;
+}
+
+#link_linkedin {
+  position: absolute;
+  width: 36.736vw;
+  height: 2.36vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.736vw;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-top: 1.093vw;
+  margin-left: 5.694vw;
+}
+
+#link_discord {
+  position: absolute;
+  width: 29.514vw;
+  height: 2.361vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.736vw;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  margin-top: 1.597vw;
+  margin-left: 6.042vw;
+}
+
+a.links1:link {
+  color: #c4c4c4;
+}
+
+a.links1 {
+  color: #c4c4c4;
+}
+
+a.links:link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.528vw;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 0.5;
+}
+
+a.links:visited {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.528vw;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 0.5;
+}
+
+a.links:hover {
+  color: rgb(240, 236, 17);
+}
+
+a.linksb:link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.528vw;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 0.5;
+}
+
+a.linksb:visited {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.528vw;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 0.5;
+}
+
+a.linksb:hover {
+  color: red;
+}
+
+.line {
+  position: absolute;
+  width: 34.722vw;
+  height: 0.132vw;
+  left: -4.931vw;
+  top: 2.5vw;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.line1 {
+  position: absolute;
+  width: 38.556vw;
+  height: 0.132vw;
+  left: 61.444vw;
+  top: 2.5vw;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#discord1 {
+  position: absolute;
+
+  margin-left: -3.958vw;
+  margin-top: -0.833vw;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  position : fixed;
+  bottom: 15px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+#a {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: -0.833vw;
+  margin-left: -1.042vw;
+}
+
+#b {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: -2.778vw;
+  margin-left: 0.347vw;
+}
+
+#c {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: 0px;
+  margin-left: -0.069vw;
+}
+
+#d {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: -3.333vw;
+  margin-left: -7.041vw;
+}
+
+#e {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: 0.347vw;
+  margin-left: 0vw;
+}
+
+#f {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: -0.208vw;
+  margin-left: -1.111vw;
+}
+
+#g {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: -2.917vw;
+  margin-left: 0vw;
+}
+
+#h {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: 1.944vw;
+  margin-left: -0.139vw;
+}
+
+#i {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: 0.347vw;
+  margin-left: -9.028vw;
+}
+
+#j {
+  width: 8.194vw;
+  height: 5.024vw;
+  margin-top: 10%;
+  margin-right: 0.347vw;
+  margin-left: -4.306vw;
+}
+
+#k {
+  width: 11.389vw;
+    height: 1.968vw;
+    margin-top: 11.5%;
+    margin-right: 10.236vw;
+    margin-left: 2.917vw;
+}
+
+#logo {
+  margin-top: 8%;
+  margin-left: -0.139vw;
+  height: 5.556vw;
+  width: 13.889vw;
+  margin-right: -0.139vw;
+}
+
+@media (max-width: 424px) {
+  #heading {
+    margin-left: 22vw;
+    white-space:nowrap;
+    font-size: 9.246vw;
+    margin-top: -5vh;
+    display: block;
+    height: 1.5em;
+  }
+  #body {
+    position: absolute;
+    overflow-x: hidden;
+    background: url("../images/12.png");
+    background-color: black;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+  .line {
+    display: none;
+  }
+
+  .line1 {
+    display: none;
+  }
+  #container {
+    margin-top: 9.3vw;
+    margin-bottom : 0px;
+    
+  }
+  #heading1 {
+    margin-top: 9vh;
+    font-size: 3.431vw;
+    display: none;
+  }
+
+  #glassbox {
+    margin-top: 20.736vw;
+    margin-bottom: 10%;
+    display: none;
+  }
+
+  #heading2 {
+    font-size: 2.292vw;
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+  #box {
+    width: 46vw;
+    height: 46vw;
+    left: 50%;
+    top: 25%;
+  }
+  #contacticons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16vw;
+    margin-top: 108vw;
+  }
+  .icons {
+    margin-left: 10% !important;
+  }
+  #discord1 {
+    margin-right: 10% !important ;
+  }
+  #twitter1 {
+    margin-left: 80%;
+    margin-right: 0%;
+  }
+  #logo {
+    margin-left: -3.139vw !important;
+    margin-top: 15vw !important;
+  }
+  .foot {
+    margin-top: 16vw !important;
+  }
+  #k {
+    margin-top: 17.5vw !important;
+  }
+  #mail11 {
+    width: 10.186vw;
+    height: 9.599vw;
+    margin-top: 2vh;
+  }
+  #website1 {
+    width: 9.186vw;
+    height: 9.2vw;
+    margin-top: 7vw;
+    margin-left: 0.5vh;
+  }
+  #link_mail {
+    margin-top: 6.875vw;
+    font-size: 3vw;
+  }
+  #link_website {
+    right: 14.208vw;
+    bottom: 13.333vw;
+    font-size: 3vw;
+  }
+  #insta1 {
+    width: 9.697vw;
+    height: 9.558vw;
+  }
+  #twitter1 {
+    width: 9.697vw;
+    height: 9.558vw;
+    margin-left: 18vw;
+  }
+  #linkedin1 {
+    width: 9.697vw;
+    height: 9.558vw;
+    margin-left: 4vw;
+  }
+  #fb1 {
+    width: 9.697vw;
+    height: 9.558vw;
+  }
+  #discord1 {
+    width: 21.697vw !important;
+    height: 13.558vw !important;
+    margin-left: 2vw;
+    margin-top: -2.833vw;
+    width: 24.697vw !important;
+    height: 16.558vw !important;
+  }
+}
+@media (max-width: 820px) and (min-width: 671px) {
+  #container {
+    margin-top: 15vh;
+  }
+  #heading {
+    margin-top: -10vh;
+  }
+  .line {
+    margin-top: -8vh;
+  }
+  .line1 {
+    margin-top: -8vh;
+    left: 61.444vw;
+  }
+}
+@media (min-width: 425px) and (max-width: 475px) {
+  #heading {
+    margin-top: -12vw !important;
+  }
+  #container {
+    margin-top: 10vw !important;
+  }
+  .foot {
+    margin-top: 38vw !important;
+  }
+  #k {
+    margin-top: 39.5vw !important;
+  }
+  #logo {
+    margin-top: 36vw !important;
+  }
+  .line1 {
+    margin-top: -7vw !important;
+  }
+  .line {
+    margin-top: -7vw !important;
+  }
+  #box{
+    top : 21%;
+  }
+}
+
+@media (min-width: 585px) and (max-width: 600px) {
+  #heading {
+    margin-top: -14vw !important;
+  }
+  #container {
+    margin-top: 15vw !important;
+  }
+  .foot {
+    margin-top: 24vw !important;
+  }
+  #k {
+    margin-top: 25.5vw !important;
+  }
+  #logo {
+    margin-top: 23vw !important;
+  }
+  .line {
+    margin-top: -11vw !important;
+  }
+  .line1 {
+    margin-top: -11vw !important;
+  }
+  #box{
+    top : 21%;
+  }
+}
+
+@media (max-width: 584px) and (min-width: 475px) {
+  #heading {
+    margin-top: -12vw !important ;
+  }
+  #container {
+    margin-top: 15vw !important;
+  }
+  .foot {
+    margin-top: 36vw !important;
+  }
+  #k {
+    margin-top: 37.5vw !important;
+  }
+  #logo {
+    margin-top: 34vw !important;
+  }
+  .line {
+    margin-top: -8vw !important;
+  }
+  .line1 {
+    margin-top: -8vw !important;
+  }
+  #box{
+    top : 21%;
+  }
+}
+
+@media (max-width: 670px) and (min-width: 600px) {
+  #heading {
+    margin-top: -12vw !important;
+  }
+  #container {
+    margin-top: 15vw !important;
+  }
+  .foot {
+    margin-top: 25vw !important;
+  }
+  #k {
+    margin-top: 26.7vw !important;
+  }
+  #logo {
+    margin-top: 22.7vw !important;
+  }
+  .line {
+    margin-top: -8vw !important;
+  }
+  .line1 {
+    margin-top: -8vw !important;
+  }
+  #box{
+    top : 21%;
+  }
+}
+@media (min-width : 1000px){
+  #footer{
+    position: static;
+  }
+}
+@media (min-width : 890px){
+  
+  #heading1{
+    margin-top: 8vh;
+
+  }
+}

@@ -16,7 +16,7 @@
     height: 100%;
     background-image: url('./bg.png');
   } */
-  html > p, body > p {
+  /* html > p, body > p {
     font-size: 0.95em;
     font-weight: bold;
     position: absolute;
@@ -30,7 +30,7 @@
   }
 html> .carousel,body>.carousel {
     padding-top: 125px;
-  }
+  } */
   
 .heading {
     font-family: "Mechanismo",sans-serif;

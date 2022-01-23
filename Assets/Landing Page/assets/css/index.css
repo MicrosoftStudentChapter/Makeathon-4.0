@@ -15,7 +15,7 @@
 
 #landing-page {
   width: 100vw;
-  height: 100vh;
+  height: 118vh;
 }
 
 .nav-font {
@@ -146,7 +146,29 @@ canvas {
   width: 10%;
   height: 10%;
   margin-top: 2%;
-  /* margin-bottom: 8%; */
+}
+
+.badge-btn{
+  background-color: #f1f1f181;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 360px;
+  font-family: cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-shadow: 0 0 7px #8eff24, 0 0 7px #0f0f0f;
+
+}
+
+.anchor-rem{
+  text-decoration: none;
+  color: white;
+}
+.badge-btn:hover{
+  background-color: #00000098;
 }
 
 .nav-font-small {
@@ -198,6 +220,9 @@ canvas {
     font-size: 100%;
     padding: 20px 20px 2px 14px;
   }
+  .badge-btn{
+    font-size:60% ;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .sidebar a {
@@ -224,6 +249,13 @@ canvas {
   .btnsize {
     width: 25%;
   }
+  .badge-btn{
+    font-size:60% ;
+  }
+  #landing-page {
+    width: 100vw;
+    height: 126vh;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -239,7 +271,7 @@ canvas {
     width: 25%;
   }
   .landing-logo {
-    margin-top: 20%;
+    margin-top: 8%;
   }
   .Countdown {
     margin-top: 10%;
@@ -256,11 +288,10 @@ canvas {
     width: 0;
   }
   .btnsize {
-    margin-top: 10%;
+    margin-top: 0%;
     width: 17%;
   }
   .Countdown {
-    margin-top: 15%;
     margin-left: 0%;
     display: table-cell;
   }
@@ -276,6 +307,7 @@ canvas {
 
 @media screen and (min-width: 1024px) and (max-width: 1392px) {
   .btnsize {
+    margin-top: 1%;
     width: 13%;
   }
   .sidebar a {
@@ -295,4 +327,8 @@ canvas {
   .btnsize {
     width: 13%;
   }
+  /* #landing-page {
+    width: 100vw;
+    height: 127vh;
+  } */
 }

@@ -35,10 +35,10 @@ const intvl = setInterval(() => {
     countdown.innerHTML = `
     <div class="flex-conatiner">
       <div class="flex-item flex-item-lead" onmousemove="moveGradient()">
-        <div class="cont day" id="day">${days}<span>Days</span></div> 
+        <div class="cont" id="day">${days}<span>Days</span></div> 
       </div>
       <div class="flex-item" onmousemove="moveGradient()">
-        <div class="cont hrs" id="hrs">${hours}<span>Hrs</span></div>
+        <div class="cont" id="hrs">${hours}<span>Hrs</span></div>
       </div>
     </div>
     <br>

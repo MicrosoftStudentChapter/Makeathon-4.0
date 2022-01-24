@@ -9,13 +9,14 @@
   padding: 0;
 }
 #landing-page {
-  background: url("../images/bg.png") no-repeat fixed;
-  background-size: cover;
-}
-
-#landing-page {
   width: 100vw;
-  height: 118vh;
+  background: url("../images/bg.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  overflow-x: hidden;
+  padding-bottom: 10%;
+  height: auto;
 }
 
 .nav-font {

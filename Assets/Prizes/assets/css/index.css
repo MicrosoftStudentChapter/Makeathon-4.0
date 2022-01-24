@@ -5,32 +5,27 @@
   font-family: "Mechanismo";
   src: url("../font/Mechanismo.otf") format("opentype");
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  color: rgb(255, 255, 255);
-}
-
-/* body {
+#prizes-page{
+  width: 100vw;
   background: url("../images/background.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-} */
+  background-position: center;
+  z-index: -1;
+  overflow-x: hidden;
+  padding-bottom: 10%;
+  height: auto;
+}
 
 #heading {
   width: 100%;
   margin: auto;
   overflow: hidden;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin-top: 1%;
-  margin-bottom: 2%;
-}
 
+}
 .line-left,
 .line-right {
   width: 100%;
@@ -100,12 +95,8 @@
   mix-blend-mode: normal;
   backdrop-filter: blur(40px);
   background-color: rgba(19, 75, 19, 0.356);
-
-  padding: 50px;
-
+  padding: 20px;
   height: auto;
-  min-height: 100% !important;
-
   font-style: normal;
   font-weight: normal;
 

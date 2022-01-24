@@ -5,18 +5,15 @@
   src: url("../fonts/Mechanismo-Regular.ttf");
 }
 
-/* HexCode for BG: #061a05 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.Page-contain {
-  background-color: #061a05;
-  min-height: 120vh;
-  height: 120%;
-  width: 100%;
-  padding-bottom: 0.1%;
+#faq {
+  width: 100vw;
+  background: url("../images/bg_1_2.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  overflow-x: hidden;
+  padding-bottom: 10%;
+  height: auto;
 }
 
 H1 {
@@ -105,7 +102,7 @@ ________________________________________*/
   font-family: "Montserrat", sans-serif;
   font-size: 100%;
   color: aliceblue;
-  background: rgba(3, 49, 9, 1);
+  background: rgba(192, 192, 192, 0.3);
   height: 0;
   margin-bottom: 3vh;
   padding: 0 2.5%;

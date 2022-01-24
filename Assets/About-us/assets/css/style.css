@@ -8,6 +8,8 @@
   background-position: center;
   z-index: -1;
   overflow-x: hidden;
+  padding-bottom: 10%;
+  height: auto;
 }
 
 .heading {

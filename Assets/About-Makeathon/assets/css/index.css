@@ -10,11 +10,13 @@
 }
 #about-makeathon {
 	width: 100vw;
-	background: url("../Images/about-us.png");
+	background: url("../Images/abt_us.png");
 	background-size: cover;
 	background-position: center;
 	z-index: -1;
 	overflow-x: hidden;
+  padding-bottom: 10%;
+  height: auto;
 }
 .heading1 {
   margin: 0;

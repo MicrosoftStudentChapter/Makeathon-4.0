@@ -5,12 +5,13 @@
 }
 
 #speakers{
-	padding-top: 5%;
-	width: 100vw;
-	height: 125vh;
-	background-color: #061a05;
-	z-index: -1;
-	padding-bottom: 20%;
+    width: 100vw;
+    background: url("../images/3.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    overflow-x: hidden;
+    padding-bottom: 10%;
 }
 
 #speakers-heading{

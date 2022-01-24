@@ -276,7 +276,8 @@ canvas {
   }
   #landing-page {
     width: 100vw;
-    height: 126vh;
+    height: 90vh;
+    overflow-x: hidden;
   }
 }
 

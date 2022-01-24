@@ -5,104 +5,115 @@
 } */
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .flex-item {
-    flex: 1;
-    margin: 30px;
-    margin-top: 11px;
+  flex: 1;
+  margin: 30px;
+  margin-top: 11px;
 }
-.flex-item-lead{
-    margin-left: 0;
+.flex-item-lead {
+  margin-left: 0;
 }
 
 .countdown {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  user-select: none;
+  margin-top: -6%;
+}
+
+.countdown .cont {
+  padding: 20px;
+  border: 3px rgb(27, 175, 8) solid;
+  border-radius: 50%;
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  background-size: 400% 400%;
+  width: 9rem;
+  height: 9rem;
+  opacity: 0.8;
+  margin: 5px;
+}
+
+@media (max-width: 1388px) {
+  .countdown {
+    font-size: 35px;
+  }
+  .countdown .cont {
+    width: 7.5rem;
+    height: 7.5rem;
+    opacity: 0.8;
+    margin: 5px;
+  }
+  .countdown span {
+    display: block;
+    font-size: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-item {
+    flex: 1;
+    margin: 20px;
+    margin-left: 10px;
+  }
+  .flex-item-lead {
+    margin-left: 10px;
+  }
+  .countdown {
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     user-select: none;
-    margin-top: -6%;
-}
-
-.countdown .cont {
+  }
+  .countdown .cont {
     padding: 20px;
     border: 3px rgb(27, 175, 8) solid;
     border-radius: 50%;
     background-color: #63d471;
     background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
     background-size: 400% 400%;
-    width: 9rem;
-    height: 9rem;
+    width: 6rem;
+    height: 6rem;
     opacity: 0.8;
     margin: 5px;
+  }
 }
-
-
-
-@media (max-width: 768px) {
-    .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .flex-item {
-        flex: 1;
-        margin:20px;
-        margin-left: 10px;
-    }
-    .flex-item-lead{
-        margin-left: 10px;
-    }
-    .countdown {
-        font-family: "Montserrat", sans-serif;
-        color: #ffffff;
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        user-select: none;
-    }
-    .countdown .cont {
-        padding: 20px;
-        border: 3px rgb(27, 175, 8) solid;
-        border-radius: 50%;
-        background-color: #63d471;
-        background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
-        background-size: 400% 400%;
-        width: 7.5rem;
-        height: 7.5rem;
-        opacity: 0.8;
-        margin: 5px;
-    }
-}
-
-
 
 .countdown span {
-    display: block;
-    font-size: 25px;
+  display: block;
+  font-size: 20px;
 }
 
-
 @keyframes Gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    25% {
-      background-position: 100% 50%;
-    }
-    50% {
-        background-position: 50% 0%;
-    }
-    75% {
-        background-position: 50% 100%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 50% 0%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

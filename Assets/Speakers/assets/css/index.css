@@ -98,7 +98,7 @@
     .base-contain{
         width:25vw;
     }
-    .base-contain:hover{
+    .base-contain:active{
         height: 70vh;
     }
 }
@@ -111,7 +111,7 @@
     .base-contain{
         width:27.5vw;
     }
-    .base-contain:hover{
+    .base-contain:active{
         height: 69vh;
     }
 }
@@ -136,7 +136,7 @@
     .base-contain{
         min-width: 30.5vw;
     }
-    .base-contain:hover{
+    .base-contain:active{
         height: 73vh;
     }
     .designation{
@@ -158,7 +158,7 @@
         min-width: 80vw;
         margin-bottom: 5vh;
     }
-    .base-contain:hover{
+    .base-contain:active{
         height: 69vh;
     }
     #speakers{
@@ -182,7 +182,7 @@
     .base-contain{
         height: 45vh;
     }
-    .base-contain:hover{
+    .base-contain:active{
         height: 75vh;
     }
 }

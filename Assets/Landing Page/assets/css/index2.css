@@ -10,7 +10,7 @@
 }
 .flex-item {
   flex: 1;
-  margin: 30px;
+  margin: 10px;
   margin-top: 11px;
 }
 .flex-item-lead {
@@ -65,7 +65,7 @@
   }
   .flex-item {
     flex: 1;
-    margin: 20px;
+    margin: 7px;
     margin-left: 10px;
   }
   .flex-item-lead {
@@ -74,7 +74,7 @@
   .countdown {
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

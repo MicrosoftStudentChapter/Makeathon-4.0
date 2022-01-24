@@ -20,6 +20,7 @@
   z-index: -1;
   overflow-x: hidden;
   background-color: black;
+  padding-bottom: 10%;
 }
 
 h1 {
@@ -215,11 +216,12 @@ h1 {
 }
 .para {
   color: white;
+  text-align: justify;
   font-family: "Montserrat";
   margin: 0;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 940px) {
   .timeline-heading {
     font-size: 4rem;
     padding-top: 20px;
@@ -263,7 +265,7 @@ h1 {
     left: 0%;
   }
 }
-@media (max-width: 416px) {
+@media (max-width: 508px) {
   .timeline-heading {
     font-size: 3rem;
   }

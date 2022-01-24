@@ -42,7 +42,7 @@
   background-color: #e2e0d4;
 }
 
-#heading h1 {
+.prizes {
   font-family: Mechanismo;
   font-weight: normal;
   font-style: normal;
@@ -59,21 +59,14 @@
   width: 100%;
   margin: auto;
   overflow: hidden;
-
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+.prize{
   display: flex;
   justify-content: center;
 }
-
-.prize {
-  margin-left: 4.5%;
-  margin-right: 4.5%;
-}
-
-.prize img {
-  max-height: 100%;
-  max-width: 100%;
-}
-
 .box-ss h3 {
   color: gold;
   font-size: 150%;
@@ -229,11 +222,6 @@ input {
   .prizes-container {
     width: 100%;
   }
-
-  .prize {
-    margin: 0 1% 0 1%;
-  }
-
   .container-ss .slides > .box-ss {
     width: 10%;
   }
@@ -268,9 +256,6 @@ input {
     width: 100%;
   }
 
-  .prize {
-    margin: 0 1% 0 1%;
-  }
 
   .container-ss {
     margin-top: -5%;
@@ -310,9 +295,6 @@ input {
     width: 100%;
   }
 
-  .prize {
-    margin: 0 1% 0 1%;
-  }
 
   .container-ss {
     margin-top: -5%;
@@ -350,10 +332,6 @@ input {
 
   .prizes-container {
     width: 100%;
-  }
-
-  .prize {
-    margin: 0 1% 0 1%;
   }
 
   .container-ss {
@@ -394,10 +372,6 @@ input {
     width: 100%;
   }
 
-  .prize {
-    margin: 0 1% 0 1%;
-  }
-
   .container-ss {
     margin-top: -15%;
   }
@@ -435,11 +409,6 @@ input {
   .prizes-container {
     width: 100%;
   }
-
-  .prize {
-    margin: 0 1% 0 1%;
-  }
-
   .container-ss {
     margin-top: -20%;
   }

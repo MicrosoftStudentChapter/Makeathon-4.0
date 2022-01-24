@@ -6,7 +6,7 @@
 
 #speakers{
     width: 100vw;
-    background: url("../images/3.png") no-repeat;
+    background: url("../images/3.png") no-repeat fixed;
     background-size: cover;
     background-position: center;
     z-index: -1;

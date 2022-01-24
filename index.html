@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="Assets\Sponsors\Associate Sponsors\assets\css\associate.css" />
     <link rel="stylesheet" href="Assets\Sponsors\Title Sponsors\assets\css\title.css" />
     <link rel="stylesheet" href="Assets/Faqs/assets/css/index.css" />
-    <!-- <link rel="stylesheet" href="Assets/Contact-us/assets/css/index.css" /> -->
+    <link rel="stylesheet" href="Assets/Contact-us/assets/css/index.css" />
     <!-- Js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -43,8 +43,8 @@
         <a href="#" class="nav-font">Contact Us</a>
       </div>
 
-      <div id="main">
-        <button class="openbtn" onclick="openNav()">☰</button>
+      <div id="main" class="short-div">
+        <button class="openbtn" id="openbtn123" onclick="openNav()">☰</button>
         <br />
       </div>
       <!-- Countdown -->
@@ -80,7 +80,7 @@
     <section id="about-us">
       
       <div class="heading">
-        <h1 class="about_title">ABOUT US</h1>
+        <h1 class="about_title" style="font-size:4rem">ABOUT US</h1>
         <div class="mlsc_logo_div">
           <img src="Assets\MLSC_logo.png" class="mlsc_logo" />
         </div>
@@ -215,7 +215,7 @@
       <div>
         <div>
           <center>
-            <h1 class="heading1">About Makeathon</h1>
+            <h1 class="heading1" style="font-size:4rem">About Makeathon</h1>
           </center>
         </div>
           <div class="large-screens">
@@ -240,7 +240,7 @@
     </section>
     <section id="speakers">
       <div>
-          <h1 id="speakers-heading">Speakers</h1>
+          <h1 id="speakers-heading" style="font-size:4rem">Speakers</h1>
       </div>
       <!-- Grid Set 1x3 -->
       <div class="container-fluid mt-5 m-lg-5">
@@ -327,7 +327,7 @@
   </section>
   <section id="judges">
     <div>
-        <h1 id="judges-heading">JUDGES</h1>
+        <h1 id="judges-heading" style="font-size:4rem">JUDGES</h1>
     </div>
     <!-- Grid Set 1x3 -->
     <div class="container-fluid mt-5 m-lg-5">
@@ -420,7 +420,7 @@
     </div>
 
     <div class="heading-container">
-        <h1>PRIZES</h1>
+        <p class="prizes" style="font-size:4rem">PRIZES</p>
     </div>
 
     <div class="line-right">
@@ -429,10 +429,12 @@
 </div>
 
 <div class="prizes-container">
+ 
     <div class="prize">
         <img
             src="Assets\Prizes\assets\images\first-prize.png"
             alt="First Prize Winner"
+            style="height:60%"
         />
     </div>
 
@@ -440,6 +442,7 @@
         <img
             src="Assets\Prizes\assets\images\second-prize.png"
             alt="Second Prize Winner"
+            style="height:60%"
         />
     </div>
 
@@ -447,7 +450,9 @@
         <img
             src="Assets\Prizes\assets\images\third-prize.png"
             alt="Third Prize Winner"
+            style="height:60%"
         />
+
     </div>
 </div>
 
@@ -518,7 +523,7 @@
 
 <section id="tracks-page">
   <section id="tracks">
-    <h1 class="heading">TRACKS</h1>
+    <h1 class="heading" style="font-size:4rem">TRACKS</h1>
 
     <div class="carousel">
       <div class="carousel__body">
@@ -736,7 +741,7 @@
 <section id="timeline-page">
   <section id="timeline">
     <div class="outer">
-      <h1 class="timeline-heading">TIMELINE</h1>
+      <h1 class="timeline-heading" style="font-size:4rem">TIMELINE</h1>
       <!-- BOOTCAMP -->
       <div class="box">
         <div class="left-area">
@@ -930,7 +935,7 @@
 <section id="faq">
   <!-- Heading page -->
   <nav class="Heading">
-    <div class="center-alignhead">
+    <div class="center-alignhead" style="padding-top: 5%">
       <h1>FAQs</h1>
     </div>
   </nav>
@@ -1076,6 +1081,78 @@
       </div>
     </div>
   </div>
+</section>
+
+<!--Contact-us-->
+<section id="contact_us-body" style="height: auto;">
+  <div id="contact_us-container">
+    <div id="contact_us-heading">
+      <div class="cu-line-left">
+          <hr />
+      </div>
+  
+      <div class="contact_us-heading-container">
+          <p class="contact" style="font-size: 4rem">Contact Us</p>
+      </div>
+  
+      <div class="cu-line-right">
+          <hr />
+      </div>
+  </div>
+
+    <div id="contact_us-glassbox">
+            <h1 id="contact_us-heading2">REACH US ON</h1>
+        </div>
+    
+    <div id="contact_us-main">
+    <div id="contact_us-box">
+        <div id="contact_us-mail">
+            <a href="mailto:msc@thapar.edu"><img src="Assets/Contact-us/assets/images/2.png" id="contact_us-mail11" class='hover' /></a>
+            <a id="contact_us-link_mail" class="linksb" href="mailto:msc@thapar.edu" >msc@thapar.edu</a>
+        </div>
+        <div id="contact_us-website">
+           <a href="https://mlsctiet.co.in/" target="_blank"> <img src="Assets/Contact-us/assets/images/4.png" id="contact_us-website1" class='hover'/></a>
+           <a target="_blank" id="contact_us-link_website" class="linksb" href="https://mlsctiet.co.in/">mlsctiet.co.in</a>
+        </div>
+    </div>
+        <div id="contact_us-contacticons">
+            <div id="contact_us-insta" class="icons">
+               <a href="https://www.instagram.com/mlsc_tiet/" target="_blank" class="links1"> <img src="Assets/Contact-us/assets/images/5.png" id="contact_us-insta1" /></a>
+                <a target="_blank" id="contact_us-link_insta" class="links" href="https://www.instagram.com/mlsc_tiet/">mlsc_tiet</a>
+            </div>
+            <div id="contact_us-fb" class="icons">
+                <a href="https://www.facebook.com/mlsctiet" target="_blank" class="links1">  <img src="Assets/Contact-us/assets/images/fb.png" id="contact_us-fb1" /></a>
+                <a target="_main" id="contact_us-link_fb" class="links" href="https://www.facebook.com/mlsctiet">mlsctiet</a>
+            </div>
+            <div id="contact_us-linkedin" class="icons">
+                <a href=" https://www.linkedin.com/company/microsoft-learn-student-chapter/" target="_blank" class="links1"> <img src="Assets/Contact-us/assets/images/6.png" id="contact_us-linkedin1" /></a>
+                <a target="_main" id="contact_us-link_linkedin" class="links"
+                    href=" https://www.linkedin.com/company/microsoft-learn-student-chapter/">microsoft-learn-student-chapter-tiet</a>
+            </div>
+            <div id="contact_us-discord" class="icons">
+                <a href="https://discord.com/invite/SABjTp7Qgf" target="_blank" class="links1"><img src="Assets/Contact-us/assets/images/7.png" id="contact_us-discord1" /></a>
+                <a target="_blank" id="contact_us-link_discord" class="links" href="https://discord.com/invite/SABjTp7Qgf">mlsc-open-source-community</a>
+            </div>
+            <div id="contact_us-twitter" class="icons">
+               <a href="https://twitter.com/mlsc_tiet?s=09" target="_blank" class="links1" > <img src="Assets/Contact-us/assets/images/3.png" id="contact_us-twitter1" /></a>
+                <a target="_blank" id="contact_us-link_twitter" class="links" href="https://twitter.com/mlsc_tiet?s=09">mlsctiet</a>
+            </div>
+        </div>
+    <div id="contact_us-footer" style="padding-bottom:0">
+        <img id="contact_us-a"  src="Assets/Contact-us/assets/images/unnamed.png" class="foot">
+        <img id="contact_us-b"  src="Assets/Contact-us/assets/images/unnamed (1).png" class="foot">
+        <img id="contact_us-c"  src="Assets/Contact-us/assets/images/unnamed (2).png" class="foot">
+        <img id="contact_us-d"  src="Assets/Contact-us/assets/images/unnamed (2).png" class="foot">
+        <img id="contact_us-e"  src="Assets/Contact-us/assets/images/unnamed (3).png" class="foot">
+        <img id="contact_us-f"  src="Assets/Contact-us/assets/images/unnamed (4).png" class="foot">
+        <img id="contact_us-g"  src="Assets/Contact-us/assets/images/unnamed (5).png" class="foot">
+        <img id="contact_us-h"  src="Assets/Contact-us/assets/images/unnamed (2).png" class="foot">
+        <img id="contact_us-i"  src="Assets/Contact-us/assets/images/unnamed (2).png" class="foot">
+        <img id="contact_us-j"  src="Assets/Contact-us/assets/images/unnamed (8).png" class="foot">
+        <img id="contact_us-k"  src="Assets/Contact-us/assets/images/unnamed (9).png" class="foot">
+        <img src="Assets/Contact-us/assets/images/logo.png" id="contact_us-logo">
+    </div> 
+</div>
 </section>
 
 

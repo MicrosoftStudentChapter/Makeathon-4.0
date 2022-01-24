@@ -41,6 +41,10 @@
   border-radius: 5%;
 }
 
+.hide-item{
+  visibility: hidden;
+}
+
 .sidebar {
   height: 100vh;
   width: 0;
@@ -52,8 +56,8 @@
   background: linear-gradient(
     176deg,
     rgba(2, 99, 23, 0.4) 23%,
-    rgba(8, 56, 19, 1) 33%,
-    rgba(0, 0, 0, 1) 55%
+    rgba(8, 56, 19, 0.4) 33%,
+    rgba(0, 0, 0, 0.4) 55%
   );
   overflow-x: hidden;
   transition: 0.5s;
@@ -189,6 +193,18 @@ canvas {
 @media (max-width: 400px) {
   .flex-grid {
     display: block;
+  }
+  .openbtn {
+    font-size: 20px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(0, 255, 34);
+    padding: 10px 15px;
+    border: none;
+    width: 30px;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
   }
 }
 

@@ -10,15 +10,19 @@
 }
 #landing-page {
   width: 100vw;
-  background: url("../images/bg.png");
+  /* background: url("../images/bg.png");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   z-index: -1;
   overflow-x: hidden;
   padding-bottom: 10%;
   height: auto;
 }
 
+#videoBG {
+  position:fixed;
+  z-index: -1;
+}
 .nav-font {
   font-family: "Montserrat", sans-serif;
   user-select: none;
@@ -106,7 +110,7 @@
 }
 .openbtn {
   font-size: 20px;
-  background-color: rgb(10, 10, 10);
+  background-color: rgba(10, 10, 10, 0.075);
   color: rgb(0, 255, 34);
   padding: 10px 15px;
   border: none;

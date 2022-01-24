@@ -7,6 +7,7 @@
 }
 #prizes-page{
   width: 100vw;
+  height:100vh;
   background: url("../images/background.jpg");
   background-size: cover;
   background-position: center;
@@ -56,392 +57,157 @@
 }
 
 .prizes-container {
-  width: 100%;
+  width: 50vw;
   margin: auto;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
   padding: 1%;
 }
 .prize{
   display: flex;
+  flex-direction:row;
   justify-content: center;
 }
-.box-ss h3 {
-  color: gold;
-  font-size: 150%;
-  padding-top: 30px;
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.prize-card {
+  background-color: transparent;
+  width: 150px;
+  height: 150px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-.box-ss p {
-  padding-top: 35px;
-  text-align: justify;
-}
-
-.box-ss {
-  background-image: linear-gradient(
-    110.62deg,
-    rgba(255, 255, 255, 0.35) 6.39%,
-    rgba(255, 255, 255, 0.1) 53.34%
-  );
-  font-family: Montserrat;
-  mix-blend-mode: normal;
-  backdrop-filter: blur(40px);
-  background-color: rgba(19, 75, 19, 0.356);
-  padding: 20px;
-  height: auto;
-  font-style: normal;
-  font-weight: normal;
-
-  font-size: 2.25vw;
-  line-height: 45px;
-
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.container-ss {
-  margin: 15px auto;
-  height: 800px;
-  width: 90%;
-
-  overflow: hidden;
-  perspective: 1000px;
-}
-
-.container-ss .slides {
+/* This container is needed to position the front and back side */
+.prize-card-inner {
+  position: relative;
+  width: 100%;
   height: 100%;
-  width: 500%;
-
-  display: flex;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-.container-ss .slides > .box-ss {
-  width: 6%;
-  height: 80%;
-  margin-right: -60px;
-  border-radius: 60px;
-
-  transform: scale(0.6);
-  transition: 0.3s ease-in;
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.prize-card:hover .prize-card-inner {
+  transform: rotateY(180deg);
 }
 
-input {
-  display: none;
-}
-
-.controls {
+/* Position the front and back side */
+.prize-card-front, .prize-card-back {
   position: absolute;
-  bottom: 5%;
-  left: 51.5%;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
 
-  transform: translate(-50%, -50%);
+/* Style the front side (fallback if image is missing) */
+.prize-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.prize-card-back {
+  background-image: linear-gradient( 
+    110deg
+    , rgba(255, 255, 255, 0.35) 6.39%, rgba(255, 255, 255, 0.1) 53.34% );
+    background-color: rgba(19, 75, 19, 0.356);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.prize_carousel_container{
+  width:50vw;
+  margin: auto;
+  margin-top:10rem ;
+}
+.glide{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.prize_card_car{
+  height: 500px;
+ margin: 0 20px;
+ background-image: linear-gradient( 
+  110deg
+  , rgba(255, 255, 255, 0.35) 6.39%, rgba(255, 255, 255, 0.1) 53.34% );
+  background-color: rgba(19, 75, 19, 0.356);
+  border-radius:1rem;
+  padding: 0.5rem;
 }
 
-.controls label {
-  height: 15px;
-  width: 15px;
-
-  border: 2px solid gray;
-  border-radius: 50%;
-
-  margin: 20px;
-  cursor: pointer;
+button.glide__arrow{
+  width:fit-content;
+  border:none;
 }
 
-.controls label:hover {
-  background: gray;
-}
-
-#r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-  margin-left: 6.3%;
-}
-#r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-  margin-left: -0.3%;
-}
-#r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-  margin-left: -6.9%;
-}
-#r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-  margin-left: -13.5%;
-}
-#r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-  margin-left: -20%;
-}
-
-#r1:checked ~ .container-ss .slides > .box-ss:nth-child(1),
-#r2:checked ~ .container-ss .slides > .box-ss:nth-child(2),
-#r3:checked ~ .container-ss .slides > .box-ss:nth-child(3),
-#r4:checked ~ .container-ss .slides > .box-ss:nth-child(4),
-#r5:checked ~ .container-ss .slides > .box-ss:nth-child(5) {
-  transform: scale(70%);
-}
-
-#r1:checked ~ .container-ss .controls > label:nth-child(1),
-#r2:checked ~ .container-ss .controls > label:nth-child(2),
-#r3:checked ~ .container-ss .controls > label:nth-child(3),
-#r4:checked ~ .container-ss .controls > label:nth-child(4),
-#r5:checked ~ .container-ss .controls > label:nth-child(5) {
-  background: gray;
-}
-
-/* RESPONSIVE DESIGN */
-
-@media screen and (max-width: 1025px) {
-  .container-ss .slides > .box-ss {
-    width: 7.75%;
+@media screen and (min-width: 1200px){
+  .prize_carousel_container{
+    width:60vw;
   }
-
-  .box-ss {
-    font-size: 3.1vw;
-  }
-
-  #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: 5.25%;
-  }
-  #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -3.4%;
-  }
-  #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -12%;
-  }
-  #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -20.65%;
-  }
-  #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -29.3%;
+  .prize_card_car{
+    width:400px;
+    max-width: 600px;
   }
 }
 
-@media screen and (max-width: 769px) {
-  #heading h1 {
-    font-size: 375%;
-  }
 
-  .prizes-container {
-    width: 100%;
+@media screen and (max-width: 1200px){
+  .prize_carousel_container{
+    width:70vw;
   }
-  .container-ss .slides > .box-ss {
-    width: 10%;
+  .prize_card_car{
+    height:400px;
+    max-width: 400px;
   }
-
-  .box-ss {
-    font-size: 4vw;
+  .prizes-container{
+    width:60vw;
   }
-
-  #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: 3.85%;
+  .prize-card{
+    width: 150px;
+    height: 150px;
   }
-  #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -7.4%;
+}
+@media screen and (max-width:768px) {
+  .prize_card_car{
+    height:400px;
+    max-width: 350px;
   }
-  #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -18.5%;
+  .prize_carousel_container{
+    width:80vw;
   }
-  #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -29.85%;
+  .prizes-container{
+    width:80vw;
   }
-  #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -41%;
+  .prize-card{
+    width: 150px;
+    height: 150px;
   }
 }
 
-@media screen and (max-width: 601px) {
-  #heading h1 {
-    font-size: 375%;
+@media screen and (max-width:576px){
+  .prize_carousel_container{
+    width:80vw;
   }
-
-  .prizes-container {
-    width: 100%;
+  .prize_card_car{
+    height:400px;
   }
-
-
-  .container-ss {
-    margin-top: -5%;
+  button.glide__arrow{
+    width:fit-content ;
+    font-size:12px;
+    text-align: center;
   }
-
-  .box-ss {
-    font-size: 5.75vw;
+  .prizes-container{
+    width:100vw;
   }
-
-  .container-ss .slides > .box-ss {
-    width: 15%;
-  }
-
-  #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: 1.25%;
-  }
-  #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -15.25%;
-  }
-  #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -31.9%;
-  }
-  #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -48.5%;
-  }
-  #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -64.9%;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  #heading h1 {
-    font-size: 375%;
-  }
-
-  .prizes-container {
-    width: 100%;
-  }
-
-
-  .container-ss {
-    margin-top: -5%;
-  }
-
-  .box-ss {
-    font-size: 5.75vw;
-  }
-
-  .container-ss .slides > .box-ss {
-    width: 15%;
-  }
-
-  #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: 0.25%;
-  }
-  #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -16.25%;
-  }
-  #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -32.9%;
-  }
-  #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -49.5%;
-  }
-  #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -65.9%;
-  }
-}
-
-@media screen and (max-width: 426px) {
-  #heading h1 {
-    font-size: 375%;
-  }
-
-  .prizes-container {
-    width: 100%;
-  }
-
-  .container-ss {
-    margin-top: -10%;
-  }
-
-  .container-ss .slides > .box-ss {
-    width: 17%;
-  }
-
-  .box-ss {
-    font-size: 7vw;
-  }
-
-  #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -0.75%;
-  }
-  #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -19.5%;
-  }
-  #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -38.75%;
-  }
-  #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -58%;
-  }
-  #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -77%;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  #heading h1 {
-    font-size: 375%;
-  }
-
-  .prizes-container {
-    width: 100%;
-  }
-
-  .container-ss {
-    margin-top: -15%;
-  }
-
-  .container-ss .slides > .box-ss {
-    width: 17%;
-  }
-
-  .box-ss {
-    font-size: 7vw;
-  }
-
-  #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -1.75%;
-  }
-  #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -20.5%;
-  }
-  #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -39.75%;
-  }
-  #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -59%;
-  }
-  #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -78.75%;
-  }
-}
-
-@media screen and (max-width: 321px) {
-  #heading h1 {
-    font-size: 375%;
-  }
-
-  .prizes-container {
-    width: 100%;
-  }
-  .container-ss {
-    margin-top: -20%;
-  }
-
-  .container-ss .slides > .box-ss {
-    width: 17%;
-  }
-
-  .box-ss h3 {
-    font-size: 175%;
-  }
-
-  .box-ss p {
-    padding-top: 0px;
-  }
-
-  .box-ss {
-    font-size: 7.75vw;
-  }
-
-  #r1:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -2%;
-  }
-  #r2:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -21.5%;
-  }
-  #r3:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -41.25%;
-  }
-  #r4:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -60.9%;
-  }
-  #r5:checked ~ .container-ss .slides > .box-ss:nth-child(1) {
-    margin-left: -81%;
+  .prize-card{
+    width: 100px;
+    height: 100px;
   }
 }

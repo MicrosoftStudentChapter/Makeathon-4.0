@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="Assets\Judges\assets\css\index.css">
     <link rel="stylesheet" href="Assets\Sponsors\Power Sponsors\assets\css\power.css" />
     <link rel="stylesheet" href="Assets\Prizes\assets\css\index.css" />
+    <!-- For glide js in prizes section -->
+    <link rel="stylesheet" href="Assets\Prizes\assets\css\glide.core.min.css"> 
+    <link rel="stylesheet" href="Assets\Prizes\assets\css\glide.theme.min.css"> 
     <link rel="stylesheet" href="Assets\Tracks\assets\css\index.css" />
     <link rel="stylesheet" href="Assets\Timeline\assets\css\index.css">
     <link rel="stylesheet" href="Assets\Sponsors\Associate Sponsors\assets\css\associate.css" />
@@ -429,95 +432,79 @@
 </div>
 
 <div class="prizes-container">
- 
-    <div class="prize">
+    <div class="prize-card">
+      <div class="prize-card-inner">
+        <div class="prize-card-front">
         <img
             src="Assets\Prizes\assets\images\first-prize.png"
             alt="First Prize Winner"
-            style="height:60%"
+            style="max-height:100%;"
         />
+        </div>
+        <div class="prize-card-back">
+         
+        </div>
+        </div>
     </div>
-
-    <div class="prize">
+    <div class="prize-card">
+      <div class="prize-card-inner">
+        <div class="prize-card-front">
         <img
             src="Assets\Prizes\assets\images\second-prize.png"
             alt="Second Prize Winner"
-            style="height:60%"
+            style="max-height:100%"
         />
+        </div>
+        <div class="prize-card-back">
+          
+        </div>
+        </div>
     </div>
-
-    <div class="prize">
+    <div class="prize-card">
+      <div class="prize-card-inner">
+        <div class="prize-card-front">
         <img
             src="Assets\Prizes\assets\images\third-prize.png"
             alt="Third Prize Winner"
-            style="height:60%"
+            style="max-height:100%"
         />
-
+        </div>
+        <div class="prize-card-back">
+          
+        </div>
+        </div>
     </div>
 </div>
-
-<input type="radio" name="buttons" id="r1" />
-<input type="radio" name="buttons" id="r2" checked />
-<input type="radio" name="buttons" id="r3" />
-<input type="radio" name="buttons" id="r4" />
-<input type="radio" name="buttons" id="r5" />
-
-<div class="container-ss">
-    <div class="slides">
-        <div class="box-ss">
-            <h3>PRIZE 1</h3>
-            <br />
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque alias laboriosam numquam 
-            </p>
-        </div>
-
-        <div class="box-ss">
-            <h3>PRIZE 2</h3>
-            <br />
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque alias laboriosam numquam 
-            </p>
-        </div>
-
-        <div class="box-ss">
-            <h3>PRIZE 3</h3>
-            <br />
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque alias laboriosam numquam 
-            </p>
-        </div>
-
-        <div class="box-ss">
-            <h3>PRIZE 4</h3>
-            <br />
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque alias laboriosam numquam 
-            </p>
-        </div>
-
-        <div class="box-ss">
-            <h3>PRIZE 5</h3>
-            <br />
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Neque alias laboriosam numquam
-            </p>
-        </div>
-    </div>
-
-    <div class="controls">
-        <label for="r1"></label>
-        <label for="r2"></label>
-        <label for="r3"></label>
-        <label for="r4"></label>
-        <label for="r5"></label>
-    </div>
+<div class="prize_carousel_container">
+<div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      <li class="glide__slide"><div class="prize_card_car">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, eaque!</div></li>
+      <li class="glide__slide"><div class="prize_card_car">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, eaque!</div></li>
+      <li class="glide__slide"><div class="prize_card_car">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, eaque!</div></li>
+      <li class="glide__slide"><div class="prize_card_car">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, eaque!</div></li>
+      <li class="glide__slide"><div class="prize_card_car">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, eaque!</div></li>
+    </ul>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+    </svg></button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+    </svg></button>
+  </div>
+  <div class="glide__bullets" data-glide-el="controls[nav]">
+    <button class="glide__bullet" data-glide-dir="=0"></button>
+    <button class="glide__bullet" data-glide-dir="=1"></button>
+    <button class="glide__bullet" data-glide-dir="=2"></button>
+    <button class="glide__bullet" data-glide-dir="=3"></button>
+    <button class="glide__bullet" data-glide-dir="=4"></button>
+  </div>
 </div>
+</div>
+
+
 </section>
 
 
@@ -1162,6 +1149,34 @@
     <script src="Assets\Landing Page\assets\js\myctdown.js"></script>
     <script src="Assets\Landing Page\assets\js\navbar.js"></script>
     <script src="Assets/Timeline/assets/js/script.js"></script>
-    
+
+    <!-- For Prizes Carousel -->
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script>
+    const option = {
+      type:'carousel',
+      perView:2,
+      focusAt:'center',
+      gap:10,
+      autoplay:3000,
+      hoverPause:true,
+      keyboard:true,
+      animationTimingFunc:'cubic-bezier(.25,.75,.5,1.25)',
+      breakpoints:{
+        1420:{
+          perView:1,
+          peek:120,
+        },
+        1024:{
+          perView:1,
+          peek:100,
+        },
+        768:{
+          perView:1,
+        }
+      }
+    }
+      new Glide('.glide',option).mount()
+  </script>    
   </body>
 </html>

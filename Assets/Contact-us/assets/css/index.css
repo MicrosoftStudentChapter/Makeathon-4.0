@@ -2,20 +2,65 @@
 @import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
-#body {
+#contact_us-heading {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1%;
+  margin-bottom: 2%;
+
+}
+
+.cu-line-left,
+.cu-line-right {
+  width: 100%;
+  height: -2%;
+}
+
+.contact_us-heading-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#contact_us-heading hr {
+  
+  border: 3px solid #e2e0d4;
+  background-color: #e2e0d4;
+}
+
+#contact_us-heading h1 {
+  font-family: Mechanismo;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  font-size: 6vw;
+
+  color: #e2e0d4;
+}
+
+
+#contact_us-body {
   position: relative;
   overflow-x: hidden;
   background-image: url("..//images/image.png");
   background-repeat: no-repeat;
   background-color: hsl(0, 0%, 0%);
-  background-size: 100vw 100vh;
+  background-size: 100% 100%;
   background-position: center top;
-  background-attachment: fixed;
-  padding-bottom: 10%;
-  height: auto;
 }
 
-#box {
+#contact_us-box {
   position: absolute;
   width: 30vw;
   height: 30vw;
@@ -24,39 +69,32 @@
   border: 2px solid #ffffff;
   box-sizing: border-box;
 }
-#heading {
-  position: absolute;
-  margin-left: 30vw;
-  margin-top: -2vw;
-  text-align: center;
-  font-family: Mechanismo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 5vw;
 
-  color: rgb(196, 196, 196);
-}
-
-#heading1 {
+#contact_us-heading2 {
   position: absolute;
-  left: 50.764vw;
-  top: 3.472vw;
-  margin-top: 2vh;
+  left: 5vw;
   margin-bottom: 2vh;
   font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: 600;
-  font-size: 2.431vw;
-  /* line-height: 53px; */
+  
+  font-size: 3.431vw;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: rgb(242, 242, 242);
   text-shadow: rgb(245 97 13 / 30%) 0px 0px 18.7792px,
     rgb(244 147 67 / 30%) 0px 1.56494px 4.69481px,
     rgb(0 0 0 / 4%) 0px 0px 0.782468px;
+  
+
+  font-weight: 530;
+  font-size: 2.2vw;
+  line-height: 2.986vw;
+ 
+  
 }
 
-#glassbox {
+#contact_us-glassbox {
   position: absolute;
   width: 25.694vw;
   height: 3.472vw;
@@ -69,25 +107,7 @@
   border-radius: 1.632vw;
 }
 
-#heading2 {
-  position: absolute;
-  left: 2.014vw;
-  top: -1.391vw;
-  width: 34, 722vw;
-  font-family: IBM Plex Mono;
-  font-style: normal;
-  font-weight: 530;
-  font-size: 2.2vw;
-  line-height: 2.986vw;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-shadow: 0px 0px 18.7792px rgba(245, 97, 13, 0.3),
-    0px 1.56494px 4.69481px rgba(244, 147, 67, 0.3),
-    0px 0px 0.782468px rgba(0, 0, 0, 0.04);
-}
-
-#contacticons {
+#contact_us-contacticons {
   top: 41.667vw;
   margin-top: 17.5vw;
   margin-left: 48.556vw;
@@ -99,7 +119,7 @@
   flex-direction: column;
 }
 
-#mail {
+#contact_us-mail {
   height: 6.389vw;
   width: 6.398vw;
   display: flex;
@@ -108,7 +128,7 @@
   margin-left: 2.778vw;
 }
 
-#fb {
+#contact_us-fb {
   display: flex;
   flex-direction: row;
   margin-top: 2.083vw;
@@ -117,7 +137,7 @@
   height: 4.531vw;
 }
 
-#twitter {
+#contact_us-twitter {
   display: flex;
   flex-direction: row;
   margin-top: 2.083vw;
@@ -125,7 +145,7 @@
   height: 3.837vw;
 }
 
-#website {
+#contact_us-website {
   margin-top: 4.653vw;
   margin-left: 2.778vw;
   height: 6.319vw;
@@ -134,48 +154,48 @@
   flex-direction: row;
 }
 
-#insta1 {
+#contact_us-insta1 {
   width: 4.697vw;
   height: 4.558vw;
 }
 
-#mail11 {
+#contact_us-mail11 {
   width: 6.086vw;
   height: 5.599vw;
 }
 
-#website1 {
+#contact_us-website1 {
   width: 6.086vw;
   height: 5.599vw;
 }
 
-#linkedin1 {
+#contact_us-linkedin1 {
   width: 4.697vw;
   height: 4.558vw;
 }
 
-#discord1 {
+#contact_us-discord1 {
   width: 12.697vw !important;
   height: 7.558vw !important;
 }
 
-#fb1 {
+#contact_us-fb1 {
   width: 4.697vw;
   height: 4.558vw;
 }
 
-#twitter1 {
+#contact_us-twitter1 {
   width: 4.697vw;
   height: 4.558vw;
 }
 
-#insta {
+#contact_us-insta {
   display: flex;
   flex-direction: row;
   margin-top: 2.083vw;
 }
 
-#linkedin {
+#contact_us-linkedin {
   margin-top: 2.083vw;
   width: 4.318vw;
   height: 3.983vw;
@@ -187,7 +207,7 @@
   flex-direction: row;
 }
 
-#discord {
+#contact_us-discord {
   margin-top: 2.083vw;
   width: 4.415vw;
   height: 4.717vw;
@@ -199,7 +219,7 @@
   flex-direction: row;
 }
 
-#link_mail {
+#contact_us-link_mail {
   width: 18.306vw;
   height: 3.611vw;
   font-family: Montserrat;
@@ -212,7 +232,7 @@
   margin-left: 3.194vw;
 }
 
-#link_fb {
+#contact_us-link_fb {
   height: 2.54vw;
   font-family: Montserrat;
   font-style: normal;
@@ -225,7 +245,7 @@
   margin-top: 1.25vw;
 }
 
-#link_twitter {
+#contact_us-link_twitter {
   position: absolute;
   width: 19.05vw;
   height: 2.724vw;
@@ -239,7 +259,7 @@
   margin-left: 6.111vw;
 }
 
-#link_website {
+#contact_us-link_website {
   position: absolute;
   width: 14.375vw;
   height: 3.75vw;
@@ -253,7 +273,7 @@
   text-transform: lowercase;
 }
 
-#link_insta {
+#contact_us-link_insta {
   position: absolute;
   width: 17.701vw;
   height: 2.36vw;
@@ -267,7 +287,7 @@
   margin-top: 0.972vw;
 }
 
-#link_linkedin {
+#contact_us-link_linkedin {
   position: absolute;
   width: 36.736vw;
   height: 2.36vw;
@@ -281,7 +301,7 @@
   margin-left: 5.694vw;
 }
 
-#link_discord {
+#contact_us-link_discord {
   position: absolute;
   width: 29.514vw;
   height: 2.361vw;
@@ -333,8 +353,8 @@ a.linksb:link {
   font-weight: bold;
   font-size: 1.528vw;
   text-decoration: none;
-  color: #f2f2f2;
-  opacity: 0.5;
+  color: #f2f2f2 ;
+  opacity : 0.5;
 }
 
 a.linksb:visited {
@@ -343,8 +363,8 @@ a.linksb:visited {
   font-weight: bold;
   font-size: 1.528vw;
   text-decoration: none;
-  color: #f2f2f2;
-  opacity: 0.5;
+  color: #f2f2f2 ;
+  opacity : 0.5;
 }
 
 a.linksb:hover {
@@ -369,23 +389,23 @@ a.linksb:hover {
   background: rgba(255, 255, 255, 0.8);
 }
 
-#discord1 {
+#contact_us-discord1 {
   position: absolute;
 
   margin-left: -3.958vw;
   margin-top: -0.833vw;
 }
 
-#footer {
+#contact_us-footer {
   display: flex;
   flex-direction: row;
-  position : fixed;
+
   bottom: 15px;
   padding: 20px;
   justify-content: space-between;
 }
 
-#a {
+#contact_us-a {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -393,7 +413,7 @@ a.linksb:hover {
   margin-left: -1.042vw;
 }
 
-#b {
+#contact_us-b {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -401,7 +421,7 @@ a.linksb:hover {
   margin-left: 0.347vw;
 }
 
-#c {
+#contact_us-c {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -409,7 +429,7 @@ a.linksb:hover {
   margin-left: -0.069vw;
 }
 
-#d {
+#contact_us-d {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -417,7 +437,7 @@ a.linksb:hover {
   margin-left: -7.041vw;
 }
 
-#e {
+#contact_us-e {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -425,7 +445,7 @@ a.linksb:hover {
   margin-left: 0vw;
 }
 
-#f {
+#contact_us-f {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -433,7 +453,7 @@ a.linksb:hover {
   margin-left: -1.111vw;
 }
 
-#g {
+#contact_us-g {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -441,7 +461,7 @@ a.linksb:hover {
   margin-left: 0vw;
 }
 
-#h {
+#contact_us-h {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -449,7 +469,7 @@ a.linksb:hover {
   margin-left: -0.139vw;
 }
 
-#i {
+#contact_us-i {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -457,7 +477,7 @@ a.linksb:hover {
   margin-left: -9.028vw;
 }
 
-#j {
+#contact_us-j {
   width: 8.194vw;
   height: 5.024vw;
   margin-top: 10%;
@@ -465,7 +485,7 @@ a.linksb:hover {
   margin-left: -4.306vw;
 }
 
-#k {
+#contact_us-k {
   width: 11.389vw;
     height: 1.968vw;
     margin-top: 11.5%;
@@ -473,7 +493,7 @@ a.linksb:hover {
     margin-left: 2.917vw;
 }
 
-#logo {
+#contact_us-logo {
   margin-top: 8%;
   margin-left: -0.139vw;
   height: 5.556vw;
@@ -481,267 +501,29 @@ a.linksb:hover {
   margin-right: -0.139vw;
 }
 
-@media (max-width: 424px) {
-  #heading {
-    margin-left: 22vw;
-    white-space:nowrap;
-    font-size: 9.246vw;
-    margin-top: -5vh;
-    display: block;
-    height: 1.5em;
+@media (max-width: 450px){
+  #contact_us-box{
+    top: 17%;
+    left: 35%;
   }
-  #body {
-    position: absolute;
-    overflow-x: hidden;
-    background: url("../images/12.png");
-    background-color: black;
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-  }
-  .line {
+  #contact_us-glassbox{
     display: none;
   }
-
-  .line1 {
+  .links{
     display: none;
   }
-  #container {
-    margin-top: 9.3vw;
-    margin-bottom : 0px;
-    
-  }
-  #heading1 {
-    margin-top: 9vh;
-    font-size: 3.431vw;
-    display: none;
-  }
-
-  #glassbox {
-    margin-top: 20.736vw;
-    margin-bottom: 10%;
-    display: none;
-  }
-
-  #heading2 {
-    font-size: 2.292vw;
-    display: none;
-  }
-
-  .links {
-    display: none;
-  }
-  #box {
-    width: 46vw;
-    height: 46vw;
-    left: 50%;
-    top: 25%;
-  }
-  #contacticons {
-    display: flex;
-    flex-direction: row;
-    margin-left: 16vw;
-    margin-top: 108vw;
-  }
-  .icons {
-    margin-left: 10% !important;
-  }
-  #discord1 {
-    margin-right: 10% !important ;
-  }
-  #twitter1 {
-    margin-left: 80%;
-    margin-right: 0%;
-  }
-  #logo {
-    margin-left: -3.139vw !important;
-    margin-top: 15vw !important;
-  }
-  .foot {
-    margin-top: 16vw !important;
-  }
-  #k {
-    margin-top: 17.5vw !important;
-  }
-  #mail11 {
-    width: 10.186vw;
-    height: 9.599vw;
-    margin-top: 2vh;
-  }
-  #website1 {
-    width: 9.186vw;
-    height: 9.2vw;
-    margin-top: 7vw;
-    margin-left: 0.5vh;
-  }
-  #link_mail {
-    margin-top: 6.875vw;
-    font-size: 3vw;
-  }
-  #link_website {
-    right: 14.208vw;
-    bottom: 13.333vw;
-    font-size: 3vw;
-  }
-  #insta1 {
-    width: 9.697vw;
-    height: 9.558vw;
-  }
-  #twitter1 {
-    width: 9.697vw;
-    height: 9.558vw;
-    margin-left: 18vw;
-  }
-  #linkedin1 {
-    width: 9.697vw;
-    height: 9.558vw;
-    margin-left: 4vw;
-  }
-  #fb1 {
-    width: 9.697vw;
-    height: 9.558vw;
-  }
-  #discord1 {
-    width: 21.697vw !important;
-    height: 13.558vw !important;
-    margin-left: 2vw;
-    margin-top: -2.833vw;
-    width: 24.697vw !important;
-    height: 16.558vw !important;
-  }
-}
-@media (max-width: 820px) and (min-width: 671px) {
-  #container {
-    margin-top: 15vh;
-  }
-  #heading {
-    margin-top: -10vh;
-  }
-  .line {
-    margin-top: -8vh;
-  }
-  .line1 {
-    margin-top: -8vh;
-    left: 61.444vw;
-  }
-}
-@media (min-width: 425px) and (max-width: 475px) {
-  #heading {
-    margin-top: -12vw !important;
-  }
-  #container {
-    margin-top: 10vw !important;
-  }
-  .foot {
-    margin-top: 38vw !important;
-  }
-  #k {
-    margin-top: 39.5vw !important;
-  }
-  #logo {
-    margin-top: 36vw !important;
-  }
-  .line1 {
-    margin-top: -7vw !important;
-  }
-  .line {
-    margin-top: -7vw !important;
-  }
-  #box{
-    top : 21%;
-  }
-}
-
-@media (min-width: 585px) and (max-width: 600px) {
-  #heading {
-    margin-top: -14vw !important;
-  }
-  #container {
-    margin-top: 15vw !important;
-  }
-  .foot {
-    margin-top: 24vw !important;
-  }
-  #k {
-    margin-top: 25.5vw !important;
-  }
-  #logo {
-    margin-top: 23vw !important;
-  }
-  .line {
-    margin-top: -11vw !important;
-  }
-  .line1 {
-    margin-top: -11vw !important;
-  }
-  #box{
-    top : 21%;
-  }
-}
-
-@media (max-width: 584px) and (min-width: 475px) {
-  #heading {
-    margin-top: -12vw !important ;
-  }
-  #container {
-    margin-top: 15vw !important;
-  }
-  .foot {
-    margin-top: 36vw !important;
-  }
-  #k {
-    margin-top: 37.5vw !important;
-  }
-  #logo {
-    margin-top: 34vw !important;
-  }
-  .line {
-    margin-top: -8vw !important;
-  }
-  .line1 {
-    margin-top: -8vw !important;
-  }
-  #box{
-    top : 21%;
-  }
-}
-
-@media (max-width: 670px) and (min-width: 600px) {
-  #heading {
-    margin-top: -12vw !important;
-  }
-  #container {
-    margin-top: 15vw !important;
-  }
-  .foot {
-    margin-top: 25vw !important;
-  }
-  #k {
-    margin-top: 26.7vw !important;
-  }
-  #logo {
-    margin-top: 22.7vw !important;
-  }
-  .line {
-    margin-top: -8vw !important;
-  }
-  .line1 {
-    margin-top: -8vw !important;
-  }
-  #box{
-    top : 21%;
-  }
-}
-@media (min-width : 1000px){
-  #footer{
-    position: static;
-  }
-}
-@media (min-width : 890px){
-  
-  #heading1{
-    margin-top: 8vh;
-
-  }
-}
+ #contact_us-contacticons{
+   display: flex;
+   flex-wrap: nowrap;
+   position: relative;
+   justify-content: space-evenly;
+   top : 7.68vh;
+   left: -15.55%;
+ }
+ #contact_us-box {
+  display:flex;
+  justify-content:flex-start; 
+  flex-direction: column;
+  align-items: flex-start;
+ }
+} 

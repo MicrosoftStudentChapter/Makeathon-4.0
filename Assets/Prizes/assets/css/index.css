@@ -12,11 +12,11 @@
   color: rgb(255, 255, 255);
 }
 
-body {
+/* body {
   background: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 #heading {
   width: 100%;

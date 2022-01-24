@@ -6,21 +6,22 @@
 }
 @font-face {
   font-family: "Mechanismo";
-  src: url("Mechanismo-Regular.ttf");
+  src: url("../fonts/Mechanismo-Regular.ttf");
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-VariableFont_wght.ttf");
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
 }
 .outer {
-  height: 100%;
-  width: 100%;
-  background-image: url("bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100vw;
+  background: url("../images/bg.png");
   background-size: cover;
+  background-position: center;
+  z-index: -1;
+  overflow-x: hidden;
   background-color: black;
 }
+
 h1 {
   color: #d0d0d0;
   text-align: center;
@@ -46,7 +47,7 @@ h1 {
   position: relative;
   justify-content: center;
 }
-.buttontm {
+.button-1, .button-2, .button-3 {
   height: 60px;
   width: 47vh;
   margin-bottom: 10%;
@@ -60,17 +61,17 @@ h1 {
   backdrop-filter: blur(15px) saturate(107%);
   background-color: rgba(123, 127, 135, 0.19);
   border: 1px solid rgba(255, 255, 255, 0.125);
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
-.buttontm:hover {
+.button-1:hover, .button-2:hover, .button-3:hover {
   box-shadow: 0px 0px 6px 3px #999898;
   background-color: rgba(175, 175, 182, 0.1);
   width: 50vh;
   height: 70px;
 }
 
-.buttontm.click {
+.button-1.click, .button-2.click, .button-3.click {
   backdrop-filter: blur(17px) saturate(115%);
 
   /* background-color: #696767; */
@@ -139,13 +140,14 @@ h1 {
   position: relative;
   background-color: inherit;
   width: 50%;
+  margin: 0;
 }
 
 .container::after {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 29px;
+  height: 29px;
   right: -13px;
   background-color: #d0d0d0;
   border: 2px solid #d0d0d0;
@@ -204,20 +206,25 @@ h1 {
   border-radius: 6px;
   opacity: 70%;
 }
-h2 {
+.date {
   color: #ffd700;
   font-family: "Montserrat";
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: bold;
 }
-p {
+.para {
   color: white;
   font-family: "Montserrat";
+  margin: 0;
 }
 
 @media screen and (max-width: 640px) {
-  h1 {
-    font-size: 9vw;
+  .timeline-heading {
+    font-size: 4rem;
+    padding-top: 20px;
   }
-  .button {
+  .button-1, .button-2, .button-3 {
     height: 60px;
     width: 35vh;
     font-size: 25px;
@@ -257,8 +264,11 @@ p {
   }
 }
 @media (max-width: 416px) {
+  .timeline-heading {
+    font-size: 3rem;
+  }
   button {
-    width: 40vh;
+    width: 30vh;
     font-size: 24px;
   }
 }

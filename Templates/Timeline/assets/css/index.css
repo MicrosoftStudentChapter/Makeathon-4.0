@@ -6,16 +6,16 @@
 }
 @font-face {
   font-family: "Mechanismo";
-  src: url("Mechanismo-Regular.ttf");
+  src: url("../fonts/Mechanismo-Regular.ttf");
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-VariableFont_wght.ttf");
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
 }
 .outer {
   height: 100%;
   width: 100%;
-  background-image: url("bg.png");
+  background-image: url("../images/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

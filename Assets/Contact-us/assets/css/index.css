@@ -114,6 +114,13 @@
   margin-left: 48.556vw;
   width: 34.722vw;
 }
+@media(max-width: 450px){
+  #contact_us-contacticons{
+    margin-top: 60vw;
+  }
+ 
+}
+
 
 .icons {
   display: flex;
@@ -398,12 +405,18 @@ a.linksb:hover {
 }
 
 #contact_us-footer {
+  
   display: flex;
   flex-direction: row;
 
   bottom: 15px;
   padding: 20px;
   justify-content: space-between;
+}
+@media(max-width:450px){
+  contact_us-footer{
+    margin-top: 60vw;
+  }
 }
 
 #contact_us-a {
@@ -502,7 +515,22 @@ a.linksb:hover {
   margin-right: -0.139vw;
 }
 
+@media (max-width: 710px){
+  #contact_us-glassbox{
+ display: none;
+  }
+}
+@media (max-width: 738px){
+  #contact_us-body{
+    height: auto;
+  }
+}
+
+
 @media (max-width: 450px){
+  .contact{
+    font-size: 2rem;
+  }
   #contact_us-box{
     top: 17%;
     left: 35%;
@@ -522,6 +550,7 @@ a.linksb:hover {
    left: -15.55%;
  }
  #contact_us-box {
+   position: relative;
   display:flex;
   justify-content:flex-start; 
   flex-direction: column;

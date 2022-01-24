@@ -199,16 +199,13 @@
 }
 
 @media screen and (max-width: 400px){
-    #juddges-heading{
+    #judges-heading{
         margin-left:0vw;
         
     }
-    #judges{
-        padding-left: 0vw;
 
-    }
     .base-contain{
-        width:90vw;
+        width:80vw;
     }
 
 }

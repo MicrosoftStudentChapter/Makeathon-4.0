@@ -7,7 +7,7 @@
 
 #faq {
   width: 100vw;
-  background: url("../images/bg_1_2.png");
+  background: url("../images/bg_1_2.png") no-repeat fixed;
   background-size: cover;
   background-position: center;
   z-index: -1;

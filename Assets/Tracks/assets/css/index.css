@@ -56,7 +56,7 @@
   }
   .carousel__body {
     width: 100%;
-    height:100%;
+    height: auto;
     padding: 20px 0 50px 0;
     overflow: hidden;
   }

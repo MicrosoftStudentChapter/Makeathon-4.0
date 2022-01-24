@@ -10,6 +10,7 @@
   overflow-x: hidden;
   padding-bottom: 10%;
   height: auto;
+  font-size:3rem
 }
 
 .heading {
@@ -75,68 +76,66 @@
   width: 40%;
   background-color: transparent;
 }
-.e {
-  display: none;
+.e-flip {
+  display: flex;
   flex-direction: row;
-  margin-top: 10px;
-  justify-content: space-around;
-}
-.hexagon {
-  width: 25%;
-  transition: all 0.5s;
-  position: relative;
-  margin-top: 1.5rem;
+  justify-content:space-evenly;
+  margin-top:10px;
 }
 .hexagon img {
   max-width: 100%;
   max-height: 100%;
-  position: relative;
   z-index: 0;
 }
-/* 
-.hexagon img:hover{
-  transform: rotateY(180deg);
-} */
 
-.flip-box {
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.hexagon {
   background-color: transparent;
-  width: 2px;
-  height: 2px;
-  display: block;
+  width:15rem;
+  height:15rem; 
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; 
 }
 
-.flip-box-inner {
-  position: absolute;
-  width: 195px;
-  height: 225px;
+/* This container is needed to position the front and back side */
+.hexagon-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  top: 306px;
-  left: calc(50% - 225px / 2 + 541.5px);
 }
 
-/* .flip-box:hover .flip-box-inner {
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.hexagon:hover .hexagon-inner {
   transform: rotateY(180deg);
-} */
+}
 
-.flip-box-front,
-.flip-box-back {
+/* Position the front and back side */
+.hexagon-front, .hexagon-back {
   position: absolute;
-  width: 195px;
-  height: 225px;
-  -webkit-backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
 
-.flip-box-front {
+/* Style the front side (fallback if image is missing) */
+.hexagon-front {
+  /* background-color: #bbb; */
   color: black;
 }
 
-.flip-box-back {
+/* Style the back side */
+.hexagon-back {
+  /* background-color: dodgerblue; */
   color: white;
   transform: rotateY(180deg);
 }
+
+
+
 
 .centered {
   position: absolute;
@@ -145,32 +144,6 @@
   font-family: "Monteserrat", sans-serif;
   font-weight: 400;
   transform: translate(-50%, -50%);
-}
-
-.flip-box-inner-1 {
-  position: absolute;
-  width: 195px;
-  height: 225px;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  left: calc(50% - 225px / 2 + 429.5px);
-  top: 489px;
-}
-
-/* .flip-box:hover .flip-box-inner-1 {
-  transform: rotateY(180deg);
-} */
-
-.flip-box-inner-2 {
-  position: absolute;
-  width: 195px;
-  height: 225px;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  left: calc(50% - 225px / 2 + 541.5px);
-  top: 676px;
 }
 
 /* .flip-box:hover .flip-box-inner-2 {
@@ -182,38 +155,6 @@ h2 {
 }
 
 /* Media Query */
-@media only screen and (max-width: 576px) {
-  .about_title {
-    font-size: 2rem;
-    width: 60%;
-  }
-  .mlsc_logo {
-    width: 5rem;
-  }
-  .main {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .betterbox {
-    width: 85%;
-  }
-  .d {
-    width: 85%;
-    height: 50%;
-  }
-  .about_text {
-    font-size: 1rem;
-  }
-  .d,
-  .flip-box {
-    display: none;
-  }
-  .e {
-    display: flex;
-  }
-}
-
 @media only screen and (max-width: 1350px) {
   .main {
     flex-direction: column;
@@ -231,9 +172,54 @@ h2 {
     width: 85%;
   }
   .hexagon {
-    width: 30%;
+    width: 12rem;
+    height: 12rem;
   }
 }
+@media only screen and (max-width: 576px) {
+  .about_title {
+    font-size: 1rem;
+    width: 60%;
+  }
+  .mlsc_logo {
+    width: 5rem;
+    padding-top: 2%;
+  }
+  .main {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .betterbox {
+    width: 85%;
+  }
+  .d {
+    width: 85%;
+    height: 50%;
+  }
+  .about_text {
+    font-size: 0.7rem;
+  }
+  .d,
+  .flip-box {
+    display: none;
+  }
+  .e {
+    display: flex;
+  }
+  .hexagon{
+    width:8rem;
+    height:8rem;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .hexagon{
+    width:6rem;
+    height:6rem;
+  }
+}
+
 @media only screen and (max-width: 2500px) {
   .main {
     flex-direction: column;
@@ -245,6 +231,6 @@ h2 {
     display: none;
   }
   .e {
-    display: flex;
+    display: block;
   }
 }

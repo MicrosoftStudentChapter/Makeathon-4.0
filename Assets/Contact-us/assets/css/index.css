@@ -35,8 +35,9 @@
   background-color: #e2e0d4;
 }
 
-#contact_us-heading h1 {
+.contact {
   font-family: Mechanismo;
+  font-size:4rem;
   font-weight: 400;
   font-style: normal;
   display: inline-block;

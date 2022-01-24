@@ -59,6 +59,7 @@
   background-color: hsl(0, 0%, 0%);
   background-size: 100% 100%;
   background-position: center top;
+  height: 100vh;
 }
 
 #contact_us-box {

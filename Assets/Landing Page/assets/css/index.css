@@ -105,12 +105,12 @@
 }
 .landing-logo {
   width: 75%;
-  margin-top: 0%;
+  margin-top: 10%;
   transform: translateY(-20%);
 }
 .openbtn {
   font-size: 20px;
-  background-color: rgba(10, 10, 10, 0.075);
+  background-color: rgba(17, 17, 17, 0);
   color: rgb(0, 255, 34);
   padding: 10px 15px;
   border: none;
@@ -123,6 +123,8 @@
 #main {
   transition: margin-left 0.5s;
   padding: 16px;
+  position:fixed;
+  z-index: 99;
 }
 
 .dev-btn {

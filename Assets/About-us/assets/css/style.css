@@ -10,6 +10,7 @@
   overflow-x: hidden;
   padding-bottom: 10%;
   height: auto;
+  font-size:3rem
 }
 
 .heading {
@@ -177,11 +178,12 @@ h2 {
 }
 @media only screen and (max-width: 576px) {
   .about_title {
-    font-size: 2rem;
+    font-size: 1rem;
     width: 60%;
   }
   .mlsc_logo {
     width: 5rem;
+    padding-top: 2%;
   }
   .main {
     flex-direction: column;
@@ -196,7 +198,7 @@ h2 {
     height: 50%;
   }
   .about_text {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .d,
   .flip-box {

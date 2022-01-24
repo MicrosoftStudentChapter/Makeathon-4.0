@@ -41,7 +41,7 @@
   border-radius: 5%;
 }
 
-.hide-item{
+.hide-item {
   visibility: hidden;
 }
 
@@ -153,7 +153,7 @@ canvas {
   margin-top: 2%;
 }
 
-.badge-btn{
+.badge-btn {
   background-color: #f1f1f181;
   padding: 20px;
   text-align: center;
@@ -165,14 +165,13 @@ canvas {
   letter-spacing: 2px;
   font-size: 20px;
   text-shadow: 0 0 7px #8eff24, 0 0 7px #0f0f0f;
-
 }
 
-.anchor-rem{
+.anchor-rem {
   text-decoration: none;
   color: white;
 }
-.badge-btn:hover{
+.badge-btn:hover {
   background-color: #00000098;
 }
 
@@ -196,16 +195,19 @@ canvas {
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
+  .short-div {
+    align-items: flex-start;
+  }
   .openbtn {
     font-size: 20px;
     background-color: rgb(10, 10, 10);
     color: rgb(0, 255, 34);
-    padding: 10px 15px;
+    padding: 5px 10px;
     border: none;
-    width: 30px;
+    width: 50px;
   }
-  
+
   .openbtn:hover {
     background-color: #444;
   }
@@ -221,9 +223,9 @@ canvas {
     background: rgb(2, 99, 23);
     background: linear-gradient(
       176deg,
-      rgba(2, 99, 23, 1) 23%,
-      rgba(8, 56, 19, 1) 33%,
-      rgba(0, 0, 0, 1) 55%
+      rgba(2, 99, 23, 0.8) 23%,
+      rgba(8, 56, 19, 0.8) 33%,
+      rgba(0, 0, 0, 0.8) 55%
     );
   }
   .btnsize {
@@ -240,8 +242,8 @@ canvas {
     font-size: 100%;
     padding: 20px 20px 2px 14px;
   }
-  .badge-btn{
-    font-size:60% ;
+  .badge-btn {
+    font-size: 60%;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
@@ -269,12 +271,13 @@ canvas {
   .btnsize {
     width: 25%;
   }
-  .badge-btn{
-    font-size:60% ;
+  .badge-btn {
+    font-size: 60%;
   }
   #landing-page {
     width: 100vw;
-    height: 126vh;
+    height: 90vh;
+    overflow-x: hidden;
   }
 }
 

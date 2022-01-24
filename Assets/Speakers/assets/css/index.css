@@ -56,7 +56,7 @@
     width: 69.420%;
     opacity: 1;
     transition-property: "height";
-    transition-duration: 1.25s;
+    transition-duration: 1s;
 }
 
 .base-contain:hover{

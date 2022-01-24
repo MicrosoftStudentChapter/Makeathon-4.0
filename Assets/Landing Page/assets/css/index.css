@@ -194,6 +194,9 @@ canvas {
   .flex-grid {
     display: block;
   }
+}
+
+@media (max-width: 500px){
   .openbtn {
     font-size: 20px;
     background-color: rgb(10, 10, 10);

@@ -45,8 +45,6 @@
   text-align: center;
   text-transform: capitalize;
 
-  font-size: 6vw;
-
   color: #e2e0d4;
 }
 
@@ -392,10 +390,9 @@ a.linksb:hover {
 }
 
 #contact_us-discord1 {
-  position: absolute;
-
   margin-left: -3.958vw;
-  margin-top: -0.833vw;
+  width: 4.845vw;
+  height: 4.531vw;
 }
 
 #contact_us-footer {
@@ -505,7 +502,6 @@ a.linksb:hover {
 
 @media (max-width: 450px){
   #contact_us-box{
-    top: 17%;
     left: 35%;
   }
   #contact_us-glassbox{
@@ -515,11 +511,12 @@ a.linksb:hover {
     display: none;
   }
  #contact_us-contacticons{
+
    display: flex;
    flex-wrap: nowrap;
    position: relative;
    justify-content: space-evenly;
-   top : 7.68vh;
+   top : 8.2vh;
    left: -15.55%;
  }
  #contact_us-box {
@@ -529,3 +526,34 @@ a.linksb:hover {
   align-items: flex-start;
  }
 } 
+@media (max-width: 850px){
+  .contact{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 650px){
+  .cu-line-left,.cu-line-right{
+    display: none;
+  }
+  .contact{
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
+}
+@media (max-width: 400px){
+  .about_title,.heading,.heading1,#speakers-heading,#judges-heading,.prizes,.timeline-heading,.faq,.contact_us-heading,.contact{
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
+}
+
+@media (max-width: 330px){
+  .contact_us-contacticons{
+    top: 6vh;
+  }
+}
+@media (max-width: 480px){
+  .contact_us-contacticons{
+    top: 4vh;
+  }
+}

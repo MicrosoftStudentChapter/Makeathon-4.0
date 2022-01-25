@@ -107,7 +107,8 @@
 }
 @media only screen and (min-width: 1000px){
   #contact_us-glassbox{
-    margin-top: 15%;
+    margin-top: 13%;
+    left: 46.722vw;
   }
 }
 #contact_us-contacticons {

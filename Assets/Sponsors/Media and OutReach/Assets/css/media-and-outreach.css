@@ -1,0 +1,69 @@
+#Media-and-Outreach-sponsors {
+    background: url("../images/bg.png");
+    background-color: rgb(1, 31, 1);
+    background-size: cover;
+}
+
+.Media-and-Outreach-heading h1 {
+    font-family: "Mechanismo", sans-serif;
+    font-size: 6rem;
+    color: #d0d0d0;
+    text-align: center;
+    padding: 15px;
+}
+
+.title-main-heading {
+    margin-top: 25px;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 115px 0px 92px;
+}
+
+.line {
+    margin-left: 12px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.line hr {
+    background-color: #c9a002;
+    border: 2px #c9a002 solid;
+}
+
+.title-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 79px;
+    color: #c9a002;
+    white-space: nowrap;
+}
+
+.sponsors-image-box img {
+    height: 180px;
+    padding-bottom: 50px;
+}
+
+.sponsors-image-box {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+/* .sponsorsbox {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+} */
+.container {
+    display: grid;
+}

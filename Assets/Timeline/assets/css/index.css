@@ -269,7 +269,7 @@
   .timeline-heading {
     font-size: 3rem;
   }
-  button {
+  button .button-1,.button-2, .button-3{
     width: 30vh;
     font-size: 24px;
   }

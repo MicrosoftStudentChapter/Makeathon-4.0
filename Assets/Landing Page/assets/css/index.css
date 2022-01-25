@@ -8,11 +8,9 @@
   margin: 0;
   padding: 0;
 }
-video{
-  width: 100vw;
-  height: 100vh;
-}
+
 #landing-page {
+  /* background: url("../images/bg.png"); */
   width: 100vw;
   z-index: -1;
   overflow-x: hidden;
@@ -22,7 +20,11 @@ video{
 
 #videoBG {
   position:fixed;
-  z-index: -1;
+  background-size: cover;
+  overflow: hidden;
+  height: auto;
+  width: 100vw;
+  z-index: -10;
 }
 .nav-font {
   font-family: "Montserrat", sans-serif;
@@ -111,7 +113,7 @@ video{
 }
 .openbtn {
   font-size: 20px;
-  background-color: rgba(17, 17, 17, 0);
+  background:transparent;
   color: rgb(0, 255, 34);
   padding: 10px 15px;
   border: none;
@@ -123,9 +125,9 @@ video{
 
 #main {
   transition: margin-left 0.5s;
-  padding: 16px;
   position:fixed;
   z-index: 99;
+  background-color: transparent;
 }
 
 .dev-btn {
@@ -208,7 +210,7 @@ canvas {
   }
   .openbtn {
     font-size: 20px;
-    background-color: rgb(10, 10, 10);
+    background:transparent;
     color: rgb(0, 255, 34);
     padding: 5px 10px;
     border: none;

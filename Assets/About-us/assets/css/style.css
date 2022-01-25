@@ -40,6 +40,7 @@
 }
 
 .about_text {
+  margin: 1rem;
   padding: 1rem;
   text-align: justify;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -57,9 +58,7 @@
 }
 
 .betterbox {
-  display: flex;
-  justify-content: center;
-  width: 80%;
+  width: 93%;
   height: fit-content;
   background: linear-gradient(
     134.37deg,
@@ -70,6 +69,8 @@
   backdrop-filter: blur(20px);
   border-radius: 26px;
   margin-top: 1rem;
+  margin-left: 1%;
+  margin-right: 6%;
 }
 @media only screen and (max-width:1240px){
   .image-l{
@@ -102,4 +103,24 @@
  .about_title{
    font-size: 3rem;
  }
+}
+@media only screen and (min-width:1272px){
+  .about_text{
+    font-size: 160%;
+  }
+}
+@media only screen and (min-width:1462px){
+  .about_text{
+    font-size: 180%;
+  }
+}
+@media only screen and (min-width:1864px){
+  .about_text{
+    font-size: 200%;
+  }
+}
+@media only screen and (min-width:2078px){
+  .about_text{
+    font-size: 220%;
+  }
 }

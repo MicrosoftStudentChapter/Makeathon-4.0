@@ -60,7 +60,7 @@
 }
 
 .betterbox {
-  width: 80%;
+  width: 93%;
   height: fit-content;
   background: linear-gradient(
     134.37deg,
@@ -75,8 +75,8 @@
   margin-right: 6%;
 }
 .about_makeathon_text {
-  margin: 2rem;
-  padding-: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   float: right;
   text-align: justify;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -90,7 +90,7 @@
 }
 
 @media screen and (max-width:972px){
-        .large-screens {
+      .large-screens {
     flex-direction: column;
     text-align: center;
     
@@ -143,6 +143,9 @@ object-fit: contain;
     .heading1{
       font-size: 3rem;
     }
+    .m1, .m2, .m3{
+      padding: 5%;
+    }
    }
    @media only screen and (max-width:550px){
     .about_makeathon_text{
@@ -150,5 +153,8 @@ object-fit: contain;
     } 
     .heading1{
       font-size: 3rem;
+    }
+    .m1, .m2, .m3{
+      padding: 8%;
     }
    }

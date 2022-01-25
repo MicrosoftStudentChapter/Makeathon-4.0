@@ -112,7 +112,7 @@ video{
 }
 .openbtn {
   font-size: 20px;
-  background-color: rgba(17, 17, 17, 0);
+  background: transparent;
   color: rgb(0, 255, 34);
   padding: 10px 15px;
   border: none;
@@ -209,7 +209,7 @@ canvas {
   }
   .openbtn {
     font-size: 20px;
-    background-color: rgb(10, 10, 10);
+    background: transparent;
     color: rgb(0, 255, 34);
     padding: 5px 10px;
     border: none;

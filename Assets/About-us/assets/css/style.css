@@ -30,7 +30,7 @@
 .about_title {
   color: #d0d0d0;
   font-family: "Mechanismo", sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 100;
 }
 
@@ -40,7 +40,8 @@
 }
 
 .about_text {
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
   text-align: justify;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -57,9 +58,7 @@
 }
 
 .betterbox {
-  display: flex;
-  justify-content: center;
-  width: 80%;
+  width: 93%;
   height: fit-content;
   background: linear-gradient(
     134.37deg,
@@ -70,6 +69,8 @@
   backdrop-filter: blur(20px);
   border-radius: 26px;
   margin-top: 1rem;
+  margin-left: 1%;
+  margin-right: 6%;
 }
 @media only screen and (max-width:1240px){
   .image-l{
@@ -81,17 +82,45 @@
     margin-left: 3% !important;
     margin-right: 3% !important;
   }
-  .about_text{
-    font-size: 1.5rem;
-  }
 }
 @media only screen and (max-width:2500px){
  .about_text{
-   font-size: 2.3rem;
+   font-size: 140%;
  } 
 }
-@media only screen and (max-width:2036px){
+@media only screen and (max-width:720px){
  .about_text{
-   font-size: 2.1rem;
+   font-size: 120%;
  } 
+ .about_title{
+   font-size: 3rem;
+ }
+}
+@media only screen and (max-width:550px){
+ .about_text{
+   font-size: 100%;
+ } 
+ .about_title{
+   font-size: 3rem;
+ }
+}
+@media only screen and (min-width:1272px){
+  .about_text{
+    font-size: 160%;
+  }
+}
+@media only screen and (min-width:1462px){
+  .about_text{
+    font-size: 180%;
+  }
+}
+@media only screen and (min-width:1864px){
+  .about_text{
+    font-size: 200%;
+  }
+}
+@media only screen and (min-width:2078px){
+  .about_text{
+    font-size: 220%;
+  }
 }

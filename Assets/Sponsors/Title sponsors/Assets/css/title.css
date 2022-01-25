@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2");
+
+
+
+#Title-sponsers {
+    width: 100vw;
+    background: url("../images/bg.png");
+    background-color: rgb(1, 31, 1);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    overflow-x: hidden;
+    padding-bottom: 10%;
+    height: auto;
+    font-size:3rem
+}
+
+.title-main-heading h1 {
+    font-family: "Mechanismo", sans-serif;
+    font-size: 4rem;
+    color: #d0d0d0;
+    text-align: center;
+    padding: 15px;
+}
+
+.title-main-heading {
+    margin-top: 25px;
+}
+
+.title-header {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 115px 0px 92px;
+}
+
+.title-line {
+    margin-left: 12px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.title-line hr {
+    background-color: #c9a002;
+    border: 2px #c9a002 solid;
+    opacity: 1;
+}
+
+.title-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 79px;
+    color: #c9a002;
+    /* white-space: nowrap; */
+}
+
+.title-sponsors-image-box img {
+    height: 150px;
+    margin-bottom: 80px;
+}
+
+.title-sponsors-image-box {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.title-sponsorsbox {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+}
+
+.title-container {
+    background: linear-gradient(
+        191.99deg,
+        rgba(208, 208, 208, 0.34) 9.19%,
+        rgba(255, 255, 255, 0) 91.68%
+    );
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 26px;
+    margin: 50px 50px;
+    padding: 70px 100px 10px 100px;
+}
+
+@media (max-width: 1400px) {
+    .title-sponsors-image-box {
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1401px) {
+    .title-sponsors-image-box {
+        flex-basis: auto;
+    }
+
+    .title-sponsorsbox {
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1101px) {
+    .title-heading {
+        font-size: 4rem;
+        margin-left: 0;
+    }
+
+    .title-header {
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 901px) {
+    .title-main-heading h1 {
+        font-size: 5rem;
+    }
+    .title-heading {
+        font-size: 3.75rem;
+        white-space: normal;
+    }
+    .title-sponsors-image-box img {
+        height: 120px;
+    }
+
+    .title-container {
+        padding: 0;
+        padding-top: 50px;
+        margin: 50px 30px;
+    }
+
+    .title-line {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 701px) {
+    .title-main-heading h1 {
+        font-size: 3.5rem;
+    }
+    .title-line {
+        display: none;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 501px) {
+    .title-main-heading h1 {
+        font-size: 3rem;
+    }
+    .title-heading {
+        font-size: 3rem;
+    }
+    .title-line {
+        display: none;
+    }
+}
+
+@media (min-width: 270px) and (max-width: 501px) {
+    .title-main-heading h1 {
+        font-size: 2rem;
+    }
+    .title-heading {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .title-sponsors-image-box img {
+        height: 80px;
+    }
+    .title-line {
+        display: none;
+    }   
+}

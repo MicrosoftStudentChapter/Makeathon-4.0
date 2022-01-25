@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
+
+#mediaOutreach-sponsors {
+    /* background: url("../images/bg.png");
+    background-color: rgb(7, 32, 7);
+    background-size: cover;
+    width:100vw ;
+    height: 100vh; */
+
+    width: 100vw;
+    background: url("../images/bg.png");
+    background-color: rgb(7, 32, 7);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    overflow-x: hidden;
+    padding-bottom: 10%;
+    height: auto;
+    font-size:3rem
+}
+
+.mediaOutreach-header {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 115px 0px 92px;
+}
+
+.mediaOutreach-line {
+    margin-left: 12px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.mediaOutreach-line hr {
+    background-color: #c9a002;
+    border: 2px #c9a002 solid;
+    opacity: 1;
+}
+
+.mediaOutreach-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 79px;
+    color: #c9a002;
+}
+
+.mediaOutreach-sponsors-image-box img {
+    height: 150px;
+    margin-bottom: 100px;
+}
+
+.mediaOutreach-sponsors-image-box {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.mediaOutreach-sponsorsbox {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+}
+
+.mediaOutreach-container {
+    background: linear-gradient(
+        191.99deg,
+        rgba(208, 208, 208, 0.34) 9.19%,
+        rgba(255, 255, 255, 0) 91.68%
+    );
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 26px;
+    margin: 50px 100px;
+    padding: 70px 50px 10px 50px;
+}
+
+@media (max-width: 1400px) {
+    .mediaOutreach-sponsors-image-box {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mediaOutreach-sponsors-image-box {
+        flex-basis: auto;
+    }
+
+    .mediaOutreach-sponsorsbox {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .mediaOutreach-heading {
+        font-size: 4rem;
+        /* margin-left:100px;
+        margin-right:100px; */
+        
+    }
+
+    /* .mediaOutreach-header {
+        justify-content: center;
+    } */
+
+    .mediaOutreach-line {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .mediaOutreach-heading {
+        font-size: 3rem;
+        white-space: normal;
+    }
+    .mediaOutreach-sponsors-image-box img {
+        height: 120px;
+    }
+
+    .mediaOutreach-container {
+        padding: 0;
+        padding-top: 50px;
+        margin: 50px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mediaOutreach-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .mediaOutreach-heading {
+        font-size: 2.5rem;
+        line-height: 1.5em;
+    }
+
+    .mediaOutreach-sponsors-image-box img {
+        height: 100px;
+        width:auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .mediaOutreach-sponsors-image-box img {
+        height: 80px;
+        width:auto;
+    }
+}
+
+@media (max-width: 290px) {
+    .mediaOutreach-sponsors-image-box img {
+        height: 60px;
+        width:auto;
+    }
+}

@@ -30,10 +30,6 @@ It's a good idea to gauge interest in your intended work by finding the current 
  `git checkout -b SectionName_branch`
  <br>
  <br>
-=======
-- Open this local repository on your personal computer and start making changes.
-- It is mandatory to fork the repository and you need to commit all your changes in the forked repository before making pull request.
->>>>>>> 30b9a106cd938dc2e2097ec09cc9122c6080f351
 
 2. #### The Second Step
 

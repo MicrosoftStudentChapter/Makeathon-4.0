@@ -44,18 +44,18 @@
   
 }
 .m1 {
-  height: 40vh;
-  width: 33vw;
+  height: 36vh;
+  width: 30vw;
   margin-left: 10%;
 }
 .m2 {
-  height: 30vh;
-  width: 33vw;
+  height: 26vh;
+  width: 30vw;
   margin-left: 10%;
 }
 .m3 {
-  height: 20vh;
-  width: 33vw;
+  height: 16vh;
+  width: 30vw;
   margin-left: 10%;
 }
 
@@ -89,7 +89,7 @@
       
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:972px){
         .large-screens {
     flex-direction: column;
     text-align: center;
@@ -131,3 +131,24 @@ margin: 0;
 object-fit: contain;
 }
   }
+  @media only screen and (max-width:2500px){
+    .about_makeathon_text{
+      font-size: 120%;
+    } 
+   }
+   @media only screen and (max-width:720px){
+    .about_makeathon_text{
+      font-size: 100%;
+    } 
+    .heading1{
+      font-size: 3rem;
+    }
+   }
+   @media only screen and (max-width:550px){
+    .about_makeathon_text{
+      font-size: 80%;
+    } 
+    .heading1{
+      font-size: 3rem;
+    }
+   }

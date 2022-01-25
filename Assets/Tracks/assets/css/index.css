@@ -22,7 +22,7 @@
 .heading {
     font-family: "Mechanismo",sans-serif;
     font-size:4rem;
-    color: #D0D0D0;
+    color: #ffffff;
     text-align: center;
     padding:15px;
 }
@@ -131,7 +131,8 @@
 
   .bg{
       position: relative;
-      background-color:orange;
+      background-color:rgb(18, 145, 71);
+      
       background-position: cover;
       top:0;
   }
@@ -139,13 +140,14 @@
       position: absolute;
       top: 200px;
       border-radius:50%;
-    background-color: yellow;
+      background-color: rgb(18, 145, 71);
   }
 
   .card-content{
       padding:1rem;
       color:var(--box-bg);
       text-align:justify;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   @media only screen and (max-width: 500px){

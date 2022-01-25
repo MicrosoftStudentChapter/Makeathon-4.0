@@ -51,7 +51,7 @@ ________________________________________*/
 
 [id*="open-accordion"],
 [id*="close-accordion"] {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: rgba(192, 192, 192, 0.3);
   padding: 4% 4% 4% 4%;
   line-height: 100%;
@@ -99,7 +99,7 @@ ________________________________________*/
 }
 
 .accordion-content {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80%;
   color: aliceblue;
   background: rgba(192, 192, 192, 0.3);

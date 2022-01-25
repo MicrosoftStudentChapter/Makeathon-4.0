@@ -344,7 +344,7 @@ a.links:visited {
 }
 
 a.links:hover {
-  color: rgb(240, 236, 17);
+  color: rgb(18, 145, 71);
 }
 
 a.linksb:link {
@@ -368,7 +368,7 @@ a.linksb:visited {
 }
 
 a.linksb:hover {
-  color: red;
+  color: rgb(18, 145, 71);
 }
 
 .line {

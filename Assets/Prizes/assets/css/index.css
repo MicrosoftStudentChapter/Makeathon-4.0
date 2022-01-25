@@ -65,7 +65,7 @@
   justify-content: center;
 }
 .box-ss h3 {
-  color: gold;
+  color: rgb(18, 145, 71);
   font-size: 150%;
   padding-top: 30px;
 }
@@ -81,10 +81,10 @@
     rgba(255, 255, 255, 0.35) 6.39%,
     rgba(255, 255, 255, 0.1) 53.34%
   );
-  font-family: Montserrat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   mix-blend-mode: normal;
   backdrop-filter: blur(40px);
-  background-color: rgba(19, 75, 19, 0.356);
+  background-color: rgba(242, 245, 242, 0.356);
   padding: 20px;
   height: auto;
   font-style: normal;

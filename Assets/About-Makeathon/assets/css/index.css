@@ -44,31 +44,31 @@
   
 }
 .m1 {
-  width: 30vw;
+  width: 25vw;
   margin-left: 5%;
 }
 .m2 {
-  width: 30vw;
+  width: 25vw;
   margin-left: 5%;
 }
 .m3 {
-  width: 30vw;
+  width: 25vw;
   margin-left: 5%;
 }
 @media only screen and (max-width:1368px){
   .m1 {
     height: 36vh;
-    width: 30vw;
+    width: 25vw;
     margin-left: 5%;
   }
   .m2 {
     height: 26vh;
-    width: 30vw;
+    width: 25vw;
     margin-left: 5%;
   }
   .m3 {
     height: 16vh;
-    width: 30vw;
+    width: 25vw;
     margin-left: 5%;
   }
   .about_makeathon_text{

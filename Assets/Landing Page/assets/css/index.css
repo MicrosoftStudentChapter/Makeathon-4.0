@@ -8,14 +8,22 @@
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
 
+=======
+video{
+  width: 100vw;
+  object-fit: cover;
+  min-height: 100vh;
+}
+>>>>>>> c76ecd66368fbc33ecd4097d4bb183fa3a84642d
 #landing-page {
   /* background: url("../images/bg.png"); */
   width: 100vw;
   z-index: -1;
   overflow-x: hidden;
   margin-bottom: 0;
-  height: auto;
+  min-height: 100vh;
 }
 
 #videoBG {

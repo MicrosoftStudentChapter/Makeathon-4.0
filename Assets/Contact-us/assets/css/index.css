@@ -90,7 +90,6 @@
   font-weight: 530;
   font-size: 2.2vw;
   line-height: 2.986vw;
- 
   
 }
 
@@ -102,11 +101,16 @@
   top: 6.806vw;
   right: 23.99vw;
   bottom: 48.333vw;
-  margin-top: 5.736vw;
+  margin-top: 17%;
   background: rgba(211, 211, 211, 0.25);
   border-radius: 1.632vw;
 }
-
+@media only screen and (min-width: 1000px){
+  #contact_us-glassbox{
+    margin-top: 13%;
+    left: 46.722vw;
+  }
+}
 #contact_us-contacticons {
   top: 41.667vw;
   margin-top: 17.5vw;
@@ -516,7 +520,7 @@ a.linksb:hover {
    flex-wrap: nowrap;
    position: relative;
    justify-content: space-evenly;
-   top : 4.2vh;
+   top : 9vh;
    left: -15.55%;
  }
  #contact_us-box {
@@ -524,6 +528,17 @@ a.linksb:hover {
   justify-content:flex-start; 
   flex-direction: column;
   align-items: flex-start;
+ }
+} 
+@media (max-width: 390px){
+ #contact_us-contacticons{
+
+   display: flex;
+   flex-wrap: nowrap;
+   position: relative;
+   justify-content: space-evenly;
+   top : 7vh;
+   left: -15.55%;
  }
 } 
 @media (max-width: 850px){

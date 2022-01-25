@@ -44,21 +44,37 @@
   
 }
 .m1 {
-  height: 36vh;
   width: 30vw;
   margin-left: 10%;
 }
 .m2 {
-  height: 26vh;
   width: 30vw;
   margin-left: 10%;
 }
 .m3 {
-  height: 16vh;
   width: 30vw;
   margin-left: 10%;
 }
-
+@media only screen and (max-width:1368px){
+  .m1 {
+    height: 36vh;
+    width: 30vw;
+    margin-left: 10%;
+  }
+  .m2 {
+    height: 26vh;
+    width: 30vw;
+    margin-left: 10%;
+  }
+  .m3 {
+    height: 16vh;
+    width: 30vw;
+    margin-left: 10%;
+  }
+  .about_makeathon_text{
+    font-size: 120%;
+  } 
+}
 .betterbox {
   width: 93%;
   height: fit-content;
@@ -112,8 +128,10 @@
   display: inline-flex;
   size: 10px;
   margin-left: 0;
-  padding:0;
+  padding:6%;
   background-size: cover;
+  height:15vh;
+  margin-top: 6%;
 }
 .m1{
  /* size: 10px; */
@@ -131,14 +149,34 @@ margin: 0;
 object-fit: contain;
 }
   }
-  @media only screen and (max-width:2500px){
-    .about_makeathon_text{
-      font-size: 120%;
-    } 
+  @media only screen and (min-width:1740px){
+   .about_makeathon_text{
+     font-size: 200%;
+   }
+   }
+  @media only screen and (max-width:1740px){
+   .about_makeathon_text{
+     font-size: 190%;
+   }
+   }
+  @media only screen and (min-width:1936px){
+   .about_makeathon_text{
+     font-size: 250% !important;
+   }
+   }
+  @media only screen and (min-width:2306px){
+   .about_makeathon_text{
+     font-size: 210% !important;
+   }
+   }
+  @media only screen and (min-width:2306px){
+   .about_makeathon_text{
+     font-size: 265% !important;
+   }
    }
    @media only screen and (max-width:720px){
     .about_makeathon_text{
-      font-size: 100%;
+      font-size: 100% !important;
     } 
     .heading1{
       font-size: 3rem;

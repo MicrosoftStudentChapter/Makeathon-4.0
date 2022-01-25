@@ -22,6 +22,7 @@
   height: -2%;
 }
 
+
 .contact_us-heading-container {
   padding-left: 10px;
   padding-right: 10px;
@@ -37,7 +38,7 @@
 
 .contact {
   font-family: Mechanismo;
-  font-size:4rem;
+  font-size:3rem;
   font-weight: 400;
   font-style: normal;
   display: inline-block;
@@ -62,10 +63,10 @@
 
 #contact_us-box {
   position: absolute;
-  width: 30vw;
-  height: 30vw;
-  left: 15%;
-  top: 29%;
+  width: 26vw;
+  height: 24vw;
+  left: 11%;
+  top: 26%;
   border: 2px solid #ffffff;
   box-sizing: border-box;
 }
@@ -88,17 +89,17 @@
   
 
   font-weight: 530;
-  font-size: 2.2vw;
+  font-size: 1.5vw;
   line-height: 2.986vw;
   
 }
 
 #contact_us-glassbox {
   position: absolute;
-  width: 25.694vw;
-  height: 3.472vw;
-  left: 49.722vw;
-  top: 6.806vw;
+  
+  width: 21vw;
+  height: 3vw;
+  top: 1.806vw;
   right: 23.99vw;
   bottom: 48.333vw;
   margin-top: 17%;
@@ -113,8 +114,9 @@
 }
 #contact_us-contacticons {
   top: 41.667vw;
-  margin-top: 17.5vw;
+  margin-top: 6.5vw;
   margin-left: 48.556vw;
+  margin-bottom: -10%;
   width: 34.722vw;
 }
 
@@ -150,7 +152,7 @@
 }
 
 #contact_us-website {
-  margin-top: 4.653vw;
+  margin-top: 2.653vw;
   margin-left: 2.778vw;
   height: 6.319vw;
   width: 6.319vw;
@@ -159,38 +161,40 @@
 }
 
 #contact_us-insta1 {
-  width: 4.697vw;
-  height: 4.558vw;
+  height: 3vw;
 }
 
 #contact_us-mail11 {
-  width: 6.086vw;
-  height: 5.599vw;
+  height: 3vw;
+  position: absolute;
+    
+    top: 26%;
 }
 
 #contact_us-website1 {
-  width: 6.086vw;
-  height: 5.599vw;
+  height: 3vw;
+  position: absolute;
+    top: 60%;
 }
 
 #contact_us-linkedin1 {
-  width: 4.697vw;
-  height: 4.558vw;
+  
+  height: 3vw;
+  margin-top: -32%;
 }
 
 #contact_us-discord1 {
-  width: 12.697vw !important;
-  height: 7.558vw !important;
+  width: 9.197vw !important;
+  height: 5.558vw !important;
 }
 
 #contact_us-fb1 {
-  width: 4.697vw;
-  height: 4.558vw;
+  height: 3vw;
 }
 
 #contact_us-twitter1 {
-  width: 4.697vw;
-  height: 4.558vw;
+ height: 3vw;
+ margin-top: -32%;
 }
 
 #contact_us-insta {
@@ -229,11 +233,12 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.736vw;
+  font-size: 1.6vw;
   letter-spacing: 0.05em;
   text-transform: lowercase;
-  margin-top: 1.875vw;
-  margin-left: 3.194vw;
+  position: absolute;
+  right: 1.1vw;
+    top: 27%;
 }
 
 #contact_us-link_fb {
@@ -241,12 +246,12 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.736vw;
+  
   letter-spacing: 0.05em;
   text-transform: lowercase;
   width: 19.05vw;
-  margin-left: 1.181vw;
-  margin-top: 1.25vw;
+  margin-left: 2.181vw;
+  margin-top: 0.5vw;
 }
 
 #contact_us-link_twitter {
@@ -256,19 +261,20 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.736vw;
+
   letter-spacing: 0.05em;
   text-transform: lowercase;
-  margin-top: 0.694vw;
-  margin-left: 6.111vw;
+  margin-top: -0.7%;
+  margin-left: 5.6vw;
 }
 
 #contact_us-link_website {
   position: absolute;
   width: 14.375vw;
-  height: 3.75vw;
-  right: 3.208vw;
-  bottom: 6.333vw;
+  right: 5.1vw;
+  top: 61%;
+
+  
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -284,11 +290,11 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.736vw;
+  
   letter-spacing: 0.05em;
   text-transform: lowercase;
-  margin-left: 5.556vw;
-  margin-top: 0.972vw;
+  margin-left: 5.2vw;
+  margin-top: 0.4vw;
 }
 
 #contact_us-link_linkedin {
@@ -298,11 +304,11 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.736vw;
+  
   letter-spacing: 0.05em;
   text-transform: lowercase;
-  margin-top: 1.093vw;
-  margin-left: 5.694vw;
+  margin-top: -0.5%;
+  margin-left: 5.5vw;
 }
 
 #contact_us-link_discord {
@@ -312,11 +318,11 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.736vw;
+  
   letter-spacing: 0.05em;
   text-transform: lowercase;
-  margin-top: 1.597vw;
-  margin-left: 6.042vw;
+  margin-top: -0.5%;
+    margin-left: 5.6vw;
 }
 
 a.links1:link {
@@ -394,9 +400,8 @@ a.linksb:hover {
 }
 
 #contact_us-discord1 {
-  margin-left: -3.958vw;
-  width: 4.845vw;
-  height: 4.531vw;
+  margin-left: -2.9vw;
+  margin-top:-32%;
 }
 
 #contact_us-footer {
@@ -405,6 +410,7 @@ a.linksb:hover {
 
   bottom: 15px;
   padding: 20px;
+ 
   justify-content: space-between;
 }
 

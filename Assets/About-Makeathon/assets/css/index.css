@@ -31,14 +31,29 @@
   display: flex;
   flex-direction: row;
 }
-.img1 {
-  height: 70vh;
-  width: 30vw;
+.images {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.m1 {
+  height: 40vh;
+  width: 33vw;
   margin-left: 10%;
 }
-.img2 {
-  display: none;
+.m2 {
+  height: 30vh;
+  width: 33vw;
+  margin-left: 10%;
 }
+.m3 {
+  height: 20vh;
+  width: 33vw;
+  margin-left: 10%;
+}
+
 .betterbox {
   width: 80%;
   height: fit-content;
@@ -51,8 +66,8 @@
   backdrop-filter: blur(20px);
   border-radius: 26px;
   margin-top: 1rem;
-  margin-left: 5%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 6%;
 }
 .about_makeathon_text {
   margin: 1rem;

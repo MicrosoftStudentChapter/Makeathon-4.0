@@ -10,14 +10,15 @@
 }
 video{
   width: 100vw;
-  height: 100vh;
+  object-fit: cover;
+  min-height: 100vh;
 }
 #landing-page {
   width: 100vw;
   z-index: -1;
   overflow-x: hidden;
   margin-bottom: 0;
-  height: auto;
+  min-height: 100vh;
 }
 
 #videoBG {

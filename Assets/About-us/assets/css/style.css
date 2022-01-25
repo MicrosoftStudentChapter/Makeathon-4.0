@@ -10,29 +10,28 @@
   overflow-x: hidden;
   padding-bottom: 10%;
   height: auto;
-  font-size:3rem
 }
 
 .heading {
-  display: flex;
   width: 100%;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
   margin: 0;
   font-size: 3rem;
   margin-top: 1.5rem;
 }
-
+.image-l{
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
 .about_title {
   color: #d0d0d0;
   font-family: "Mechanismo", sans-serif;
   font-size: 5rem;
   font-weight: 100;
-  text-align: center;
-  padding-left: 1.5rem;
-  margin: 0;
-  width: 70%;
 }
 
 .mlsc_logo {
@@ -41,24 +40,25 @@
 }
 
 .about_text {
-  margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   text-align: justify;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.75rem;
   text-align: justify;
   color: #ffffff;
+  font-size: 1.7rem;
 }
 
 .main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  
 }
 
 .betterbox {
+  display: flex;
+  justify-content: center;
   width: 80%;
   height: fit-content;
   background: linear-gradient(
@@ -71,167 +71,17 @@
   border-radius: 26px;
   margin-top: 1rem;
 }
-
-.d {
-  display: block;
-  width: 40%;
-  background-color: transparent;
-}
-.e-flip {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-evenly;
-  margin-top:10px;
-}
-.hexagon img {
-  max-width: 100%;
-  max-height: 100%;
-  z-index: 0;
-}
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.hexagon {
-  background-color: transparent;
-  width:15rem;
-  height:15rem; 
-  /* border: 1px solid #f1f1f1; */
-  perspective: 1000px; 
-}
-
-/* This container is needed to position the front and back side */
-.hexagon-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.hexagon:hover .hexagon-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.hexagon-front, .hexagon-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.hexagon-front {
-  /* background-color: #bbb; */
-  color: black;
-}
-
-/* Style the back side */
-.hexagon-back {
-  /* background-color: dodgerblue; */
-  color: white;
-  transform: rotateY(180deg);
-}
-
-
-
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-family: "Monteserrat", sans-serif;
-  font-weight: 400;
-  transform: translate(-50%, -50%);
-}
-
-/* .flip-box:hover .flip-box-inner-2 {
-  transform: rotateY(180deg);
-} */
-
-h2 {
-  font-family: "Montserrat", sans-serif !important;
-}
-
-/* Media Query */
-@media only screen and (max-width: 1350px) {
-  .main {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .d,
-  .flip-box {
+@media only screen and (max-width:1220px){
+  .image-l{
     display: none;
   }
-  .e {
+  .betterbox{
     display: flex;
+    justify-content: center;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
   }
-  .betterbox {
-    width: 85%;
-  }
-  .hexagon {
-    width: 12rem;
-    height: 12rem;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .about_title {
-    font-size: 1rem;
-    width: 60%;
-  }
-  .mlsc_logo {
-    width: 5rem;
-    padding-top: 2%;
-  }
-  .main {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .betterbox {
-    width: 85%;
-  }
-  .d {
-    width: 85%;
-    height: 50%;
-  }
-  .about_text {
-    font-size: 0.7rem;
-  }
-  .d,
-  .flip-box {
-    display: none;
-  }
-  .e {
-    display: flex;
-  }
-  .hexagon{
-    width:8rem;
-    height:8rem;
-  }
-}
-
-@media screen and (max-width:390px) {
-  .hexagon{
-    width:6rem;
-    height:6rem;
-  }
-}
-
-@media only screen and (max-width: 2500px) {
-  .main {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .d,
-  .flip-box {
-    display: none;
-  }
-  .e {
-    display: block;
+  .about_text{
+    font-size: 1.5rem;
   }
 }

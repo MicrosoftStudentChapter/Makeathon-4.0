@@ -10,12 +10,10 @@
 }
 #landing-page {
   width: 100vw;
-  /* background: url("../images/bg.png");
-  background-size: cover;
-  background-position: center; */
   z-index: -1;
   overflow-x: hidden;
   padding-bottom: 10%;
+  margin-bottom: 0;
   height: auto;
 }
 

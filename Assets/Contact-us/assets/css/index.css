@@ -516,7 +516,7 @@ a.linksb:hover {
    flex-wrap: nowrap;
    position: relative;
    justify-content: space-evenly;
-   top : 8.2vh;
+   top : 4.2vh;
    left: -15.55%;
  }
  #contact_us-box {
@@ -555,5 +555,10 @@ a.linksb:hover {
 @media (max-width: 480px){
   .contact_us-contacticons{
     top: 4vh;
+  }
+}
+@media (max-width: 369px){
+  .contact_us-contacticons{
+    top: 3vh;
   }
 }

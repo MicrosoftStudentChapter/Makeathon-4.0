@@ -4,20 +4,20 @@
 /* ---------------- Classes ------------------------- */
 
 /* -------------- */
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
-#landing-page {
+} */
+/* #landing-page {
   width: 100vw;
-  /* background: url("../images/bg.png");
+  background: url("../images/bg.png");
   background-size: cover;
-  background-position: center; */
+  background-position: center;
   z-index: -1;
   overflow-x: hidden;
   padding-bottom: 10%;
   height: auto;
-}
+} */
 
 #videoBG {
   position:fixed;

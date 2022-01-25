@@ -1,11 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
 @import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
 
-/* #power-sponsors {
+#power-sponsors {
+    /* background: url("../images/bg.png");
+    background-color: rgb(7, 32, 7);
+    background-size: cover;
+    width:100vw ;
+    height: 100vh; */
+
+    width: 100vw;
     background: url("../images/bg.png");
     background-color: rgb(7, 32, 7);
     background-size: cover;
-} */
+    background-position: center;
+    z-index: -1;
+    overflow-x: hidden;
+    padding-bottom: 10%;
+    height: auto;
+    font-size:3rem
+}
 
 .power-header {
     margin: auto;
@@ -27,6 +40,7 @@
 .power-line hr {
     background-color: #c9a002;
     border: 2px #c9a002 solid;
+    opacity: 1;
 }
 
 .power-heading {
@@ -40,8 +54,8 @@
 }
 
 .power-sponsors-image-box img {
-    height: 50px;
-    padding-bottom: 50px;
+    height: 80px;
+    margin-bottom: 100px;
 }
 
 .power-sponsors-image-box {
@@ -67,7 +81,7 @@
     backdrop-filter: blur(20px);
     border-radius: 26px;
     margin: 50px 100px;
-    padding: 70px 100px 10px 100px;
+    padding: 70px 50px 10px 50px;
 }
 
 @media (max-width: 1400px) {
@@ -109,7 +123,7 @@
         white-space: normal;
     }
     .power-sponsors-image-box img {
-        height: 40px;
+        height: 80px;
     }
 
     .power-container {

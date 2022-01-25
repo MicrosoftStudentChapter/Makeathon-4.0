@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
-@import url("https://fonts.cdnfonts.com/css/mechanismo-2");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
 
-
-
-#Title-sponsers {
+#associate-sponsers {
     /* background: url("../images/bg.png");
     background-color: rgb(1, 31, 1);
-    background-size: cover;
-    width:100vw ;
-    height: 100vh; */
+    background-size: cover; */
 
     width: 100vw;
     background: url("../images/bg.png");
@@ -22,19 +18,7 @@
     font-size:3rem
 }
 
-.title-main-heading h1 {
-    font-family: "Mechanismo", sans-serif;
-    font-size: 6rem;
-    color: #d0d0d0;
-    text-align: center;
-    padding: 15px;
-}
-
-.title-main-heading {
-    margin-top: 25px;
-}
-
-.title-header {
+.associate-header {
     margin: auto;
     display: flex;
     align-items: center;
@@ -45,19 +29,19 @@
     margin: 40px 115px 0px 92px;
 }
 
-.title-line {
+.associate-line {
     margin-left: 12px;
     box-sizing: border-box;
     flex: 1;
 }
 
-.title-line hr {
+.associate-line hr {
     background-color: #c9a002;
     border: 2px #c9a002 solid;
     opacity: 1;
 }
 
-.title-heading {
+.associate-heading {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -67,24 +51,24 @@
     white-space: nowrap;
 }
 
-.title-sponsors-image-box img {
-    height: 150px;
+.associate-sponsors-image-box img {
+    height: 100px;
     margin-bottom: 80px;
 }
 
-.title-sponsors-image-box {
+.associate-sponsors-image-box {
     flex-basis: 33%;
     text-align: center;
 }
 
-.title-sponsorsbox {
+.associate-sponsorsbox {
     display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: space-around;
 }
 
-.title-container {
+.associate-container {
     background: linear-gradient(
         191.99deg,
         rgba(208, 208, 208, 0.34) 9.19%,
@@ -99,82 +83,63 @@
 }
 
 @media (max-width: 1400px) {
-    .title-sponsors-image-box {
+    .associate-sponsors-image-box {
         flex-basis: 50%;
     }
 }
 
-@media (min-width: 1100px) and (max-width: 1400px) {
-    .title-sponsors-image-box {
+@media (max-width: 1100px) {
+    .associate-sponsors-image-box {
         flex-basis: auto;
     }
 
-    .title-sponsorsbox {
+    .associate-sponsorsbox {
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
 }
 
-@media (min-width: 900px) and (max-width: 1100px) {
-    .title-heading {
+@media (max-width: 1020px) {
+    .associate-heading {
         font-size: 4rem;
         margin-left: 0;
+        white-space: normal;
     }
 
-    .title-header {
+    .associate-header {
         justify-content: center;
     }
 
-    .title-line {
+    .associate-line {
         display: none;
     }
 }
 
-@media (min-width: 700px) and (max-width: 900px) {
-    .title-main-heading h1 {
-        font-size: 5rem;
-    }
-    .title-heading {
-        font-size: 3.75rem;
-        white-space: normal;
-    }
-    .title-sponsors-image-box img {
-        height: 120px;
+@media (max-width: 700px) {
+    .associate-sponsors-image-box img {
+        height: 40px;
     }
 
-    .title-container {
+    .associate-container {
         padding: 0;
         padding-top: 50px;
         margin: 50px 30px;
     }
 }
 
-@media (min-width: 500px) and (max-width: 700px) {
-    .title-main-heading h1 {
-        font-size: 4.2rem;
-    }
-}
-
-@media (min-width: 450px) and (max-width: 500px) {
-    .title-main-heading h1 {
-        font-size: 3.5rem;
-    }
-    .title-heading {
+@media (max-width: 400px) {
+    .associate-heading {
         font-size: 3rem;
     }
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
-    .title-main-heading h1 {
+@media (max-width: 320px) {
+    .associate-heading {
         font-size: 2.75rem;
     }
-    .title-heading {
-        font-size: 2.5rem;
-        line-height: 1.2;
-    }
 
-    .title-sponsors-image-box img {
-        height: 80px;
+    .associate-sponsors-image-box img {
+        height: 30px;
     }
 }

@@ -10,12 +10,16 @@
 } */
 /* #landing-page {
   width: 100vw;
+<<<<<<< HEAD
   background: url("../images/bg.png");
   background-size: cover;
   background-position: center;
+=======
+>>>>>>> fa3268ba558e6afa973ea3353b02092ef07f85c3
   z-index: -1;
   overflow-x: hidden;
   padding-bottom: 10%;
+  margin-bottom: 0;
   height: auto;
 } */
 

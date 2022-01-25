@@ -64,7 +64,7 @@
     font-size: 4rem;
     line-height: 79px;
     color: #c9a002;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .title-sponsors-image-box img {
@@ -104,7 +104,7 @@
     }
 }
 
-@media (min-width: 1100px) and (max-width: 1400px) {
+@media (min-width: 1100px) and (max-width: 1401px) {
     .title-sponsors-image-box {
         flex-basis: auto;
     }
@@ -116,7 +116,7 @@
     }
 }
 
-@media (min-width: 900px) and (max-width: 1100px) {
+@media (min-width: 900px) and (max-width: 1101px) {
     .title-heading {
         font-size: 4rem;
         margin-left: 0;
@@ -126,12 +126,9 @@
         justify-content: center;
     }
 
-    .title-line {
-        display: none;
-    }
 }
 
-@media (min-width: 700px) and (max-width: 900px) {
+@media (min-width: 700px) and (max-width: 901px) {
     .title-main-heading h1 {
         font-size: 5rem;
     }
@@ -148,26 +145,36 @@
         padding-top: 50px;
         margin: 50px 30px;
     }
-}
 
-@media (min-width: 500px) and (max-width: 700px) {
-    .title-main-heading h1 {
-        font-size: 4.2rem;
+    .title-line {
+        display: none;
     }
 }
 
-@media (min-width: 450px) and (max-width: 500px) {
+@media (min-width: 500px) and (max-width: 701px) {
+    .title-main-heading h1 {
+        font-size: 4.2rem;
+    }
+    .title-line {
+        display: none;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 501px) {
     .title-main-heading h1 {
         font-size: 3.5rem;
     }
     .title-heading {
         font-size: 3rem;
     }
+    .title-line {
+        display: none;
+    }
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 501px) {
     .title-main-heading h1 {
-        font-size: 2.75rem;
+        font-size: 2.5rem;
     }
     .title-heading {
         font-size: 2.5rem;
@@ -177,4 +184,7 @@
     .title-sponsors-image-box img {
         height: 80px;
     }
+    .title-line {
+        display: none;
+    }   
 }

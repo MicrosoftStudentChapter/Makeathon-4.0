@@ -15,8 +15,10 @@
 	background-position: center;
 	z-index: -1;
 	overflow-x: hidden;
-  padding-bottom: 10%;
+  padding-bottom:10%;
   height: auto;
+
+ 
 }
 .heading1 {
   margin: 0;
@@ -25,18 +27,21 @@
   font-family: "Mechanismo", sans-serif;
   font-size: 4rem;
   font-weight: 100;
-  padding-bottom: 5%;
+  padding-bottom:10%;
 }
 .large-screens {
   display: flex;
   flex-direction: row;
 }
 .images {
+  float:left;
   align-items: center;
   width: 100%;
   height: 100%;
   padding-left: 5%;
   padding-bottom: 5%;
+
+  
 }
 .m1 {
   height: 40vh;
@@ -70,8 +75,9 @@
   margin-right: 6%;
 }
 .about_makeathon_text {
-  margin: 1rem;
-  padding: 1rem;
+  margin: 2rem;
+  padding-: 2rem;
+  float: right;
   text-align: justify;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -79,4 +85,49 @@
   font-size: 120%;
   text-align: justify;
   color: #ffffff;
+
+      
 }
+
+@media screen and (max-width:768px){
+        .large-screens {
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.about_makeathon_text{
+  justify-content: center;
+  
+}
+.betterbox{
+  
+  justify-content: center;
+  padding-left: 20px;
+
+  
+}
+.images{
+  flex-direction: row;
+  display: inline-flex;
+  size: 10px;
+  margin-left: 0;
+  padding:0;
+  background-size: cover;
+}
+.m1{
+ /* size: 10px; */
+ margin: 0;
+ object-fit: contain;
+}
+.m2{
+/* size: 10px; */
+margin: 0;
+object-fit: contain;
+}
+.m3{
+/* size: 10px; */
+margin: 0;
+object-fit: contain;
+}
+  }

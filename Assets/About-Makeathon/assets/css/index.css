@@ -8,6 +8,11 @@
     url("https://fonts.cdnfonts.com/s/51075/MechanismoRegular-p7ywa.woff")
       format("woff");
 }
+@media only screen and (max-width:720px){
+  .initial-text{
+    font-size: 2rem;
+  }
+ }
 body::-webkit-scrollbar {
   display: none;
 }
